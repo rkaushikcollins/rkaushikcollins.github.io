@@ -28,6 +28,7 @@
   font: 10px Arial Black;
   pointer-events: none;
   text-anchor: middle;
+  font-weight:bold;
 }
 
 line.link {
@@ -45,7 +46,7 @@ header{
 <script src="//d3js.org/d3.v3.min.js"></script>
 
 <div class="container">
-	<header align="center" style="width:100%; margin:0 auto;">
+	<header align="center" style="width:200%; margin:0 auto;">
         <img src="figs/collins.png" alt="Collins Aerospace Logo" id="logo" height="100" width="500"/>
         <h1>Collins Shark Visualizer <img src="figs/shark.png" alt="Collins Shark Logo" id="logo" height="42" width="100"/></h1>
         <div>Author: Rishabh Kaushik</div>
@@ -91,7 +92,7 @@ header{
 <script>
 
 var width = 1800,
-    height = 1400,
+    height = 1800,
     root;
 
 var force = d3.layout.force()
@@ -104,7 +105,7 @@ var force = d3.layout.force()
 var svg = d3.select("#chart").append("svg")
     .attr("width", width)
     .attr("height", height)
-	.attr("transform", "translate(" + width/25 + "," + (height * 0.50) + ")");
+	.attr("transform", "translate(" + width/25 + "," + (height * 0.30) + ")");
 
 var link = svg.selectAll(".link"),
     node = svg.selectAll(".node");
