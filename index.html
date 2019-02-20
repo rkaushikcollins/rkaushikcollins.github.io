@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+
+<title>Game Engine Evaluation Tool</title>
+
+<style>
+
+svg {
+  font: 15px sans-serif;
+  font-weight:bold;
+}
+
+.background path {
+  fill: none;
+  stroke: #ddd;
+  stroke-width: 6;
+  shape-rendering: crispEdges;
+}
+
+.foreground path {
+  fill: none;
+  <!-- stroke: #6e5f8b; -->
+  <!-- stroke-width: 6; -->
+}
+
+.brush .extent {
+  fill-opacity: .3;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+  cursor: move;
+}
+
+.legend{
+background-color:black;
+}
+
+.legend h1, h3, h4{
+color:white;
+}
+
+.node {
+cursor: pointer;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: #CE6600;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+  font-weight:bold;
+}
+
+.link {
+  fill: none;
+  stroke: #F0D1B2;
+  stroke-width: 2px;
+}
+
+</style>
+
+</head>
+
+<body>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<div class="legend" align="center">
+	   <img src="logo.png" width="400"></img>
+	   <h1>Game Engine Evaluation Tool</h1>
+	   <h3>Authors: Rishabh Kaushik & Abhishek Verma</h3>
+	   <h4>We want to thank all the participants from Salt Lake City, Orlando and UK STS division for their valuable time, help and support towards this research. Our special thanks to Steven Stapely, Larry Seppi and Brad Southwick.</h4>
+	   <hr>
+</div>
+<script>
+
+var margin = {top: 40, right: 10, bottom: 10, left: 10},
+    width = 1800 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+var x = d3.scale.ordinal().rangePoints([0, width], 1),
+    y = {},
+    dragging = {};
+
+var line = d3.svg.line(),
+    axis = d3.svg.axis().orient("left"),
+    background,
+    foreground;
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var legendVals = ["Titan Vanguard", "Bohemia Interactive", "Unity", "Unreal","Unigine"];
+var color = ["#FF7F00", "#337DBA", "#994BA5", "#A15227", "#49B044"];
+
+var svgLegned = d3.select(".legend").append("svg")
+            .attr("width", 1800)
+            .attr("height", 50)
+			.attr("transform", "translate(" + screen.width/8 + "," + "10" + ")");
+        
+var dataL = 0;
+var offset = 300;
+	
+var legend = svgLegned.selectAll('.legends')
+            .data(legendVals)
+            .enter().append('g')
+            .attr("class", "legends")
+            .attr("transform", function (d, i) {
+             if (i === 0) {
+                dataL = d.length + offset 
+                return "translate(0,0)"
+            } else { 
+             var newdataL = dataL
+             dataL +=  d.length + offset
+             return "translate(" + (newdataL) + ",0)"
+            }
+        })
+        
+        legend.append('rect')
+            .attr("x", 0)
+            .attr("y", 0)
+            .attr("width", 20)
+            .attr("height", 20)
+            .style("fill", function (d, i) {
+            return color[i];
+        });
+        
+        legend.append('text')
+            .attr("x", 30)
+            .attr("y", 15)
+        //.attr("dy", ".35em")
+        .text(function (d, i) {
+            return d
+        })
+            .attr("class", "textselected")
+            .style("text-anchor", "start")
+            .style("font-size", 20)
+			.style("font-weight","bold")
+			.style("fill","white");
+	
+d3.csv("GameEngineEvaluation.csv", function(error, engines) {
+
+  // Extract the list of dimensions and create a scale for each.
+  x.domain(dimensions = d3.keys(engines[0]).filter(function(d) {
+    return d != "Game Engine" && (y[d] = d3.scale.linear()
+        .domain(d3.extent(engines, function(p) { return +p[d]; }))
+        .range([height, 0]));
+  }));
+
+  // Add grey background lines for context.
+  background = svg.append("g")
+      .attr("class", "background")
+    .selectAll("path")
+      .data(engines)
+    .enter().append("path")
+      .attr("d", path);
+
+  // Add colored foreground lines for focus.
+  foreground = svg.append("g")
+      .attr("class", "foreground")
+    .selectAll("path")
+      .data(engines)
+    .enter().append("path")
+      .attr("d", path)
+	  .attr("stroke",function(d){
+		if(d["Game Engine"]==="Titan Vanguard")
+			return color[0];
+		else if(d["Game Engine"]==="Bohemia Interactive")
+			return color[1];
+		else if(d["Game Engine"]==="Unity")
+			return color[2];
+		else if(d["Game Engine"]==="Unreal")
+			return color[3];
+		else if(d["Game Engine"]==="Unigine")
+			return color[4];
+	  })
+	  .attr("stroke-width", "6");
+
+  // Add a group element for each dimension.
+  var g = svg.selectAll(".dimension")
+      .data(dimensions)
+    .enter().append("g")
+      .attr("class", "dimension")
+      .attr("transform", function(d) { return "translate(" + x(d) + ")"; })
+      .call(d3.behavior.drag()
+        .origin(function(d) { return {x: x(d)}; })
+        .on("dragstart", function(d) {
+          dragging[d] = x(d);
+          background.attr("visibility", "hidden");
+        })
+        .on("drag", function(d) {
+          dragging[d] = Math.min(width, Math.max(0, d3.event.x));
+          foreground.attr("d", path);
+          dimensions.sort(function(a, b) { return position(a) - position(b); });
+          x.domain(dimensions);
+          g.attr("transform", function(d) { return "translate(" + position(d) + ")"; })
+        })
+        .on("dragend", function(d) {
+          delete dragging[d];
+          transition(d3.select(this)).attr("transform", "translate(" + x(d) + ")");
+          transition(foreground).attr("d", path);
+          background
+              .attr("d", path)
+            .transition()
+              .delay(500)
+              .duration(0)
+              .attr("visibility", null);
+        }));
+
+		
+  // Add an axis and title.
+  g.append("g")
+      .attr("class", "axis")
+      .each(function(d) { 
+		d3.select(this).call(axis.scale(y[d])); })
+    .append("text")
+      .style("text-anchor", "middle")
+      .attr("y", -9)
+      .text(function(d) { return d; });
+
+  // Add and store a brush for each axis.
+  g.append("g")
+      .attr("class", "brush")
+      .each(function(d) {
+        d3.select(this).call(y[d].brush = d3.svg.brush().y(y[d]).on("brushstart", brushstart).on("brush", brush));
+      })
+    .selectAll("rect")
+      .attr("x", -8)
+      .attr("width", 16);
+});
+
+function position(d) {
+  var v = dragging[d];
+  return v == null ? x(d) : v;
+}
+
+function transition(g) {
+  return g.transition().duration(500);
+}
+
+// Returns the path for a given data point.
+function path(d) {
+  return line(dimensions.map(function(p) { return [position(p), y[p](d[p])]; }));
+}
+
+function brushstart() {
+  d3.event.sourceEvent.stopPropagation();
+}
+
+// Handles a brush event, toggling the display of foreground lines.
+function brush() {
+  var actives = dimensions.filter(function(p) { return !y[p].brush.empty(); }),
+      extents = actives.map(function(p) { return y[p].brush.extent(); });
+  foreground.style("display", function(d) {
+    return actives.every(function(p, i) {
+      return extents[i][0] <= d[p] && d[p] <= extents[i][1];
+    }) ? null : "none";
+  });
+}
+
+</script>
+
+<div class="treeLayout" align="center">
+<script>
+//############## Tree Layout #############
+var treeData = [
+  {
+    "name": "Game Engine",
+    "parent": "null",
+    "children": [
+      {
+        "name": "Rendering",
+        "parent": "Game Engine",
+        "children": [
+          {
+            "name": "Texture",
+            "parent": "Rendering",
+			"children":[
+			  {
+				"name": "Basic Texture",
+				"parent": "Texture"
+			  },
+			  {
+				"name": "Multi-Texture",
+				"parent": "Texture"
+			  },
+			  {
+				"name": "Procedural-Texture",
+				"parent": "Texture"
+			  }
+			]
+          },
+          {
+            "name": "Lighting",
+            "parent": "Rendering",
+			"children":[
+			  {
+				"name": "Per-vertex",
+				"parent": "Lighting"
+			  },
+			  {
+				"name": "Per-pixel",
+				"parent": "Lighting"
+			  },
+			  {
+				"name": "Light mapping",
+				"parent": "Lighting"
+			  },
+			  {
+				"name": "Gloss/Specular maps",
+				"parent": "Lighting"
+			  },
+			  {
+				"name": "Anisotropic reflection",
+				"parent": "Lighting"
+			  }
+			]
+          },
+		  {
+            "name": "Shadows",
+            "parent": "Rendering",
+			"children":[
+			  {
+				"name": "Shadow volume",
+				"parent": "Shadows"
+			  },
+			  {
+				"name": "Shadow mapping",
+				"parent": "Shadows"
+			  },
+			  {
+				"name": "Projected shadows",
+				"parent": "Shadows"
+			  },
+			  {
+				"name": "Shadows that can change with Time-Of-Day (TOD)",
+				"parent": "Shadows"
+			  },
+			  {
+				"name": "Shadows on other features",
+				"parent": "Shadows"
+			  },
+			  {
+				"name": "Shadow Level-of-Detail (LOD) distance",
+				"parent": "Shadows"
+			  }
+			]
+          },
+		  {
+            "name": "Special effects",
+            "parent": "Rendering",
+			"children":[
+			  {
+				"name": "Environment mapping",
+				"parent": "Special effects"
+			  },
+			  {
+				"name": "Particle system (how much can the engine withstand)",
+				"parent": "Special effects"
+			  }
+			]
+          },
+		  {
+            "name": "Ambient occlusion",
+            "parent": "Rendering"
+          },
+		  {
+            "name": "Coplanar polygon handling",
+            "parent": "Rendering"
+          },
+		  {
+            "name": "Image blend/warp",
+            "parent": "Rendering"
+          },
+		  {
+            "name": "Weather effects (fog, wind, snow, etc.)",
+            "parent": "Rendering"
+          }
+        ]
+      },
+      {
+        "name": "Animation",
+        "parent": "Game Engine",
+		"children":[
+		  {
+			"name": "Forward kinematics",
+			"parent": "Animation"
+		  },
+		  {
+			"name": "Inverse kinematics",
+			"parent": "Animation"
+		  },
+		  {
+			"name": "Keyframe animation",
+			"parent": "Animation"
+		  },
+		  {
+			"name": "Skeletal animation",
+			"parent": "Animation"
+		  },
+		  {
+			"name": "Morphing animation",
+			"parent": "Animation"
+		  },
+		  {
+			"name": "Blending",
+			"parent": "Animation"
+		  }
+		]
+      },
+	  {
+        "name": "Programming",
+        "parent": "Game Engine",
+		"children":[
+		  {
+			"name": "Programming language (C++ will be preferred)",
+			"parent": "Programming"
+		  },
+		  {
+			"name": "Debugger",
+			"parent": "Programming"
+		  },
+		  {
+			"name": "Profiler",
+			"parent": "Programming"
+		  },
+		  {
+			"name": "GUI Editor",
+			"parent": "Programming"
+		  }
+		]
+      },
+	  {
+        "name": "Artificial Intelligence (AI)",
+        "parent": "Game Engine",
+		"children":[
+		  {
+			"name": "AI editor",
+			"parent": "Artificial Intelligence (AI)"
+		  },
+		  {
+			"name": "Path finding",
+			"parent": "Artificial Intelligence (AI)"
+		  },
+		  {
+			"name": "Decision making",
+			"parent": "Artificial Intelligence (AI)"
+		  },
+		  {
+			"name": "SAF/CGF",
+			"parent": "Artificial Intelligence (AI)"
+		  }
+		]
+      },
+	  {
+        "name": "Physics",
+        "parent": "Game Engine",
+		"children":[
+		  {
+			"name": "Collision detection",
+			"parent": "Physics"
+		  },
+		  {
+			"name": "Rigid body physics",
+			"parent": "Physics"
+		  },
+		  {
+			"name": "Vehicle dynamics",
+			"parent": "Physics"
+		  }
+		]
+      },
+	  {
+        "name": "Tool compatibility",
+        "parent": "Game Engine",
+		"children":[
+		  {
+			"name": "Maya",
+			"parent": "Tool compatibility"
+		  },
+		  {
+			"name": "Houdini",
+			"parent": "Tool compatibility"
+		  },
+		  {
+			"name": "Creator",
+			"parent": "Tool compatibility"
+		  }
+		]
+      },
+	  {
+        "name": "Portable Devices",
+        "parent": "Game Engine",
+		"children":[
+		  {
+			"name": "Windows",
+			"parent": "Portable Devices"
+		  },
+		  {
+			"name": "Android",
+			"parent": "Portable Devices"
+		  },
+		  {
+			"name": "IOS",
+			"parent": "Portable Devices"
+		  },
+		  {
+			"name": "HoloLens",
+			"parent": "Portable Devices"
+		  },
+		  {
+			"name": "HTC Vive",
+			"parent": "Portable Devices"
+		  },
+		  {
+			"name": "PlayStation",
+			"parent": "Portable Devices"
+		  }
+		]
+      },
+	  {
+        "name": "Price/licencing",
+        "parent": "Game Engine"
+	  },
+	  {
+        "name": "Usability",
+        "parent": "Game Engine",
+		"children":[
+		  {
+			"name": "Tutorials",
+			"parent": "Usability"
+		  },
+		  {
+			"name": "Online examples",
+			"parent": "Usability"
+		  },
+		  {
+			"name": "Community base to help with problems",
+			"parent": "Usability"
+		  },
+		  {
+			"name": "Ease of setting up custom scenarios for training",
+			"parent": "Usability"
+		  },
+		  {
+			"name": "Create graphical overlays over features, like navmesh",
+			"parent": "Usability"
+		  }
+		]
+      },
+	  {
+        "name": "Networking",
+        "parent": "Game Engine",
+		"children":[
+		  {
+			"name": "Listening Server (One Client - One Server)",
+			"parent": "Networking"
+		  },
+		  {
+			"name": "Multiplayer (Dedicated Server)",
+			"parent": "Networking"
+		  },
+		  {
+			"name": "Cloud Capability",
+			"parent": "Networking"
+		  },
+		  {
+			"name": "CIGI",
+			"parent": "Networking"
+		  },
+		  {
+			"name": "Opcodes",
+			"parent": "Networking"
+		  },
+		  {
+			"name": "Host interface",
+			"parent": "Networking"
+		  }
+		]
+      },
+	  {
+        "name": "Frames-Per-Second (FPS)",
+        "parent": "Game Engine",
+		"children":[
+		  {
+			"name": "Identify a minimum world size",
+			"parent": "FPS"
+		  },
+		  {
+			"name": "Minimum height to look at the world and see if it runs at 60fps",
+			"parent": "FPS"
+		  },
+		  {
+			"name": "90Hz for VR",
+			"parent": "FPS"
+		  }
+		]
+	  },
+	  {
+        "name": "Terrain",
+        "parent": "Game Engine",
+		"children":[
+		  {
+			"name": "Elevation",
+			"parent": "Terrain",
+			"children":[
+			  {
+			  	"name": "Resolution: Can it do 30cm terrain databases and can enhance than to 15cms",
+			  	"parent": "Elevation"
+			  },
+			  {
+			  	"name": "Deformable",
+			  	"parent": "Elevation"
+			  },
+			  {
+			  	"name": "Linears (rivers, roads, etc.)",
+			  	"parent": "Elevation"
+			  },
+			  {
+			  	"name": "Editable",
+			  	"parent": "Elevation"
+			  },
+			  {
+			  	"name": "Importable/Exportable",
+			  	"parent": "Elevation"
+			  },
+			  {
+			  	"name": "Insets",
+			  	"parent": "Elevation"
+			  }
+			]
+		  },
+		  {
+			"name": "Texture",
+			"parent": "Terrain",
+			"children":[
+			  {
+			  	"name": "Resolution",
+			  	"parent": "Texture"
+			  },
+			  {
+			  	"name": "Photo/Themel",
+			  	"parent": "Texture"
+			  },
+			  {
+			  	"name": "Importable",
+			  	"parent": "Texture"
+			  },
+			  {
+			  	"name": "Insets",
+			  	"parent": "Texture"
+			  }
+			]
+		  }
+		]
+      },
+	  {
+        "name": "Databases/Scenario building/editing",
+        "parent": "Game Engine",
+		"children":[
+		  {
+			"name": "Basic scene content building",
+			"parent": "Databases/Scenario building/editing"
+		  },
+		  {
+			"name": "Custom content",
+			"parent": "Databases/Scenario building/editing"
+		  },
+		  {
+			"name": "Formats",
+			"parent": "Databases/Scenario building/editing"
+		  },
+		  {
+			"name": "Ease of import",
+			"parent": "Databases/Scenario building/editing"
+		  },
+		  {
+			"name": "Exportable",
+			"parent": "Databases/Scenario building/editing"
+		  },
+		  {
+			"name": "Roads",
+			"parent": "Databases/Scenario building/editing"
+		  },
+		  {
+			"name": "Using textures to build geo specific scenes",
+			"parent": "Databases/Scenario building/editing"
+		  }
+		]
+	  },
+	  {
+        "name": "Sensors",
+        "parent": "Game Engine",
+		"children":[
+		  {
+			"name": "Type",
+			"parent": "Sensors",
+			"children":[
+			  {
+			  	"name": "Infra-red",
+			  	"parent": "Type",
+				"children":[
+					{
+						"name": "SWIR",
+						"parent": "Infra-red"
+					},
+					{
+						"name": "MWIR",
+						"parent": "Infra-red"
+					},
+					{
+						"name": "LWIR",
+						"parent": "Infra-red"
+					}
+				]
+			  },
+			  {
+			  	"name": "EVS/FLIR",
+			  	"parent": "Type"
+			  },
+			  {
+			  	"name": "Night Vision Goggles",
+			  	"parent": "Type"
+			  }
+			]
+		  },
+		  {
+			"name": "Quality",
+			"parent": "Sensors",
+			"children":[
+			  {
+			  	"name": "Poly based",
+			  	"parent": "Quality"
+			  },
+			  {
+			  	"name": "Material/texture based",
+			  	"parent": "Quality"
+			  },
+			  {
+			  	"name": "Physics based",
+			  	"parent": "Quality"
+			  }
+			]
+		  }
+		]
+      },
+	  {
+        "name": "LOD system",
+        "parent": "Game Engine",
+		"children":[
+		  {
+			"name": "Tree transition",
+			"parent": "LOD system"
+		  },
+		  {
+			"name": "Shadows transition",
+			"parent": "LOD system"
+		  },
+		  {
+			"name": "Terrain transition",
+			"parent": "LOD system"
+		  },
+		  {
+			"name": "Close to ground detailing",
+			"parent": "LOD system"
+		  }
+		]
+      },
+	  {
+        "name": "Sea States",
+        "parent": "Game Engine",
+		"children":[
+		  {
+			"name": "Visible repeating patterns at 200 feet",
+			"parent": "Sea States"
+		  },
+		  {
+			"name": "Visible repeating patterns at 1000 feet",
+			"parent": "Sea States"
+		  },
+		  {
+			"name": "Visible repeating patterns at 5000 feet",
+			"parent": "Sea States"
+		  },
+		  {
+			"name": "Visible repeating patterns at 10000 feet",
+			"parent": "Sea States"
+		  },
+		  {
+			"name": "Visible repeating patterns at 14000 feet",
+			"parent": "Sea States"
+		  },
+		  {
+			"name": "Whitecaps",
+			"parent": "Sea States"
+		  },
+		  {
+			"name": "Windlanes",
+			"parent": "Sea States"
+		  },
+		  {
+			"name": "Froth",
+			"parent": "Sea States"
+		  },
+		  {
+			"name": "Water color based on lighting",
+			"parent": "Sea States"
+		  },
+		  {
+			"name": "Refraction",
+			"parent": "Sea States"
+		  },
+		  {
+			"name": "Underwater simulation",
+			"parent": "Sea States"
+		  },
+		  {
+			"name": "Shoreline effects",
+			"parent": "Sea States"
+		  },
+		  {
+			"name": "Level of sea states possible to simulate",
+			"parent": "Sea States"
+		  },
+		  {
+			"name": "Customizability",
+			"parent": "Sea States"
+		  },
+		  {
+			"name": "Performance",
+			"parent": "Sea States"
+		  }
+		]
+      }
+    ]
+  }
+];
+
+
+// ************** Generate the Tree diagram	 *****************
+	
+var i = 0,
+	duration = 650,
+	root;
+
+var treeHeight = 1800;
+var treeWidth = 1100;
+
+var tree = d3.layout.tree()
+	.size([treeHeight, treeWidth]);
+
+var diagonal = d3.svg.diagonal()
+	.projection(function(d) { return [d.y, d.x]; });
+
+var treeLayout = d3.select("body").select(".treeLayout").append("svg")
+				.attr("width", treeWidth + margin.right + margin.left)
+				.attr("height", treeHeight + margin.top + margin.bottom+1000)
+				.append("g")
+				.attr("transform", "translate(" + screen.width/4 + "," + 30 + ")");
+
+root = treeData[0];
+root.x0 = treeHeight / 2;
+root.y0 = 0;
+  
+update(root);
+
+d3.select(self.frameElement).style("height", "500px");
+
+function update(source) {
+
+  // Compute the new tree layout.
+  var nodes = tree.nodes(root).reverse(),
+	  links = tree.links(nodes);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d) { d.y = d.depth * 180; });
+
+  // Update the nodes…
+  var node = treeLayout.selectAll("g.node")
+	  .data(nodes, function(d) { return d.id || (d.id = ++i); });
+
+  // Enter any new nodes at the parent's previous position.
+  var nodeEnter = node.enter().append("g")
+	  .attr("class", "node")
+	  .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
+	  .on("click", click);
+
+  nodeEnter.append("circle")
+	  .attr("r", 1e-6)
+	  .style("fill", function(d) { return d._children ? "#e3a86f" : "#fff"; });
+
+  nodeEnter.append("text")
+	  .attr("x", function(d) { return d.children || d._children ? -13 : 13; })
+	  .attr("dy", ".35em")
+	  .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
+	  .text(function(d) { return d.name; })
+	  .style("fill-opacity", 1e-6);
+
+  // Transition nodes to their new position.
+  var nodeUpdate = node.transition()
+	  .duration(duration)
+	  .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
+
+  nodeUpdate.select("circle")
+	  .attr("r", 6.5)
+	  .style("fill", function(d) { return d._children ? "#e3a86f" : "#fff"; });
+
+  nodeUpdate.select("text")
+	  .style("fill-opacity", 1);
+
+  // Transition exiting nodes to the parent's new position.
+  var nodeExit = node.exit().transition()
+	  .duration(duration)
+	  .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
+	  .remove();
+
+  nodeExit.select("circle")
+	  .attr("r", 1e-6);
+
+  nodeExit.select("text")
+	  .style("fill-opacity", 1e-6);
+
+  // Update the links…
+  var link = treeLayout.selectAll("path.link")
+	  .data(links, function(d) { return d.target.id; });
+
+  // Enter any new links at the parent's previous position.
+  link.enter().insert("path", "g")
+	  .attr("class", "link")
+	  .attr("d", function(d) {
+		var o = {x: source.x0, y: source.y0};
+		return diagonal({source: o, target: o});
+	  });
+
+  // Transition links to their new position.
+  link.transition()
+	  .duration(duration)
+	  .attr("d", diagonal);
+
+  // Transition exiting nodes to the parent's new position.
+  link.exit().transition()
+	  .duration(duration)
+	  .attr("d", function(d) {
+		var o = {x: source.x, y: source.y};
+		return diagonal({source: o, target: o});
+	  })
+	  .remove();
+
+  // Stash the old positions for transition.
+  nodes.forEach(function(d) {
+	d.x0 = d.x;
+	d.y0 = d.y;
+  });
+}
+
+// Toggle children on click.
+function click(d) {
+  if (d.children) {
+	d._children = d.children;
+	d.children = null;
+  } else {
+	d.children = d._children;
+	d._children = null;
+  }
+  update(d);
+}
+</script>
+</div>
+
+</body>
