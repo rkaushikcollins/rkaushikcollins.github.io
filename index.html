@@ -67,16 +67,16 @@ header{
 				<!--<option value="vtmak">VT MAK</option>-->
 			</select>
 		</div>
-		<!-- <audio src="music/Foo_Fighters_Everlong.mp3" controls>	 -->
-			<!-- <embed  -->
-				<!-- src="music/Foo_Fighters_Everlong.mp3" -->
-				<!-- width="300" -->
-				<!-- height="90" -->
-				<!-- hidden="true" -->
-				<!-- loop="true" -->
-				<!-- autostart="true" -->
-				<!-- mastersound> -->
-		<!-- </audio> -->
+		<audio src="music/Foo_Fighters_Everlong.mp3" controls>	
+			<embed 
+				src="music/Foo_Fighters_Everlong.mp3"
+				width="300"
+				height="90"
+				hidden="true"
+				loop="true"
+				autostart="true"
+				mastersound>
+		</audio>
 		<hr>
     </header>
 	
@@ -104,7 +104,7 @@ var force = d3.layout.force()
 var svg = d3.select("#chart").append("svg")
     .attr("width", width)
     .attr("height", height)
-	.attr("transform", "translate(" + width/25 + "," + (height * 0.30) + ")");
+	.attr("transform", "translate(" + width/25 + "," + (height * 0.50) + ")");
 
 var link = svg.selectAll(".link"),
     node = svg.selectAll(".node");
