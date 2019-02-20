@@ -177,7 +177,7 @@ var legend = svgLegned.selectAll('.legends')
 			.style("font-weight","bold")
 			.style("fill","white");
 	
-d3.csv("GameEngineEvaluation.csv", function(error, engines) {
+d3.csv("GameEngineEvaluation0220.csv", function(error, engines) {
 
   // Extract the list of dimensions and create a scale for each.
   x.domain(dimensions = d3.keys(engines[0]).filter(function(d) {
