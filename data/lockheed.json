@@ -1,0 +1,45 @@
+{
+ "name": "Lockheed Martin",
+ "children": [
+  {
+   "name": "Simulation Engine: Prepar3D",
+   "children": [
+    {
+     "name": "PREPAR3D V4",
+     "children": [
+      {"name": "Versatile Desktop Training & Simulation", "size": 1000},
+	  {"name": "Multiplayer, virtual training environment", "size": 10000},
+      {"name": "Shaped and refined by over 15 years of customer feedback", "size": 1000},
+	  {"name": "Load VBS3 onto a PC and use the supplied tools and models to set up a scenario and start training", "size": 20000},
+      {"name": "Huge 3D Model Library: over 10,000 models of military + civilian vehicles, weapons & characters", "size": 10000},
+      {"name": "Scenario Creation & Editing Tools", "size": 10000},
+	  {"name": "After Action Review", "size": 10000},
+	  {"name": "Interoperability with external HLA/DIS networks and host computers that use the CIGI protocol", "size": 10000},
+	  {"name": "Robust DIS-enabled voice communications system", "size": 10000},
+	  {"name": "Mission planning tool for adding military markings to scenarios", "size": 10000},
+	  {"name": "Virtual sandbox that reduces development costs", "size": 10000},
+	  {"name": "Interoperates with legacy simulations, protecting and extending existing investments in LVC training", "size": 10000},
+	  {"name": "Add new standards such as Open Source Virtual Reality (OSVR)", "size": 10000},
+	  {"name": "2,000+ documented scripting commands", "size": 10000},
+	  {"name": "Real-time and offline scenario creation and editing tools", "size": 10000},
+	  {"name": "Domains: Air, Sea and Land", "size": 10000},
+	  {"name": "VBS Control Editor for editing AI behaviors", "size": 10000}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Braggadocio",
+   "children": [
+	  {"name": "a highly responsive, skilled and experienced in-house development team", "size": 20000},
+      {"name": "Use the latest game-based technology", "size": 1000},
+      {"name": "Strive to disrupt the markets", "size": 1000},
+      {"name": "strive to be goal and deadline oriented but also a satisfying and fun place to work environment", "size": 1000},
+	  {"name": "Self-healing Organization: fix issue for the short and long term", "size": 1000},
+	  {"name": "Timely delivery of the highest quality", "size": 1000},
+	  {"name": "Research: Constantly scanning the wider technology landscape to find innovative solutions", "size": 10000},
+	  {"name": "Used by militaries in over 50 countries", "size": 1000}
+   ]
+  }
+ ]
+}

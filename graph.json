@@ -1,0 +1,70 @@
+{
+ "name": "Titan",
+ "children": [
+  {
+   "name": "Simulation Engine",
+   "children": [
+    {
+     "name": "Titan Vanguard",
+     "children": [
+      {"name": "open-philosophy approach: open to incorporate any new technology", "size": 10000},
+	  {"name": "Entire globe at 30m source resolution (refined to 15cm in real time)", "size": 10000},
+      {"name": "5 years of work", "size": 1000},
+	  {"name": "Display: APP-6A symbology of globally distributed forces", "size": 1000},
+      {"name": "in-game point-and-click construction capabilities", "size": 10000},
+      {"name": "Javascript, HTML5/CSS, node.JS and C++ APIs", "size": 10000},
+	  {"name": "Wide range of tools and interfaces for APIs", "size": 10000},
+	  {"name": "User scalability: experienced coder to operators", "size": 10000},
+	  {"name": "Embraces concept of need based simulators for End User", "size": 10000},
+	  {"name": "Open Entity Configuration: modify characteristics of Vehicles and Weapons", "size": 10000},
+	  {"name": "Real-time placement of geospecific or geotypical buildings", "size": 10000},
+	  {"name": "robust backend", "size": 10000},
+	  {"name": "power to create parameter based modifications", "size": 10000},
+	  {"name": "Real Time Game Editing (build terrain in 5 minutes)", "size": 10000},
+	  {"name": "End-to-End versatile open-sandbox solutions", "size": 10000},
+	  {"name": "Domains: Space, Air, Sea and Land", "size": 10000}
+     ]
+    },
+    {
+     "name": "Steel Beasts Integration",
+     "children": [
+      {"name": "COMMS Network: Pre-defined example radio configuration files", "size": 1000},
+      {"name": "ENTITY MAPPING: Pre-defined DIS/HLA mapping for shared LVC Game interoperability", "size": 10000},
+      {"name": "CORRELATED TERRAIN: terrain with common contours, roads, tree, and buildings", "size": 100000},
+	  {"name": "Battle Arena: connect multiple simulations", "size": 10000},
+	  {"name": "Fair Play: Game entities in same position across different systems", "size": 10000},
+      {"name": "3D MODEL PACKS: 3D models for interoperability", "size": 1000},
+      {"name": "Advanced infantry capabilities: UAV, JTAC, arms, naval and air artillery", "size": 10000},
+	  {"name": "Development Team: eSim Games and Calytrix", "size": 10000},
+	  {"name": "Product Motto: Make deeper interoperability simpler", "size": 1000},
+	  {"name": "Target Audience: Accurate crew procedure (complex scenario-based) training", "size": 1000},
+	  {"name": "Target Audience: Advanced land combat vehicle training", "size": 1000},
+	  {"name": "Com Net Radio(CNR): DIS-based military radio communication simluation support", "size": 10000}
+     ]
+    },
+    {
+     "name": "Comm Net Radio (CNR)",
+     "children": [
+      {"name": "CNR-Sim: Monitor, manage and record radio traffic and bridge to live radios", "size": 100000},
+	  {"name": "Advanced Add-Ons: CNR-Effects(realistic physics-based Signal degradation)", "size": 10000},
+	  {"name": "Family of Affordable products (Suite)", "size": 1000},
+	  {"name": "CNR-Live: live radio communication from workstation", "size": 1000},
+	  {"name": "Product Motto: Affordable + 'Live' + Realistic Virtual Radio", "size": 1000}	  
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Braggadocio",
+   "children": [
+	  {"name": "Titan caters to X-box generation", "size": 1000},
+      {"name": "Unity, Unreal and Havok don't deliver ‘out of box’ training solution", "size": 1000},
+      {"name": "'True' cross-domain solution", "size": 1000},
+      {"name": "Thank you 'Serious Games'", "size": 1000},
+	  {"name": "Whole of World: underwater, sea, land and even space", "size": 1000},
+	  {"name": "Vision: Company sets decade-to-decade targets", "size": 1000},
+	  {"name": "Thinks Collins EP2 is aging with no ‘out of the box’ solution ", "size": 10000}
+   ]
+  }
+ ]
+}

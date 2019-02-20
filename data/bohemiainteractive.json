@@ -1,0 +1,146 @@
+{
+ "name": "Bohemia Interactive",
+ "children": [
+  {
+   "name": "Simulation Engine: BISim",
+   "children": [
+    {
+     "name": "VBS3: VIRTUAL BATTLESPACE",
+     "children": [
+      {"name": "Versatile Desktop Training & Simulation", "size": 1000},
+	  {"name": "Multiplayer, virtual training environment", "size": 10000},
+      {"name": "Shaped and refined by over 15 years of customer feedback", "size": 1000},
+	  {"name": "Load VBS3 onto a PC and use the supplied tools and models to set up a scenario and start training", "size": 20000},
+      {"name": "Huge 3D Model Library: over 10,000 models of military + civilian vehicles, weapons & characters", "size": 10000},
+      {"name": "Scenario Creation & Editing Tools", "size": 10000},
+	  {"name": "After Action Review", "size": 10000},
+	  {"name": "Interoperability with external HLA/DIS networks and host computers that use the CIGI protocol", "size": 10000},
+	  {"name": "Robust DIS-enabled voice communications system", "size": 10000},
+	  {"name": "Mission planning tool for adding military markings to scenarios", "size": 10000},
+	  {"name": "Virtual sandbox that reduces development costs", "size": 10000},
+	  {"name": "Interoperates with legacy simulations, protecting and extending existing investments in LVC training", "size": 10000},
+	  {"name": "Add new standards such as Open Source Virtual Reality (OSVR)", "size": 10000},
+	  {"name": "2,000+ documented scripting commands", "size": 10000},
+	  {"name": "Real-time and offline scenario creation and editing tools", "size": 10000},
+	  {"name": "Domains: Air, Sea and Land", "size": 10000},
+	  {"name": "VBS Control Editor for editing AI behaviors", "size": 10000}
+     ]
+    },
+    {
+     "name": "VBS BLUE IG",
+     "children": [
+      {"name": "High-Performance, 3D Whole-Earth Renderer", "size": 1000},
+      {"name": "Domains: Space, Air, Sea and Land", "size": 10000},
+      {"name": "Global terrain that is procedurally enhanced from real-world data", "size": 10000},
+	  {"name": "Flexibility to use procedural content, satellite imagery, high-resolution terrain, or geo-specific features", "size": 100000},
+	  {"name": "Supports emerging geospatial content: point cloud data formats", "size": 20000},
+      {"name": "Plug-in architecture allows multiple industry standard formats to provide interoperability with legacy sources", "size": 10000},
+      {"name": "Commercial-off-the-shelf(Oculus Rift, HTC Vive and OSVR) VR & MR support at 90Hz refresh rates", "size": 10000},
+	  {"name": "Use on Any Simulator: CIGI support for individual part-task trainers, VR/AR solutions and full-motion simulators with multiple synchronized displays", "size": 20000},
+	  {"name": "Replicate vehicle interiors in close combat units (M1 Abrams Tank, M2 Bradley, M3 Cavalry, Humvee, etc.)", "size": 10000},
+	  {"name": "Terrain representation supports resolutions of 5mm for heightfield and 2mm for textures", "size": 10000},
+	  {"name": "WGS-84 based worldwide terrain: Dynamic craters and terrain modifications", "size": 1000},
+	  {"name": "WGS-84 based worldwide terrain: Procedurally generated 3D roads, buildings and vegetation from global data sets", "size": 1000},
+	  {"name": "Day/dusk/night & weather operations", "size": 1000},
+	  {"name": "Mission functions include collision detection, height above terrain + laser range finding", "size": 10000},
+	  {"name": "Dynamic lighting handling: >100,000 dynamic + static light sources for cities, runways and vehicles", "size": 10000},
+	  {"name": "Sensors including electro-optical, infrared and night vision", "size": 20000}
+     ]
+    },
+    {
+     "name": "VBS CONTROL BEHAVIOR PACK 1",
+     "children": [
+      {"name": "Pre-programmed, high fidelity and repeatable/deterministic AI behaviors", "size": 10000},
+	  {"name": "Easy AI integration into existing scenarios", "size": 1000},
+	  {"name": "Customizable AI through intuitive, in-game user interfaces", "size": 1000},
+	  {"name": "Reliable & predictable AI used in training", "size": 1000},
+	  {"name": "AI Domains: Convoy AI(on-road and off-road), pedestrians+traffic, Infantry AI(doctrine-typical squad behaviors: friend/foe)", "size": 10000}	  
+     ]
+    },
+	{
+     "name": "VBS Synthetic Training Environment",
+     "children": [
+      {"name": "Robust, Cloud-Enabled One World Terrain", "size": 20000},
+	  {"name": "Scales from individual soldiers up to the Corp level", "size": 1000},
+	  {"name": "Deliver to the point of need delivery for a multitude of different simulation systems", "size": 10000},
+	  {"name": "VBS Blue rendering engine and the STE World Server (STEWS)", "size": 1000},
+	  {"name": "Support all VBS products on the cloud with Reconfigurable Virtual Collective Trainer (RCVT)", "size": 10000}	  
+     ]
+    },
+	{
+     "name": "VBS Radio Pro",
+     "children": [
+      {"name": "In-game voice communications system", "size": 1000},
+	  {"name": "User-friendly setup of global, side, group + direct speech communication channels", "size": 1000},
+	  {"name": "Distance-based degradation that can also be influenced by weather effects in the simulation", "size": 10000},
+	  {"name": "Support for DIS", "size": 1000},
+	  {"name": "Support for sidetone playback", "size": 1000},
+	  {"name": "GUI for configuring options (DIS radio mapping and multicast)", "size": 1000},
+	  {"name": "Support for degradation based on terrain masking", "size": 1000},
+	  {"name": "Users can customize channel names, colors, icons and save/load radio networks per mission", "size": 10000}	  
+     ]
+    },
+	{
+     "name": "VBS IG SDK",
+     "children": [
+      {"name": "'Developer-focused' image generation development framework", "size": 10000},
+	  {"name": "C APIs and source code for developers to customize any aspect of VBS Blue IG", "size": 10000},
+	  {"name": "Modular plug-in architecture for APIs for developers to integrate third-party technologies effectively and efficiently", "size": 10000},
+	  {"name": "Customizable runtime and tools", "size": 1000},
+	  {"name": "Allows extension and modification of core IG components", "size": 1000},
+	  {"name": "Detailed documentation and examples", "size": 1000},
+	  {"name": "Supports industry standard file formats for terrain and 3D models", "size": 10000}	  
+     ]
+    },
+	{
+     "name": "TERRATOOLS",
+     "children": [
+      {"name": "Automated Creation of Correlated Terrains for Simulation", "size": 10000},
+	  {"name": "High-fidelity, geo-specific environments", "size": 1000},
+	  {"name": "Correlation across twelve runtimes", "size": 1000},
+	  {"name": "Develop + export single terrain project to multiple runtime formats for correlated terrain by connecting different simulations", "size": 10000},
+	  {"name": "Import and export range of industry-standard elevation data, satellite imagery, and vector data", "size": 10000},	  
+	  {"name": "Support .Fbx, .Obj gaming model formats", "size": 10000},
+	  {"name": "Batch Mode Manager: Distributed Processing across a local network or cloud environment to reduce production time and costs", "size": 10000},
+	  {"name": "Built-in Viewing and Editing Tools: create, edit, and view geospatial data", "size": 10000},
+	  {"name": "Built-in Viewing and Editing Tools: edit and view textures and models", "size": 10000},
+	  {"name": "Built-in Viewing and Editing Tools: preview the environment when transitioning from source data to final terrain output", "size": 10000},
+	  {"name": "Reuse projects as templates to fast-track future terrain production", "size": 10000}
+     ]
+    },
+	{
+     "name": "VBS SIMULATION SDK",
+     "children": [
+      {"name": "C APIs and source code for developers to customize any aspect of VBS Blue IG", "size": 10000},
+	  {"name": "Highly efficient ‘author once’ for all use cases workflow", "size": 10000},
+	  {"name": "Fully supports existing VBS3 terrain, models and scenarios", "size": 1000},
+	  {"name": "VBS Control Editor: AI development tool(visual behavior tree editor + runtime debugging)", "size": 10000},
+	  {"name": "VBS3 Runtime license: content creation tools and technology", "size": 1000},	  
+	  {"name": "Open & modular development framework with plugin API architecture", "size": 1000},
+	  {"name": "Gears Studio Professional IDE: Create components from a template through a guided process", "size": 1000},
+	  {"name": "Gears Studio Professional IDE: Edit APIs with real-time error reporting", "size": 1000},
+	  {"name": "Gears Studio Professional IDE: Version APIs to facilitate collaborative development", "size": 1000},
+	  {"name": "Gears Studio Professional IDE: Manage groups of components as products", "size": 1000},
+	  {"name": "Gears Studio Professional IDE: Edit all components from a single Microsoft Visual Studio solution", "size": 10000},
+	  {"name": "Gears Studio Professional IDE: Integrate with build servers for continuous integration and unit testing", "size": 1000},
+	  {"name": "Detailed documentation and examples", "size": 1000},
+	  {"name": "Open & modular development framework with plugin API architecture", "size": 1000}
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Braggadocio",
+   "children": [
+	  {"name": "a highly responsive, skilled and experienced in-house development team", "size": 20000},
+      {"name": "Use the latest game-based technology", "size": 1000},
+      {"name": "Strive to disrupt the markets", "size": 1000},
+      {"name": "strive to be goal and deadline oriented but also a satisfying and fun place to work environment", "size": 1000},
+	  {"name": "Self-healing Organization: fix issue for the short and long term", "size": 1000},
+	  {"name": "Timely delivery of the highest quality", "size": 1000},
+	  {"name": "Research: Constantly scanning the wider technology landscape to find innovative solutions", "size": 10000},
+	  {"name": "Used by militaries in over 50 countries", "size": 1000}
+   ]
+  }
+ ]
+}
