@@ -41,8 +41,34 @@ header{
 }
 
 </style>
+
+<head>
+        <title>Collins Shark</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script type="text/javascript">
+        function hidePassPrompt() {
+			document.getElementById("raySpecial").style.display = "none";
+		}
+        window.onload = hidePassPrompt;
+        </script>
+</head>
+
 <body>
 <script src="//d3js.org/d3.v3.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("#btnSubmit").click(function () {
+            var special_password = $("#txtPassword").val();
+            if (special_password == null || special_password == "" || special_password.toUpperCase() != "MAMBA") {
+                alert("Invalid Password!");
+                return false;
+            }
+			window.location.href='RaytheonAnalysisTool/raytheonTool.html';
+            return true;
+        });
+    });
+</script>
 
 <div class="container">
 	<header align="center" style="width:100%; margin:0 auto;">
@@ -62,11 +88,31 @@ header{
 				<option value="l3">L3 Technologies</option>
 				<option value="lockheed">Lockheed Martin</option>
 				<!--<option value="metavr">MetaVR</option>-->
+				<option value="raytheon">Raytheon</option>
 				<option value="rsi">RSI Visuals</option>
 				<option value="titan">Titan</option>
 				<!--<option value="vtmak">VT MAK</option>-->
 			</select>
 		</div>
+		<div id="raySpecial"><table border="0" cellpadding="3" cellspacing="0" align="center">
+		<tr>
+			<td>
+				Password:
+			</td>
+			<td>
+				<input type="password" id="txtPassword" />
+			</td>
+		</tr>
+		<tr>
+			<td>
+			</td>
+			<td>
+				<input type="button" id="btnSubmit" value="Submit" />
+			</td>
+		</tr>
+		</table>
+	</div>
+	<br>
 		<audio src="music/Foo_Fighters_Everlong.mp3" controls>	
 			<embed 
 				src="music/Foo_Fighters_Everlong.mp3"
@@ -293,17 +339,32 @@ function changeCompanyInfo() {
     var selectedValue = selectBox.options[selectBox.selectedIndex].value;
 	var companyDataPath = "";
 	
-	if(selectedValue==="titan")
-		companyDataPath = "data/titan.json"
-	else if(selectedValue==="eagledynamics")
-		companyDataPath = "data/eagledynamics.json"
-	else if(selectedValue==="l3")
-		companyDataPath = "data/l3.json"
-	else if(selectedValue==="bohemia")
-		companyDataPath = "data/bohemiainteractive.json"
-	else if(selectedValue==="lockheed")
-		companyDataPath = "data/lockheed.json"		
+	if(selectedValue!="raytheon")
+		document.getElementById("raySpecial").style.display = "none";
 	
+	if(selectedValue==="titan")
+		companyDataPath = "data/titan.json";
+	else if(selectedValue==="eagledynamics")
+		companyDataPath = "data/eagledynamics.json";
+	else if(selectedValue==="l3")
+		companyDataPath = "data/l3.json";
+	else if(selectedValue==="bohemia")
+		companyDataPath = "data/bohemiainteractive.json";
+	else if(selectedValue==="lockheed")
+		companyDataPath = "data/lockheed.json";
+	else if(selectedValue==="raytheon")
+	{
+		document.getElementById("raySpecial").style.display = "block";
+		/*var special_password = prompt("Please enter the special password:", "** Type Correct Password Here! **");
+		if (special_password == null || special_password == "" || special_password.toUpperCase() != "MAMBA") {
+			alert("Password Incorrect!");
+		} else {
+			alert("Welcome! Discretion advised.");
+			window.location.href='RaytheonAnalysisTool/raytheonTool.html'
+			//companyDataPath = "data/raytheon.json"
+		}*/
+	}
+				
 	link.remove();
 	node.remove();
 	nodes = [];

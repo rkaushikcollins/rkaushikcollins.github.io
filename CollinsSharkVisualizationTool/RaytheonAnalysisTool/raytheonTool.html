@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no"
+/>
+<style>
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:400,600);
+      body {font-family: "Source Code Pro", Consolas, monaco, monospace; line-height: 160%; font-size: 16px;  margin: 0; }
+      path.link {
+        fill: none;
+        stroke-width: 2px;
+      }
+      .node:not(:hover) .nodetext {
+        display: none;
+      }
+      h1 { font-size: 36px; margin: 10px 0; text-transform: uppercase; font-weight: normal;}
+      h2, h3 { font-size: 18px; margin: 5px 0 ; font-weight: normal;}
+      header {padding: 20px; position: absolute; top: 0; left: 0;}
+      a:link { color: #EE3124; text-decoration: none;}
+      a:visited { color: #EE3124; }
+      a:hover { color: #A4CD39; text-decoration: underline;}
+      a:active { color: #EE3124; }
+
+header{
+	background-color: #edc5cb;
+}
+
+.timeSlider {
+	margin: auto;
+	position: absolute;
+	top: 65%; left: 3%; bottom: 0; right: 0;
+}
+
+<!--for risk factors-->
+.node rect {
+  cursor: pointer;
+  fill: #fff;
+  fill-opacity: 0.5;
+  stroke: #E31937;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 10px sans-serif;
+  pointer-events: none;
+}
+
+.link {
+  fill: none;
+  stroke: #f06579;
+  stroke-width: 1.5px;
+}
+
+<!--for competitors-->
+circle {
+  stroke: #fff;
+}
+</style>
+
+<head>
+        <title>RTN Watch</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="text/javascript">
+        function hideAllElements() {
+			document.getElementById("timeSlider").style.display = "none";
+			document.getElementById("riskFactors").style.display = "none";
+			document.getElementById("competitorBubbles").style.display = "none";
+		}
+        window.onload = hideAllElements;
+        </script>
+</head>
+
+<body>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="https://unpkg.com/d3-simple-slider"></script>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<link
+  rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+  crossorigin="anonymous"
+/>
+
+<div class="container">
+	<header align="center" style="width:100%; margin:0 auto;">
+        <img src="../figs/collins.png" alt="Collins Aerospace Logo" id="logo" height="100" width="500"/>
+        <h1>Collins Shark Visualizer <img src="../figs/shark.png" alt="Collins Shark Logo" id="logo" height="42" width="100"/></h1>
+        <div>Author: Rishabh Kaushik</div>
+		<div>E-Mail: rishabh.kaushik@rockwellcollins.com</div>
+		<div>
+			<img src="../figs/raytheon.png" alt="Raytheon Logo" height="100" width="500"/>
+		</div>
+		<div id="dropdown">Please choose an anlaysis topic:
+			<select id="topicSelection" onchange="changeVisualInfo();">
+				<option value="none" selected="selected"><------Choose an Analysis Topic------></option>
+				<option value="t1">Competitors</option>
+				<option value="t2">Customer & Contracts</option>
+				<option value="t3">Employment and Retirement</option>
+				<option value="t4">Financial Outlook</option>
+				<option value="t5">Product Overlaps</option>
+				<option value="t6">Raw Materials, Suppliers & Seasonality</option>
+				<option value="t7">Risk Factors</option>
+			</select>
+		</div>
+		<br>
+		<audio src="music/Johnny_Cash_Hurt.mp3" controls>	
+			<embed 
+				src="music/Johnny_Cash_Hurt.mp3"
+				width="300"
+				height="90"
+				hidden="true"
+				loop="true"
+				autostart="true"
+				mastersound>
+		</audio>
+		<hr>
+    </header>
+	
+	<div id="timeSlider" class="timeSlider"  align="center">
+		<div class="col-sm-2"><p id="value-time"></p></div>
+		<div class="col-sm"><div id="slider-time"></div></div>
+	</div>
+	
+	<div id="competitorBubbles" class="competitorBubbles" align="center">
+		<div id="bubbles"></div>
+	</div>
+	
+	<div id="riskFactors" class="riskFactors" align="center">
+		<div id="risk-tree"></div>
+	</div>
+
+</div>
+
+<script>
+  // Time
+  var dataTime = d3.range(0, 17).map(function(d) {
+    return new Date(2002 + d, 17, 3);
+  });
+
+  var sliderTime = d3
+    .sliderBottom()
+    .min(d3.min(dataTime))
+    .max(d3.max(dataTime))
+    .step(1000 * 60 * 60 * 24 * 365)
+    .width(1300)
+    .tickFormat(d3.timeFormat('%Y'))
+    .tickValues(dataTime)
+    .default(new Date(2002, 17, 3))
+    .on('onchange', val => {
+      d3.select('p#value-time').text(d3.timeFormat('%Y')(val)).style("font-size", "100px");
+    });
+
+  var gTime = d3
+    .select('div#slider-time')
+    .append('svg')
+    .attr('width', 1500)
+    .attr('height', 100)
+    .append('g')
+    .attr('transform', 'translate(30,10)');
+
+  gTime.call(sliderTime);
+
+  d3.select('p#value-time').text(d3.timeFormat('%Y')(sliderTime.value())).style("font-size", "100px");
+</script>
+
+<script>
+
+var margin = {top: 550, right: 20, bottom: 30, left: 20},
+    width = 960,
+    barHeight = 20,
+    barWidth = (width - margin.left - margin.right) * 0.8;
+
+var i = 0,
+    duration = 400,
+    root;
+
+var diagonal = d3.linkHorizontal()
+    .x(function(d) { return d.y; })
+    .y(function(d) { return d.x; });
+
+var svg = d3.select('div#risk-tree').append("svg")
+    .attr("width", width) // + margin.left + margin.right)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+d3.json("flare.json", function(error, flare) {
+  if (error) throw error;
+  root = d3.hierarchy(flare);
+  root.x0 = 0;
+  root.y0 = 0;
+  update(root);
+});
+
+function update(source) {
+
+  // Compute the flattened node list.
+  var nodes = root.descendants();
+
+  var height = Math.max(500, nodes.length * barHeight + margin.top + margin.bottom);
+
+  d3.select('div#risk-tree').select("svg").transition()
+      .duration(duration)
+      .attr("height", height);
+
+  d3.select(self.frameElement).transition()
+      .duration(duration)
+      .style("height", height + "px");
+
+  var index = -1;
+  root.eachBefore(function(n) {
+    n.x = ++index * barHeight;
+    n.y = n.depth * 20;
+  });
+
+  // Update the nodes…
+  var node = svg.selectAll(".node")
+    .data(nodes, function(d) { return d.id || (d.id = ++i); });
+
+  var nodeEnter = node.enter().append("g")
+      .attr("class", "node")
+      .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
+      .style("opacity", 0);
+
+  // Enter any new nodes at the parent's previous position.
+  nodeEnter.append("rect")
+      .attr("y", -barHeight / 2)
+      .attr("height", barHeight)
+      .attr("width", barWidth)
+      .style("fill", color)
+      .on("click", click);
+
+  nodeEnter.append("text")
+      .attr("dy", 3.5)
+      .attr("dx", 20.5)
+      .text(function(d) { return d.data.name; });
+
+  // Transition nodes to their new position.
+  nodeEnter.transition()
+      .duration(duration)
+      .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; })
+      .style("opacity", 1);
+
+  node.transition()
+      .duration(duration)
+      .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; })
+      .style("opacity", 1)
+    .select("rect")
+      .style("fill", color);
+
+  // Transition exiting nodes to the parent's new position.
+  node.exit().transition()
+      .duration(duration)
+      .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
+      .style("opacity", 0)
+      .remove();
+
+  // Update the links…
+  var link = svg.selectAll(".link")
+    .data(root.links(), function(d) { return d.target.id; });
+
+  // Enter any new links at the parent's previous position.
+  link.enter().insert("path", "g")
+      .attr("class", "link")
+      .attr("d", function(d) {
+        var o = {x: source.x0, y: source.y0};
+        return diagonal({source: o, target: o});
+      })
+    .transition()
+      .duration(duration)
+      .attr("d", diagonal);
+
+  // Transition links to their new position.
+  link.transition()
+      .duration(duration)
+      .attr("d", diagonal);
+
+  // Transition exiting nodes to the parent's new position.
+  link.exit().transition()
+      .duration(duration)
+      .attr("d", function(d) {
+        var o = {x: source.x, y: source.y};
+        return diagonal({source: o, target: o});
+      })
+      .remove();
+
+  // Stash the old positions for transition.
+  root.each(function(d) {
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+}
+
+// Toggle children on click.
+function click(d) {
+  if (d.children) {
+    d._children = d.children;
+    d.children = null;
+  } else {
+    d.children = d._children;
+    d._children = null;
+  }
+  update(d);
+}
+
+function color(d) {
+  return d._children ? "#B80058" : d.children ? "#EDC5CB" : "#fd8d3c";
+}
+
+</script>
+
+
+
+<script>
+// ** Update info section (Called from the onchange)
+function changeVisualInfo() {
+
+    var selectBox = document.getElementById("topicSelection");
+    var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+	var riskFactorPath = "";
+	
+	/*if(selectedValue==="titan")
+		companyDataPath = "data/titan.json";
+	else if(selectedValue==="eagledynamics")
+		companyDataPath = "data/eagledynamics.json";
+	else if(selectedValue==="l3")
+		companyDataPath = "data/l3.json";
+	else if(selectedValue==="bohemia")
+		companyDataPath = "data/bohemiainteractive.json";
+	else if(selectedValue==="lockheed")
+		companyDataPath = "data/lockheed.json";
+	else if(selectedValue==="raytheon")*/
+	if(selectedValue==="t1")
+	{
+		document.getElementById("timeSlider").style.display = "none";
+		document.getElementById("riskFactors").style.display = "none";
+		document.getElementById("competitorBubbles").style.display = "block";
+	}
+	else if(selectedValue==="t7")
+	{
+		document.getElementById("timeSlider").style.display = "none";
+		document.getElementById("competitorBubbles").style.display = "none";
+		document.getElementById("riskFactors").style.display = "block";
+	}
+}
+</script>
+
+</body>
+</html>
