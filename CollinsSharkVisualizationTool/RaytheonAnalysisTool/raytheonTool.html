@@ -32,7 +32,6 @@ header{
 	top: 65%; left: 3%; bottom: 0; right: 0;
 }
 
-<!--for risk factors-->
 .node rect {
   cursor: pointer;
   fill: #fff;
@@ -52,7 +51,6 @@ header{
   stroke-width: 1.5px;
 }
 
-<!--for competitors-->
 circle {
   stroke: #fff;
 }
@@ -305,7 +303,7 @@ function click(d) {
 }
 
 function color(d) {
-  return d._children ? "#B80058" : d.children ? "#EDC5CB" : "#fd8d3c";
+	return d._children ? "#B80058" : d.children ? "#EDC5CB" : "#fd8d3c";
 }
 
 </script>

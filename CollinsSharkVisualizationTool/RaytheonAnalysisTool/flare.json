@@ -1,108 +1,121 @@
 {
- "name": "flare",
+ "name": "Risks",
  "children": [
   {
-   "name": "analytics",
+   "name": "U.S. Government",
    "children": [
     {
-     "name": "cluster",
+     "name": "Defense Spending",
      "children": [
-      {"name": "AgglomerativeCluster", "size": 3938},
-      {"name": "CommunityStructure", "size": 3812},
-      {"name": "HierarchicalCluster", "size": 6714},
-      {"name": "MergeEdge", "size": 743}
+      {"name": "In 2018, U.S. government sales, excluding foreign military sales, accounted for approximately 68% of total net sales.", "size": 3938},
+      {"name": "Geopolitical events, macroeconomic conditions & legislation enactment such as bills appropriations.", "size": 3812},
+      {"name": "Difficult to predict beyond the near-term.", "size": 6714},
+      {"name": "DoD budget fell in FY 2013, remained essentially flat for FY 2014 and 2015, and increased for FY 2016 to 2019.", "size": 743}
      ]
     },
     {
-     "name": "graph",
+     "name": "New technologies",
      "children": [
-      {"name": "BetweennessCentrality", "size": 3534},
-      {"name": "LinkDistance", "size": 5731},
-      {"name": "MaxFlowMinCut", "size": 7840},
-      {"name": "ShortestPaths", "size": 5914},
-      {"name": "SpanningTree", "size": 3416}
+      {"name": "May be untested or unproven.", "size": 3534},
+      {"name": "Product requirements modification leads to delays, setbacks, cost overruns or product failures diverting attention or resources from other projects.", "size": 5731},
+      {"name": "Nature of Future-Technology: interceptors, space-based sensors, high-energy lasers, hypersonics, and counter-hypersonics.", "size": 7840},
+      {"name": "Required to invest in development prior to award as customers demand more 'mature' and 'proven' solutions.", "size": 5914}
      ]
     },
     {
-     "name": "optimization",
+     "name": "Nature of Contracts",
      "children": [
-      {"name": "AspectRatioBanker", "size": 7074}
+      {"name": "U.S. government contracts are typically either fixed-priced contracts or cost reimbursement contracts.", "size": 7074},
+	  {"name": "Fixed-price contracts represent 61% of backlog, and are predominantly either firm fixed-price (FFP) contracts or fixed-price incentive (FPI) contracts.", "size": 5074},
+	  {"name": "Major source of loss: fixed-price development contracts.", "size": 3074},
+	  {"name": "Classified programs limits discussion of performance, including any risks, disputes and claims.", "size": 2074}
      ]
     }
    ]
   },
   {
-   "name": "animate",
-   "children": [
-    {"name": "Easing", "size": 17010},
-    {"name": "FunctionSequence", "size": 5842},
-    {
-     "name": "interpolate",
-     "children": [
-      {"name": "ArrayInterpolator", "size": 1983},
-      {"name": "ColorInterpolator", "size": 2047},
-      {"name": "DateInterpolator", "size": 1375},
-      {"name": "Interpolator", "size": 8746},
-      {"name": "MatrixInterpolator", "size": 2202},
-      {"name": "NumberInterpolator", "size": 1382},
-      {"name": "ObjectInterpolator", "size": 1629},
-      {"name": "PointInterpolator", "size": 1675},
-      {"name": "RectangleInterpolator", "size": 2042}
-     ]
-    },
-    {"name": "ISchedulable", "size": 1041},
-    {"name": "Parallel", "size": 5176},
-    {"name": "Pause", "size": 449},
-    {"name": "Scheduler", "size": 5593},
-    {"name": "Sequence", "size": 5534},
-    {"name": "Transition", "size": 9201},
-    {"name": "Transitioner", "size": 19975},
-    {"name": "TransitionEvent", "size": 1116},
-    {"name": "Tween", "size": 6006}
-   ]
-  },
-  {
-   "name": "data",
+   "name": "Innovation",
    "children": [
     {
-     "name": "converters",
+     "name": "Investments",
      "children": [
-      {"name": "Converters", "size": 721},
-      {"name": "DelimitedTextConverter", "size": 4294},
-      {"name": "GraphMLConverter", "size": 9800},
-      {"name": "IDataConverter", "size": 1314},
-      {"name": "JSONConverter", "size": 2220}
+      {"name": "Source: customer funded and internal research and development, acquisitions and joint ventures or other teaming arrangements.", "size": 7983},
+      {"name": "Commercial cybersecurity market where 'Forcepoint' joint venture competes", "size": 2047}
      ]
     },
-    {"name": "DataField", "size": 1759},
-    {"name": "DataSchema", "size": 2165},
-    {"name": "DataSet", "size": 586},
-    {"name": "DataSource", "size": 3331},
-    {"name": "DataTable", "size": 772},
-    {"name": "DataUtil", "size": 3322}
+    {
+     "name": "Product Design Complexity",
+     "children": [
+      {"name": "Numerous delay factors: unknown solutions, increase in new programs, competitor product acceptances.", "size": 7983},
+      {"name": "No 'guarantee' of old/new market expansions, or acquisitions, joint ventures", "size": 2047}
+     ]
+    }
    ]
   },
   {
-   "name": "display",
+   "name": "Competitors",
    "children": [
-    {"name": "DirtySprite", "size": 8833},
-    {"name": "LineSprite", "size": 1732},
-    {"name": "RectSprite", "size": 3623},
-    {"name": "TextSprite", "size": 10066}
+    {"name": "Bid protests from unsuccessful bidders on new program awards are becoming more frequent.", "size": 1759},
+    {"name": "Bid protest delays the start of contract activities, delay earnings, and results in award decision being overturned, requiring a re-bid of the contract.", "size": 2165},
+    {"name": "DoD are increasingly turning to commercial contractors, rather than traditional defense contractors, for information technology and other support work.", "size": 586},
+    {"name": "DoD increased use of Other Transaction Authority (OTA) contracts, it awards research and development work without all of the procurement requirements.", "size": 3331},
+	{"name": "(OTA) contracts don't require procurement requirements that typically apply to DoD contracts, including justification of sole source awards.", "size": 3331},
+    {"name": "U.S. government has been awarding more development programs due to changing U.S. government priorities.", "size": 772}
    ]
   },
   {
-   "name": "flex",
+   "name": "Department of Homeland Security (DHS)",
    "children": [
-    {"name": "FlareVis", "size": 4116}
+    {"name": "Entitled to limited indemnification from customers through contractual provisions.", "size": 8833},
+    {"name": "SAFETY Act provisions of the Homeland Security Act of 2002 handicaps us.", "size": 1732},
+    {"name": "Contractual insurance coverage or indemnification not adequate to cover all claims or liabilities.", "size": 3623}
    ]
   },
   {
-   "name": "physics",
+   "name": "Hazardous substances",
    "children": [
-    {"name": "DragForce", "size": 1082},
-    {"name": "GravityForce", "size": 1336},
-    {"name": "IForce", "size": 319},
+    {"name": "Pay for: proper management, treatment, storage and disposal of hazardous substances and wastes", "size": 4116},
+	{"name": "Pay for: air and water emissions restriction from our operations (including U.S. government-owned facilities we manage).", "size": 4116},
+	{"name": "Pay for: maintenance of a safe workplace", "size": 4116},
+	{"name": "U.S. Environmental Protection Agency (EPA) regulates U.S. environmental statutes such as the Clean Air Act and Clean Water Act on us.", "size": 3116},
+	{"name": "Pay for: maintenance of a safe workplace", "size": 2116}
+   ]
+  },
+  {
+   "name": "LITIGATIONS",
+   "children": [
+    {
+     "name": "June 28th, 2019: Raytheon Accused Of Shorting Retirees On Benefits",
+     "children": [
+      {"name": "Shortchanged retirees and violated the Employee Retirement Income Security Act by using outdated mortality rates to calculate retirement benefits.", "size": 3938},
+      {"name": "Alternative annuity benefits for retirees would be 'actuarially equivalent' to their default benefits under the plan.", "size": 3812},
+      {"name": "Plan used a 1971 mortality table and 7% interest rate to calculate those alternatives, this lowered the would be equivalent to the default benefits.", "size": 6714},
+      {"name": "Raytheon also miscalculated the value of benefits under a subsidiary plan by using 1984 mortality rates and a 6% interest rate.", "size": 743},
+	  {"name": "Alternatives must have same current value for multiple future cash payments, retirees lose part of their vested retirement benefits in violation of ERISA.", "size": 3938},
+      {"name": "Alternative annuity benefits for retirees would be 'actuarially equivalent' to their default benefits under the plan.", "size": 3812},
+      {"name": "Raytheon used 2014 mortality table in financial statements filed with the U.S. Securities and Exchange Commission to show improvements to mortality.", "size": 6714}
+     ]
+    },
+    {
+     "name": "Sept. 21, 2017: Peraton files suit against Raytheon",
+     "children": [
+      {"name": "Raytheon breached its contract and miappropriated its trade secrets.", "size": 3938},
+      {"name": "Peraton states it planned to team with Raytheon on two different contracts to support a national security agency.", "size": 3812},
+      {"name": "Raytheon later elected to pursue the same two contracts independently as a competitor to Peraton and teamed with other competitors of Peraton.", "size": 6714},
+      {"name": "Raytheon at first agreed to 'firewall' certain employees with access to Harris' trade secrets but then dropped the firewalls.", "size": 743},
+	  {"name": "Additionally, Raytheon has failed to provide any assurances regarding the scope of its distribution of Peraton’s trade secrets internally or externally.", "size": 3938},
+      {"name": "Raytheon contends the agreement with Peraton was 'always expressly non-exclusive' and calls the lawsuit's claims 'baseless.'", "size": 3812}
+     ]
+    },
+    {
+     "name": "Aug. 3, 2017: Raytheon wins end to whistleblower's $1 billion satellite lawsuit",
+     "children": [
+      {"name": "Accusation: Overbilling the U.S. government on a contract for satellite sensors, nearly 1-1/2 years after a federal appeals court revived the case.", "size": 3938},
+      {"name": "The False Claims Act case, which began in 2006.", "size": 3812},
+      {"name": "Mismanaged subcontract to develop weather sensor for the National Polar-Orbiting Operational Environmental Satellite System (NPOESS), Northrop Grumman Corp - main contractor", "size": 6714},
+      {"name": "Accusers fraud allegations remained too general, and his 'barebones' allegations regarding materiality also required dismissal. Complaint ammended five times.", "size": 743}
+     ]
+    },
     {"name": "NBodyForce", "size": 10498},
     {"name": "Particle", "size": 2822},
     {"name": "Simulation", "size": 9983},
