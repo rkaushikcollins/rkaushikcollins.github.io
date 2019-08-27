@@ -116,11 +116,91 @@
       {"name": "Accusers fraud allegations remained too general, and his 'barebones' allegations regarding materiality also required dismissal. Complaint ammended five times.", "size": 743}
      ]
     },
-    {"name": "NBodyForce", "size": 10498},
-    {"name": "Particle", "size": 2822},
-    {"name": "Simulation", "size": 9983},
-    {"name": "Spring", "size": 2213},
-    {"name": "SpringForce", "size": 1681}
+    {
+     "name": "Sept. 2, 2016: Fraud Claims Lead to Suit Against Raytheon",
+     "children": [
+      {"name": "Accusation: Raytheon employees making $175K/year were misusing government resources and spending a fraction of the time required training Afghan troops.", "size": 3938},
+      {"name": "Steven Kalch, Retired U.S. Army Lieutenant Colonel witnessed several instances of fraud, waste and abuse from 2012 to 2014.", "size": 3812},
+      {"name": "He was fired in early 2014 over claims he tape-recorded U.S. Special Forces teams.", "size": 6714},
+      {"name": "Trainers often putting in less than two hours per day performing duties outlined in the government contract.", "size": 2743},
+	  {"name": "He was instructed to put his suspicions in writing so it could be shared exclusively with Raytheon leadership.", "size": 1743},
+	  {"name": "Raytheon officials allegedly shared that document with the Afghan commander in question of stealing money.", "size": 743},
+	  {"name": "Raytheon superior after the incident and was told 'not to put anything in writing in the future'.", "size": 643},
+	  {"name": "Allegations of retaliation include the superior playing Christmas music endlessly in the office & placing singing Santa Claus directly behind Kalch's desk.", "size": 633}
+     ]
+    },
+    {
+     "name": "Nov. 3, 2015: Ex-employee sues Raytheon, alleging discrimination, retaliation",
+     "children": [
+      {"name": "Accusation: Religious discrimination, race discrimination, national origin discrimination and retaliation.", "size": 3938},
+      {"name": "Ammar Al-habash, a Muslim U.S. citizen born in Syria with two master's degrees, a Ph.D. in mathematics and top security clearance from U.S. government.", "size": 3812},
+      {"name": "Al-habash was assigned tasks outside his competency level, prevented from completing applications for project clearance & passed over for promotions.", "size": 6714},
+      {"name": "Al-habash heard Raytheon employees say Muslims and Arabs were 'all savages' and 'monsters,' and that 'we should bomb the hell out of all of them'.", "size": 2743},
+	  {"name": "Al-habash was later denied credit on a project on which he served as a consultant.", "size": 1743},
+	  {"name": "Received negative annual performance review + subjected to performance improvement plan after filing discrimination charge with the Equal Employment Opportunity Commission.", "size": 1743}
+     ]
+    },
+	{
+     "name": "May 13, 2004: Raytheon settles class action lawsuit for $410 million",
+     "children": [
+      {"name": "Accusation: securities law violations in now-discontinued Raytheon units between October 1998 and October 1999.", "size": 3938},
+      {"name": "Settlement includes a cash payment of $210 million and warrants for Raytheon stock valued at $200 million.", "size": 3812},
+      {"name": "Raytheon said the lawsuit was meritless but that the company wanted to remove the uncertainty surrounding the outcome of the litigation.", "size": 6714},
+      {"name": "Raytheon expects insurers to cover nearly (1/5)th of the $410 million settlement of lawsuit, even though the insurers had not approved the settlement.", "size": 2743},
+	  {"name": "Later that day, Raytheon reported one-off charges totaling $638 million and reduced earnings expectations.", "size": 1743},
+	  {"name": "Raytheon issued materially false and misleading statements regarding its financial performance.", "size": 1643},
+	  {"name": "Raytheon's Engineering & Constructors division ('RE & C') failed to disclose losses on major contracts.", "size": 1543},
+	  {"name": "RE & C misleadingly reported revenues on existing and anticipated contracts.", "size": 1443},
+	  {"name": "Raytheon failed to disclose that projects relating to the P-3 Orion aircraft and other defense equipment were over budget and behind schedule.", "size": 1443},
+	  {"name": "Raytheon failed to disclose that the Joint Primary Aircraft Training System was over budget and behind schedule.", "size": 1243},
+	  {"name": "The Securities action apparently settled in December 2004.", "size": 1243}
+     ]
+    },
+    {
+     "name": "May 19, 2003: Insurance coverage dispute",
+     "children": [
+      {"name": "Accusation: class action invoking section 10 the Securities Exchange Act of 1934 filed against Raytheon and several of its senior officers ('the Securities action').", "size": 3938},
+      {"name": "The district court held that coverage was excluded under the prior and pending litigation exclusion clauses of both policies.", "size": 3812},
+      {"name": "Coverage for both insurers is excluded under the Federal policy.", "size": 6714},
+      {"name": "In 1999, Wall Street Journal article reported Raytheon, unbeknownst to investors, experienced cost overruns and was behind schedule on many defense-related contracts.", "size": 2743},
+	  {"name": "Later that day, Raytheon reported one-off charges totaling $638 million and reduced earnings expectations.", "size": 1743},
+	  {"name": "Raytheon issued materially false and misleading statements regarding its financial performance.", "size": 1643},
+	  {"name": "Raytheon's Engineering & Constructors division ('RE & C') failed to disclose losses on major contracts.", "size": 1543},
+	  {"name": "RE & C misleadingly reported revenues on existing and anticipated contracts.", "size": 1443},
+	  {"name": "Raytheon failed to disclose that projects relating to the P-3 Orion aircraft and other defense equipment were over budget and behind schedule.", "size": 1443},
+	  {"name": "Raytheon failed to disclose that the Joint Primary Aircraft Training System was over budget and behind schedule.", "size": 1243},
+	  {"name": "The Securities action apparently settled in December 2004.", "size": 1243}
+     ]
+    },
+    {
+     "name": "May ?, 2003: Breach of fiduciary duty - Employee Retirement Income Security Act of 1974",
+     "children": [
+      {"name": "Accusation: ERISA complaint alleged that the defendants were ERISA fiduciaries of the Plan.", "size": 3938},
+      {"name": "Imprudent investment; failure to monitor other fiduciaries; misrepresentation + failure to disclose information to beneficiaries & failure to avoid conflicts of interest.", "size": 3812}
+     ]
+    },
+    {
+     "name": "April 5, 1999: Raytheon Employees Resign in Wake Of Lawsuit Protesting Internet Postings",
+     "children": [
+      {"name": "Accusation: Raytheon suspected some employees were talking behind its back on the Internet, the defense contractor took them to court.", "size": 3938},
+      {"name": "21 people were using aliases to divulge company secrets, Raytheon got their real identities and the Web talk stopped.", "size": 3812},
+      {"name": "Four of the workers quit, and the rest entered corporate 'counseling,' Raytheon dropped the suit and claimed victory.", "size": 6714},
+      {"name": "Yahoo Chatterers used aliases like 'Rayman-mass' and 'RaytheonVeteran'.", "size": 2743},
+	  {"name": "Raytheon obtained subpoenas against Yahoo! and other Internet services like America Online, and Raytheon eventually learned all 21 names.", "size": 1743},
+	  {"name": "Employees exchanged gossip about the company and its executives, griped about Raytheon's stock price and discussed business deals, finances and staffing.", "size": 1643}
+     ]
+    },
+	{
+     "name": "Sept. , 1994: UNITED STATES, Department of Justice SUES RAYTHEON CO. UNDER FALSE CLAIMS ACT",
+     "children": [
+      {"name": "Accusation: Raytheon violated the False Claims Act by inflating the cost of a defense contract for a radar system.", "size": 3938},
+      {"name": "Allegations relate to the PAVE PAWS system, a phased array radar system designed to detect incoming submarine-launched ballistic missiles.", "size": 3812},
+      {"name": "Raytheon knowingly inflated its 'skill mix,' or ratio of higher to lower skilled employees, to increase the price of the contract.", "size": 6714},
+      {"name": "When the US requested data on the skill mix Raytheon said it did not have the information in the form requested by the United States.", "size": 2743},
+	  {"name": "US alleged that Raytheon had the information in the requested form + they analyzed the skill mix proposal itself.", "size": 1743},
+	  {"name": "When the comparison was unfavorable, Raytheon instructed the employee who performed the analysis to 'bury' the information.", "size": 1643}
+     ]
+    }
    ]
   },
   {
