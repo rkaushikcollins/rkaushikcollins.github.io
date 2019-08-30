@@ -96,6 +96,42 @@ rect:hover {  fill:blue; }
     align:right;
     width:50px;
 }
+
+table {
+  border-collapse: collapse;
+  font: 13px sans-serif;
+  width: 720px;
+}
+
+th {
+  font-weight: bold;
+  text-align: right;
+  padding-right: 6px;
+  min-width: 400px;
+}
+
+thead td {
+  cursor: s-resize;
+  font-weight: bold;
+}
+
+tbody tr:first-child td {
+  padding-top: 2px;
+}
+
+tbody td {
+  padding: 0;
+  border-left: solid 1px #000;
+}
+
+.suppliersChart tbody rect {
+  fill: #E41A38;
+}
+
+.suppliersChart tbody tr:hover rect {
+  fill: #2ea614;
+}
+
 </style>
 
 <head>
@@ -107,17 +143,19 @@ rect:hover {  fill:blue; }
 			document.getElementById("riskFactors").style.display = "none";
 			document.getElementById("competitorBubbles").style.display = "none";
 			document.getElementById("customersChart").style.display = "none";
+			document.getElementById("suppliersChart").style.display = "none";
 		}
         window.onload = hideAllElements;
         </script>
 </head>
 
 <body>
-<!--<script src="//d3js.org/d3.v3.min.js"></script>-->
+<script src="//d3js.org/d3.v3.min.js"></script>
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script src="https://unpkg.com/d3-simple-slider"></script>
 <script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://d3js.org/d3.v4.min.js"></script>
+
 <link
   rel="stylesheet"
   href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
@@ -169,6 +207,27 @@ rect:hover {  fill:blue; }
 	</div>
 	
 	<div id="suppliersChart" class="suppliersChart" align="center">
+	<p align="center"><b>Raytheon's Suppliers by Segment in Most Recent Quarter in %</b></p>
+	<br>
+		<table>
+			<thead>
+				<tr>
+				<th>Supplier</th>
+				<td>Missile Systems (Rev.)</td>
+				<td>Network Centric Systems (Rev.)</td>
+				<td>Space & Airborne Systems (Rev.)</td>
+				<td>Integrated Defense Systems (Rev.)</td>
+				<td>Intelligence & Information Systems (Rev.)</td>
+				<td>Missile Systems (Inc.)</td>
+				<td>Network Centric Systems (Inc.)</td>
+				<td>Space & Airborne Systems (Inc.)</td>
+				<td>Integrated Defense Systems (Inc.)</td>
+				<td>Intelligence & Information Systems (Inc.)</td>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
 	</div>
 	
 	<div id="competitorBubbles" class="competitorBubbles" align="center">
@@ -233,9 +292,9 @@ var svg = d3.select('div#risk-tree').append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.json("flare.json", function(error, flare) {
+d3.json("risks.json", function(error, risks) {
   if (error) throw error;
-  root = d3.hierarchy(flare);
+  root = d3.hierarchy(risks);
   root.x0 = 0;
   root.y0 = 0;
   update(root);
@@ -642,6 +701,50 @@ var freqDataIncome=[
 
 dashboard('#customersChart',freqDataIncome);
 
+</script>
+
+<script>
+
+d3.csv("suppliers.csv", function(error, suppliers) {
+  if (error) throw error;
+
+  var ages = d3.keys(suppliers[0]).filter(function(key) {
+    return key != "Supplier";
+  });
+
+  d3.selectAll("thead td").data(ages).on("click", function(k) {
+    tr.sort(function(a, b) { return (b[k] / 105) - (a[k] / 105); });
+  });
+
+  var tr = d3.select("#suppliersChart").select("tbody").selectAll("tr")
+      .data(suppliers)
+    .enter().append("tr");
+
+  tr.append("th")
+      .text(function(d) { return d.Supplier; });
+	  
+  tr.selectAll("td")
+      .data(function(d) { return ages.map(function(k) { return d[k]/105; }); })
+    .enter().append("td").append("svg")
+      .attr("width", 71)
+      .attr("height", 12)
+    .append("rect")
+      .attr("height", 12)
+      .attr("width", function(d) { return d * 71; });
+	
+	tr.selectAll("td").data(function(d) { return ages.map(function(k) { return d[k]/105; }); })
+	.selectAll("svg")
+	.append("text")
+	.attr("text-anchor", "end")
+	.attr("x", 50)
+    .attr("y", 5)
+    .attr("dy", ".35em")
+	.text(function(d,i) { 
+	return (d*105).toFixed(2); })
+	.style('font-family', '"Open Sans", sans-serif')
+	.style('font-weight', '500');
+});
+	
 </script>
 
 <script>
