@@ -1,0 +1,1170 @@
+{
+ "name": "Raytheon Competitors",
+ "children": [
+  {
+   "name": "Lockheed Martin",
+   "children": [
+    {
+     "name": "General Info.",
+     "children": [
+      {
+		"name": "Headquarters", 
+		"size": 1000,
+		"children": [
+			{"name": "2980 Bethesda, Maryland, United States", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Founded", 
+		"size": 1000,
+		"children": [
+			{"name": "March 15, 1995; 24 years ago", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Industry", 
+		"size": 1000,
+		"children": [	
+			{"name": "Advanced Technologies", "size": 1000},
+			{"name": "Information Security", "size": 1000},
+			{"name": "Aerospace", "size": 1000},
+			{"name": "Defense", "size": 1000}
+		]
+	  },
+      {"name": "Type: Public", "size": 1000},
+	  {
+		"name": "CEO", 
+		"size": 1000,
+		"children": [
+			{"name": "Marillyn Hewson", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Revenue", 
+		"size": 1000,
+		"children": [
+			{"name": "US$53.76 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Operating income", 
+		"size": 1000,
+		"children": [
+			{"name": "US$7.33 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Net income", 
+		"size": 1000,
+		"children": [
+			{"name": "US$5.04 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Total assets", 
+		"size": 1000,
+		"children": [
+			{"name": "US$44.87 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Total equity", 
+		"size": 1000,
+		"children": [
+			{"name": "US$1.39 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "# of Employees", 
+		"size": 1000,
+		"children": [
+			{"name": "105,000 (2018)", "size": 1000}
+		]
+	  }
+     ]
+    },
+    {
+     "name": "Government contracts",
+     "children": [
+      {"name": "Dept. of Defense", "size": 1000},
+      {"name": "Dept. of Energy", "size": 1000},
+      {"name": "Dept. of Agriculture", "size": 1000},
+      {"name": "Environmental Protection Agency", "size": 1000},
+	  {"name": "CIA", "size": 1000},
+      {"name": "FBI", "size": 1000},
+      {"name": "Internal Revenue Service (IRS)", "size": 1000},
+      {"name": "National Security Agency (NSA)", "size": 1000},
+	  {"name": "Pentagon", "size": 1000},
+      {"name": "Census Bureau", "size": 1000},
+      {"name": "Postal Service", "size": 1000}
+     ]
+    },
+    {
+     "name": "Raytheon Specific Info.",
+     "children": [
+	  {
+		"name": "Joint venture", 
+		"size": 1000,
+		"children": [
+			{"name": "Javelin Joint Venture (with Raytheon)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "UTC-Sikorsky", 
+		"size": 1000,
+		"children": [
+			{"name": "July 20, 2015 - Lockheed Martin announced an agreement to purchase Sikorsky from UTC for $9.0 billion", "size": 1000}
+		]
+	  }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Northrup Grumman",
+   "children": [
+    {
+     "name": "General Info.",
+     "children": [
+      {
+		"name": "Headquarters", 
+		"size": 1000,
+		"children": [
+			{"name": "2980 Fairview Park Drive, West Falls Church, Virginia, United States", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Founded", 
+		"size": 1000,
+		"children": [
+			{"name": "1994; 25 years ago", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Industry", 
+		"size": 1000,
+		"children": [
+			{"name": "Military aircraft", "size": 1000},
+			{"name": "Unmanned aerial vehicles", "size": 1000},
+			{"name": "Military vessels", "size": 1000},
+			{"name": "Missiles & missile defense systems", "size": 1000},
+			{"name": "Autocannons", "size": 1000},
+			{"name": "Chain guns & munitions", "size": 1000},
+			{"name": "Satellites & space", "size": 1000},
+			{"name": "Information technology", "size": 1000},
+			{"name": "Electronic sensors and systems", "size": 1000},
+			{"name": "Rocket launch systems", "size": 1000}
+		]
+	  },
+      {"name": "Type: Public", "size": 1000},
+	  {
+		"name": "CEO", 
+		"size": 1000,
+		"children": [
+			{"name": "Kathy J. Warden", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Revenue", 
+		"size": 1000,
+		"children": [
+			{"name": "US$30.1 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Operating income", 
+		"size": 1000,
+		"children": [
+			{"name": "US$3.78 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Net income", 
+		"size": 1000,
+		"children": [
+			{"name": "US$3.229 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Total assets", 
+		"size": 1000,
+		"children": [
+			{"name": "US$34.917 billion (2017)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Total equity", 
+		"size": 1000,
+		"children": [
+			{"name": "US$7.048 billion (2017)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "# of Employees", 
+		"size": 1000,
+		"children": [
+			{"name": "85,000 (2019)", "size": 1000}
+		]
+	  }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Boeing",
+   "children": [
+    {
+     "name": "General Info.",
+     "children": [
+      {
+		"name": "Headquarters", 
+		"size": 1000,
+		"children": [
+			{"name": "Boeing International Headquarters, Chicago, Illinois, U.S.", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Founded", 
+		"size": 1000,
+		"children": [
+			{"name": "July 15, 1916; 103 years ago (as Pacific Aero Products Co.) Seattle, Washington, U.S.", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Industry", 
+		"size": 1000,
+		"children": [
+			{"name": "Aerospace", "size": 1000},
+			{"name": "Defense", "size": 1000}
+		]
+	  },
+      {"name": "Type: Public", "size": 1000},
+	  {
+		"name": "CEO", 
+		"size": 1000,
+		"children": [
+			{"name": "Dennis Muilenburg", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Revenue", 
+		"size": 1000,
+		"children": [
+			{"name": "US$101.127 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Operating income", 
+		"size": 1000,
+		"children": [
+			{"name": "US$11.987 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Net income", 
+		"size": 1000,
+		"children": [
+			{"name": "US$10.460 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Total assets", 
+		"size": 1000,
+		"children": [
+			{"name": "US$117.359 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Total equity", 
+		"size": 1000,
+		"children": [
+			{"name": "US$410 million (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "# of Employees", 
+		"size": 1000,
+		"children": [
+			{"name": "153,027 (January 1, 2018)", "size": 1000}
+		]
+	  }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "BAE Systems",
+   "children": [
+    {
+     "name": "General Info.",
+     "children": [
+      {
+		"name": "Headquarters", 
+		"size": 1000,
+		"children": [
+			{"name": "London & Farnborough, UK", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Founded", 
+		"size": 1000,
+		"children": [
+			{"name": "30 November 1999; 19 years ago", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Industry", 
+		"size": 1000,
+		"children": [
+			{"name": "Civil and military aerospace", "size": 1000},
+			{"name": "Defence electronics", "size": 1000},
+			{"name": "Naval vessels", "size": 1000},
+			{"name": "Munitions", "size": 1000},
+			{"name": "Land warfare systems", "size": 1000}
+		]
+	  },
+      {"name": "Type: Public", "size": 1000},
+	  {
+		"name": "CEO", 
+		"size": 1000,
+		"children": [
+			{"name": "Charles Woodburn", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Revenue", 
+		"size": 1000,
+		"children": [
+			{"name": "US$101.127 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Operating income", 
+		"size": 1000,
+		"children": [
+			{"name": "£1.61 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Net income", 
+		"size": 1000,
+		"children": [
+			{"name": "£1.03 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Total assets", 
+		"size": 1000,
+		"children": [
+			{"name": "£24.75 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Total equity", 
+		"size": 1000,
+		"children": [
+			{"name": "£5.62 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "# of Employees", 
+		"size": 1000,
+		"children": [
+			{"name": "83,200 (2019)", "size": 1000}
+		]
+	  }
+     ]
+    },
+    {
+     "name": "Raytheon Specific Info.",
+     "children": [
+	  {
+		"name": "Possible Merger", 
+		"size": 1000,
+		"children": [
+			{"name": "The possibility of a merger between BAE Systems Inc. and major North American defence contractors has long been reported, including Boeing, General Dynamics, Lockheed Martin, and Raytheon.", "size": 1000}
+		]
+	  }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "General Dynamics",
+   "children": [
+    {
+     "name": "General Info.",
+     "children": [
+      {
+		"name": "Headquarters", 
+		"size": 1000,
+		"children": [
+			{"name": "West Falls Church, Virginia, United States", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Founded", 
+		"size": 1000,
+		"children": [
+			{"name": "February 7, 1899; 120 years ago", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Industry", 
+		"size": 1000,
+		"children": [
+			{"name": "Aerospace", "size": 1000},
+			{"name": "Defense", "size": 1000},
+			{"name": "Shipbuilding", "size": 1000}
+		]
+	  },
+      {"name": "Type: Public", "size": 1000},
+	  {
+		"name": "CEO", 
+		"size": 1000,
+		"children": [
+			{"name": "Phebe Novakovic", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Revenue", 
+		"size": 1000,
+		"children": [
+			{"name": "US$36.19 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Operating income", 
+		"size": 1000,
+		"children": [
+			{"name": "US$4.45 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Net income", 
+		"size": 1000,
+		"children": [
+			{"name": "US$3.34 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Total assets", 
+		"size": 1000,
+		"children": [
+			{"name": "US$45.40 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Total equity", 
+		"size": 1000,
+		"children": [
+			{"name": "US$11.73 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "# of Employees", 
+		"size": 1000,
+		"children": [
+			{"name": "105,600 (December 2018)", "size": 1000}
+		]
+	  }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "AIRBUS",
+   "children": [
+    {
+     "name": "General Info.",
+     "children": [
+      {
+		"name": "Headquarters", 
+		"size": 1000,
+		"children": [
+			{"name": "Blagnac, Greater Toulouse, France", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Founded", 
+		"size": 1000,
+		"children": [
+			{"name": "18 December 1970; 48 years ago (as Airbus Industrie GIE)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Industry", 
+		"size": 1000,
+		"children": [
+			{"name": "Aerospace", "size": 1000},
+			{"name": "Defense", "size": 1000}
+		]
+	  },
+      {"name": "Type: Public", "size": 1000},
+	  {
+		"name": "CEO", 
+		"size": 1000,
+		"children": [
+			{"name": "Guillaume Faury", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Revenue", 
+		"size": 1000,
+		"children": [
+			{"name": "€63.70 billion", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Operating income", 
+		"size": 1000,
+		"children": [
+			{"name": "€5.04 billion", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Net income", 
+		"size": 1000,
+		"children": [
+			{"name": "€3.05 billion", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Total assets", 
+		"size": 1000,
+		"children": [
+			{"name": "€115.19 billion", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Total equity", 
+		"size": 1000,
+		"children": [
+			{"name": "€9.72 billion", "size": 1000}
+		]
+	  },
+	  {
+		"name": "# of Employees", 
+		"size": 1000,
+		"children": [
+			{"name": "133,671 (2018)", "size": 1000}
+		]
+	  }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "UTC",
+   "children": [
+    {
+     "name": "General Info.",
+     "children": [
+      {
+		"name": "Headquarters", 
+		"size": 1000,
+		"children": [
+			{"name": "Farmington, Connecticut, United States", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Founded", 
+		"size": 1000,
+		"children": [
+			{"name": "1975; 44 years ago (as United Technologies Corporation)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Industry", 
+		"size": 1000,
+		"children": [
+			{"name": "Conglomerate", "size": 1000}
+		]
+	  },
+      {"name": "Type: Public", "size": 1000},
+	  {
+		"name": "CEO", 
+		"size": 1000,
+		"children": [
+			{"name": "Gregory J. Hayes", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Revenue", 
+		"size": 1000,
+		"children": [
+			{"name": "US$66.501 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Operating income", 
+		"size": 1000,
+		"children": [
+			{"name": "US$8.553 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Net income", 
+		"size": 1000,
+		"children": [
+			{"name": "US$5.269 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Total assets", 
+		"size": 1000,
+		"children": [
+			{"name": "US$134.211 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Total equity", 
+		"size": 1000,
+		"children": [
+			{"name": "US$38.446 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "# of Employees", 
+		"size": 1000,
+		"children": [
+			{"name": "240,000 (2018)", "size": 1000}
+		]
+	  }
+     ]
+    },
+	{
+	  "name": "Raytheon Specific Info.",
+	  "children": [
+	  	{
+	  	"name": "Merger", 
+	  	"size": 1000,
+	  	"children": [
+	  		{"name": "In June 2019, United Technologies announced the intention to merge with defense contractor Raytheon to form Raytheon Technologies Corporation", "size": 1000},
+	  		{"name": "The combined company, valued at more than $100 billion after planned spinoffs, will be the world’s second-largest aerospace-and-defense company by sales behind Boeing", "size": 1000}
+	  	]
+	  	}
+	  ]
+	}
+   ]
+  },
+  {
+   "name": "Textron",
+   "children": [
+    {
+     "name": "General Info.",
+     "children": [
+      {
+		"name": "Headquarters", 
+		"size": 1000,
+		"children": [
+			{"name": "Providence, Rhode Island, US", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Founded", 
+		"size": 1000,
+		"children": [
+			{"name": "1923; 96 years ago", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Industry", 
+		"size": 1000,
+		"children": [
+			{"name": "Aerospace", "size": 1000},
+			{"name": "Automotive", "size": 1000},
+			{"name": "Defence", "size": 1000}
+		]
+	  },
+      {"name": "Type: Public", "size": 1000},
+	  {
+		"name": "CEO", 
+		"size": 1000,
+		"children": [
+			{"name": "Scott C. Donnelly", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Revenue", 
+		"size": 1000,
+		"children": [
+			{"name": "US$13.423 billion (2015)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Operating income", 
+		"size": 1000,
+		"children": [
+			{"name": "US$698 million (2015)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Net income", 
+		"size": 1000,
+		"children": [
+			{"name": "US$698 million (2015)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Total assets", 
+		"size": 1000,
+		"children": [
+			{"name": "US$14.708 billion (2015)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Total equity", 
+		"size": 1000,
+		"children": [
+			{"name": "US$4.964 billion (2015)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "# of Employees", 
+		"size": 1000,
+		"children": [
+			{"name": "35,000 (2015)", "size": 1000}
+		]
+	  }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Bombardier Inc.",
+   "children": [
+    {
+     "name": "General Info.",
+     "children": [
+      {
+		"name": "Headquarters", 
+		"size": 1000,
+		"children": [
+			{"name": "Montreal, Quebec, Canada", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Founded", 
+		"size": 1000,
+		"children": [
+			{"name": "Valcourt, Quebec, Canada July 10, 1942; 77 years ago", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Industry", 
+		"size": 1000,
+		"children": [
+			{"name": "Aerospace", "size": 1000},
+			{"name": "Automotive", "size": 1000},
+			{"name": "Defence", "size": 1000}
+		]
+	  },
+      {"name": "Type: Public", "size": 1000},
+	  {
+		"name": "CEO", 
+		"size": 1000,
+		"children": [
+			{"name": "Alain Bellemare", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Revenue", 
+		"size": 1000,
+		"children": [
+			{"name": "US$16.236 billion (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Net income", 
+		"size": 1000,
+		"children": [
+			{"name": "US$438 million (2018)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "# of Employees", 
+		"size": 1000,
+		"children": [
+			{"name": "69,500 (2017)", "size": 1000}
+		]
+	  }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "General Atomics",
+   "children": [
+    {
+     "name": "General Info.",
+     "children": [
+      {
+		"name": "Headquarters", 
+		"size": 1000,
+		"children": [
+			{"name": "San Diego, California, United States", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Founded", 
+		"size": 1000,
+		"children": [
+			{"name": "July 18, 1955; 64 years ago", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Industry", 
+		"size": 1000,
+		"children": [
+			{"name": "Energy industry, and Technology", "size": 1000},
+			{"name": "Defense industry, and Technology", "size": 1000},
+			{"name": "Aerospace industry, and Technology", "size": 1000}
+		]
+	  },
+      {"name": "Type: Private", "size": 1000},
+	  {
+		"name": "CEO", 
+		"size": 1000,
+		"children": [
+			{"name": "J. Neal Blue", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Parent Company", 
+		"size": 1000,
+		"children": [
+			{"name": "General Dynamics", "size": 1000}
+		]
+	  },
+	  {
+		"name": "# of Employees", 
+		"size": 1000,
+		"children": [
+			{"name": "15,000", "size": 1000}
+		]
+	  }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Crane Co.",
+   "children": [
+    {
+     "name": "General Info.",
+     "children": [
+      {
+		"name": "Headquarters", 
+		"size": 1000,
+		"children": [
+			{"name": "Stamford, Connecticut, United States", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Founded", 
+		"size": 1000,
+		"children": [
+			{"name": "Chicago, Illinois (1855)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Industry", 
+		"size": 1000,
+		"children": [
+			{"name": "Aerospace & Electronics", "size": 1000},
+			{"name": "Engineered Materials", "size": 1000},
+			{"name": "Payment and Merchandising Technologies", "size": 1000},
+			{"name": "Fluid Handling", "size": 1000},
+			{"name": "Sensing & Control Systems", "size": 1000}
+		]
+	  },
+      {"name": "Type: Private", "size": 1000},
+	  {
+		"name": "CEO", 
+		"size": 1000,
+		"children": [
+			{"name": "Max Mitchell", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Revenue", 
+		"size": 1000,
+		"children": [
+			{"name": "US$3.0 billion", "size": 1000}
+		]
+	  },
+	  {
+		"name": "# of Employees", 
+		"size": 1000,
+		"children": [
+			{"name": "11,000", "size": 1000}
+		]
+	  }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Honeywell International",
+   "children": [
+    {
+     "name": "General Info.",
+     "children": [
+      {
+		"name": "Headquarters", 
+		"size": 1000,
+		"children": [
+			{"name": "Charlotte, North Carolina, United States", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Founded", 
+		"size": 1000,
+		"children": [
+			{"name": "1906; 113 years ago Wabash, Indiana", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Industry", 
+		"size": 1000,
+		"children": [
+			{"name": "Conglomerate", "size": 1000}
+		]
+	  },
+      {"name": "Type: Public", "size": 1000},
+	  {
+		"name": "CEO", 
+		"size": 1000,
+		"children": [
+			{"name": "Darius Adamczyk", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Revenue", 
+		"size": 1000,
+		"children": [
+			{"name": "US$40.534 billion (2017)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Operating income", 
+		"size": 1000,
+		"children": [
+			{"name": "US$6.902 billion (2017)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Net income", 
+		"size": 1000,
+		"children": [
+			{"name": "US$1.655 billion (2017)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Total assets", 
+		"size": 1000,
+		"children": [
+			{"name": "US$59.387 billion (2017)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Total equity", 
+		"size": 1000,
+		"children": [
+			{"name": "US$17.439 billion (2017)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "# of Employees", 
+		"size": 1000,
+		"children": [
+			{"name": "131,000 (2017)", "size": 1000}
+		]
+	  }
+     ]
+    },
+    {
+     "name": "Raytheon Specific Info.",
+     "children": [
+	  {
+		"name": "Joint venture", 
+		"size": 1000,
+		"children": [
+			{"name": "April 12, 1955: Minneapolis-Honeywell started a joint venture with Raytheon called Datamatic to enter the computer market and compete with IBM.", "size": 1000},
+			{"name": "In 1957, their first computer, the DATAmatic 1000 was sold and installed.", "size": 1000},
+			{"name": "In 1960, Minneapolis-Honeywell bought out Raytheon's interest in Datamatic, now called Honeywell Information Systems (HIS) of Minneapolis-Honeywell.", "size": 1000}
+		]
+	  }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "ITT Inc.",
+   "children": [
+    {
+     "name": "General Info.",
+     "children": [
+      {
+		"name": "Headquarters", 
+		"size": 1000,
+		"children": [
+			{"name": "White Plains, New York, United States", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Founded", 
+		"size": 1000,
+		"children": [
+			{"name": "1920; 99 years ago", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Industry", 
+		"size": 1000,
+		"children": [
+			{"name": "Conglomerate - Industrial", "size": 1000}
+		]
+	  },
+      {"name": "Type: Public", "size": 1000},
+	  {
+		"name": "CEO", 
+		"size": 1000,
+		"children": [
+			{"name": "Luca Savi", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Revenue", 
+		"size": 1000,
+		"children": [
+			{"name": "US$ 2.585 billion (2017)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Operating income", 
+		"size": 1000,
+		"children": [
+			{"name": "US$ 309.7 million (2017)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Net income", 
+		"size": 1000,
+		"children": [
+			{"name": "US$ 113.5 million (2017)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Total assets", 
+		"size": 1000,
+		"children": [
+			{"name": "US$ 3.70 billion (2016)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Total equity", 
+		"size": 1000,
+		"children": [
+			{"name": "US$ 1.596 billion (2016)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "# of Employees", 
+		"size": 1000,
+		"children": [
+			{"name": "10,000 (2017)", "size": 1000}
+		]
+	  }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "FLIR Systems Inc.",
+   "children": [
+    {
+     "name": "General Info.",
+     "children": [
+      {
+		"name": "Headquarters", 
+		"size": 1000,
+		"children": [
+			{"name": "Wilsonville, Oregon, U.S.", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Founded", 
+		"size": 1000,
+		"children": [
+			{"name": "1978; 41 years ago", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Industry", 
+		"size": 1000,
+		"children": [
+			{"name": "Imaging technology", "size": 1000},
+			{"name": "Defense", "size": 1000},
+			{"name": "Security", "size": 1000},
+			{"name": "Enforcement", "size": 1000},
+			{"name": "Thermography", "size": 1000}
+		]
+	  },
+      {"name": "Type: Public", "size": 1000},
+	  {
+		"name": "CEO", 
+		"size": 1000,
+		"children": [
+			{"name": "James J. Cannon", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Revenue", 
+		"size": 1000,
+		"children": [
+			{"name": "US$ 1,530M (2014)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Operating income", 
+		"size": 1000,
+		"children": [
+			{"name": "US$ 259M (2014)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Net income", 
+		"size": 1000,
+		"children": [
+			{"name": "US$ 200M (2014)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Total assets", 
+		"size": 1000,
+		"children": [
+			{"name": " US$ 2,354M (2014)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "Total equity", 
+		"size": 1000,
+		"children": [
+			{"name": "US$ 1,610M (2014)", "size": 1000}
+		]
+	  },
+	  {
+		"name": "# of Employees", 
+		"size": 1000,
+		"children": [
+			{"name": "2,800 (December 31, 2014)", "size": 1000}
+		]
+	  }
+     ]
+    }
+   ]
+  }
+ ]
+}
