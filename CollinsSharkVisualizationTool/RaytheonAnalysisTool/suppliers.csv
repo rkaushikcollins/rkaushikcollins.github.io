@@ -12,95 +12,97 @@ Dow Chemical Co. (Coatings & Infrastructure), 0, 0, 15.79, 15.79, 0, 0, 0, 10.53
 Dupont De Nemours Inc. (Electronic & Communications), 10.58, 10.58, 0, 10.58, 0, 0.59, 0.59, 0, 0.59, 0
 Dupont De Nemours Inc. (Safety & Protection), 0, 0, 3.1, 3.1, 0, 0, 0, 18.35, 18.35, 0
 Molex Inc. (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0  
-Nucor Corp. (Steel mills), 66.65
-Nucor Corp. (Steel products), 25.58
-POWER-ONE INC. (Total), 0
-Sanmina Corp. (Total), 100
+Nucor Corp. (Steel mills), 66.65, 0, 66.65, 66.65, 0, 83.11, 0, 83.11, 83.11, 0
+Nucor Corp. (Steel products), 25.58, 0, 25.58, 25.58, 0, 30.65, 0, 30.65, 30.65, 0
+POWER-ONE INC. (Total), 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 
+Sanmina Corp. (Total), 100, 100, 0, 100, 0, 0, 0, 0, 0, 0 
 Dow Chemical Co. (Electronics & Speciality Materials), 9.21, 9.21, 0, 9.21, 0, 9.37, 9.37, 0, 9.37, 0
-Worthington Industries Inc. (Processed Steel Products), 64.74
-Ciena Corp. (Total), 100
-United States Steel Corp. (Total), 100
-Northrup Grumman Corp (Electronic Systems), 29.55
-Lockheed Martin Corp. (Electronic Systems), 32.63
-Ak Steel Holding Corp. (Total), 0
-Amphenol Corp. (Cable Products), 5.58
-Te Connectivity Ltd. (Network Solutions), 22.92
-Emerson Electric Co. (Electronics & Telecommunications), 20.61
-Broadcom Corp. (Broadband communications), 70.42, 100
-Juniper Networks Inc. (Infrastructure), 74.12
-Cisco Systems Inc. (Routers), 14.14
-Applied Materials Inc. (Display), 6.06
-Te Connectivity Ltd. (Transportation Connectivity), 50.54
-Genuine Parts Co. (Electrical & electronic materials), 4.94
-Ncr Corp. (Emerging industries), 5.77
-Motorola Solutions Inc. (Enterprise), 46.2
-Steel Dynamics Inc. (Steel Operations), 70.18
-Steel Dynamics Inc. (Steel fabrication), 9.45
-Motorola Solutions Inc. (Products), 63.38
-Preformed Line Products Co. (Total), 100
-Kama Co. (Total), 100
-Applied Optoelectronics Inc. (Total), 100
-Lear Corp. (Total), 100
-Stoneridge Inc. (Total), 100
-Bel Fuse Inc. (Total), 100
-General Cable Corp. (Total), 100
-Benchmark Electronics Inc. (Total), 100
-Cui Global Inc. (Total), 100
-Houston Wire & Cable Co. (Total), 100
-leh Corp. (Total), 100
-Torotel Inc. (Total), 100
-Novelis Inc. (Total), 100
-Real Industry Inc. (Total), 100
-Commercial Metals Co. (Total), 0
-Timkensteel Corp. (Total), 100
-Aleris Corp. (Total), 100
-Searchlight Minerals Corp. (Total), 0
-Solitario Zinc Corp. (Total), 0
-Aeroject Rocketdyne Holdings Inc. (Total), 100
-Kmg Chemicals Inc. (Total), 23.52
-Dmc Global Inc. (Total), 100
-Global Brass & Copper Holdings Inc. (Total), 100
-Cemtrex Inc. (Total), 0
-Kaiser Aluminium Corp. (Total), 100
-Matthews International Corp. (Total), 25.83
-Innerworkings Inc. (Total), 100
-Mueller Industries Inc. (Total), 100
-Materion Corp. (Total), 100
-Ryerson Holding Corp (Total), 100
-Encore Wire Corp. (Total), 100
-Broadcom Inc. (Total), 0
-Cavium Inc. (Total), 100
-Cabot Microelectronics Corp. (Total), 0
-Cts Corp. (Total), 0
-Emcore Corp. (Total), 0
-Finisar Corp. (Total), 100
-Iec Electronics Corp. (Total), 100
-Inphi Corp. (Total), 100
-Kimball Electronics Inc. (Total), 24.46
-Adtran Inc. (Total), 100
-Mellanox Technologies Ltd. (Total), 100
-Mrv Communications Inc. (Total), 100
-Maxlinear Inc. (Total), 100
-Neophotonics Corp. (Total), 100
-Osi Systems Inc. (Total), 20.88
-Plexus Corp. (Total), 0
-Sigmatron International Inc. (Total), 100
-Smtc Corp. (Total), 100
-Sparton Corp. (Total), 27.92
-Alphine 4 Technologies Ltd. (Total), 100
-Amplitech Group Inc. (Total), 100
-Arris International Pic (Total), 100
-Clearfield Inc. (Total), 100
-Franklin Wireless Corp. (Total), 100
-Fabrinet (Total), 100
-Harmonic Inc. (Total), 100
-Infinera Corp. (Total), 100
-Communications Systems Inc. (Total), 100
-Lumentum Holdings Inc. (Total), 0
-Lightwave Logic Inc. (Total), 0
-Netgear Inc. (Total), 100
-Parkervision Inc. (Total), 100
-Seachange International Inc. (Total), 100
-Zoom Telephonics Inc. (Total), 100
-li-vi Inc. (Total), 25.5
-Applied Micro Circuits Corp. (Total), 0, 100
+Worthington Industries Inc. (Processed Steel Products), 64.74, 0, 64.74, 64.74, 0, 76.26, 0, 76.26, 76.26, 0
+Ciena Corp. (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+United States Steel Corp. (Total), 100, 0, 100, 100, 0, 100, 0, 100, 100, 0
+Northrop Grumman Corp (Electronic Systems), 29.55, 29.55, 29.55, 29.55, 29.55, 37.88, 37.88, 37.88, 37.88, 37.88
+Lockheed Martin Corp. (Electronic Systems), 32.63, 32.63, 32.63, 32.63, 32.63, 40.61, 40.61, 40.61, 40.61, 40.61
+Ak Steel Holding Corp. (Total), 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 
+Amphenol Corp. (Cable Products), 5.58, 5.58, 0, 5.58, 0, 3.21, 3.21, 0, 3.21, 0
+Te Connectivity Ltd. (Network Solutions), 22.92, 22.92, 0, 22.92, 0, 12.53, 12.53, 0,  12.53, 0
+Emerson Electric Co. (Electronics & Telecommunications), 20.61, 20.61, 0, 20.61, 0, 8.64, 8.64, 0, 8.64, 0
+Broadcom Corp. (Broadband communications), 70.42, 70.42, 0, 70.42, 0, 65.7, 65.7, 0, 65.7, 0
+Juniper Networks Inc. (Infrastructure), 74.12, 74.12, 0, 74.12, 0, 0, 0, 0, 0, 0
+Cisco Systems Inc. (Routers), 14.14, 14.14, 0, 14.14, 0, 0, 0, 0, 0, 0
+Applied Materials Inc. (Display), 6.06, 6.06, 0, 6.06, 0, 4.51, 4.51, 0, 4.51, 0
+Applied Materials Inc. (Total), 0, 0, 100, 100, 0, 0, 0, 100, 100, 0
+Te Connectivity Ltd. (Transportation Connectivity), 50.54, 50.54, 0, 50.54, 0, 66.83, 66.83, 0, 66.83, 0
+Te Connectivity Ltd. (Communications & Industrial Solutions), 0, 26.54, 0, 0, 0, 0, 20.64, 0, 0, 0
+Genuine Parts Co. (Electrical & electronic materials), 4.94, 0, 0, 4.94, 0, 0, 0, 0, 0, 0,
+Ncr Corp. (Emerging industries), 5.77, 5.77, 0, 5.77, 0, 3.83, 3.83, 0, 3.83, 0
+Motorola Solutions Inc. (Enterprise), 46.2, 46.2, 0, 46.2, 0, 20.08, 20.08, 0, 20.08, 0
+Steel Dynamics Inc. (Steel Operations), 70.18, 0, 70.18, 70.18, 0, 96.31, 0, 96.31, 96.31, 0
+Steel Dynamics Inc. (Steel fabrication), 9.45, 0, 9.45, 9.45, 0, 28.37, 0, 28.37, 28.37, 0
+Motorola Solutions Inc. (Products), 63.38, 63.38, 0, 63.38, 0, 67.32, 67.32, 0, 67.32, 0
+Preformed Line Products Co. (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+Kama Co. (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+Applied Optoelectronics Inc. (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+Lear Corp. (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+Stoneridge Inc. (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+Bel Fuse Inc. (Total), 100, 100, 100, 100, 0, 100, 100, 100, 100, 0
+General Cable Corp. (Total), 100, 100, 0, 100, 0, 0, 0, 0, 0, 0
+Benchmark Electronics Inc. (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+Cui Global Inc. (Total), 100, 100, 100, 100, 0, 100, 100, 100, 100, 0
+Houston Wire & Cable Co. (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+Ieh Corp. (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+Torotel Inc. (Total), 100, 100, 100, 100, 0, 100, 100, 100, 100, 0
+Novelis Inc. (Total), 100, 0, 0, 100, 0, 0, 0, 0, 0, 0
+Real Industry Inc. (Total), 100, 0, 0, 100, 0, 100, 0, 0, 100, 0
+Commercial Metals Co. (Total), 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 
+Timkensteel Corp. (Total), 100, 0, 100, 100, 0, 0, 0, 0, 0, 0 
+Aleris Corp. (Total), 100, 0, 0, 100, 0, 0, 0, 0, 0, 0
+Searchlight Minerals Corp. (Total), 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 
+Solitario Zinc Corp. (Total), 0, 0, 0, 0, 0, 100, 0, 0, 100, 0 
+Aerojet Rocketdyne Holdings Inc. (Total), 100, 0, 0, 0, 0, 0, 0, 0, 0, 0 
+Kmg Chemicals Inc. (Total), 23.52, 23.52, 0, 23.52, 0, 37.82, 37.82, 0, 37.82, 0
+Dmc Global Inc. (Total), 100, 0, 100, 100, 0, 0, 0, 0, 0, 0 
+Global Brass & Copper Holdings Inc. (Total), 100, 0, 100, 100, 0, 100, 0, 100, 100, 0
+Cemtrex Inc. (Total), 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 
+Kaiser Aluminium Corp. (Total), 100, 0, 0, 100, 0, 100, 0, 0, 100, 0
+Matthews International Corp. (Total), 25.83, 25.83, 0, 25.83, 0, 24.98, 24.98, 0, 24.98, 0
+Innerworkings Inc. (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+Mueller Industries Inc. (Total), 100, 0, 100, 100, 0, 100, 0, 100, 100, 0
+Materion Corp. (Total), 100, 0, 100, 100, 0, 100, 0, 100, 100, 0
+Ryerson Holding Corp (Total), 100, 0, 100, 100, 0, 100, 0, 100, 100, 0
+Encore Wire Corp. (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+Broadcom Inc. (Total), 0, 100, 0, 100, 0, 0, 100, 0, 100, 0
+Cavium Inc. (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+Cabot Microelectronics Corp. (Total), 0, 0, 0, 0, 0, 22.32, 22.32, 0, 22.32, 0 
+Cts Corp. (Total), 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 
+Emcore Corp. (Total), 0, 0, 0, 0, 0, 100, 100, 0, 100, 0 
+Finisar Corp. (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+Iec Electronics Corp. (Total), 100, 100, 100, 100, 0, 100, 100, 100, 100, 0
+Inphi Corp. (Total), 100, 100, 100, 100, 0, 0, 0, 0, 0, 0 
+Kimball Electronics Inc. (Total), 24.46, 24.46, 0, 24.46, 0, 17.08, 17.08, 0, 17.08, 0
+Adtran Inc. (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+Mellanox Technologies Ltd. (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+Mrv Communications Inc. (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+Maxlinear Inc. (Total), 100, 100, 100, 100, 0, 0, 0, 0, 0, 0 
+Neophotonics Corp. (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+Osi Systems Inc. (Total), 20.88, 20.88, 0, 20.88, 20.88, 16.58, 16.58, 0, 16.58, 16.58
+Plexus Corp. (Total), 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 
+Sigmatron International Inc. (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+Smtc Corp. (Total), 100, 100, 100, 100, 0, 0, 0, 0, 0, 0 
+Sparton Corp. (Total), 27.92, 27.92, 27.92, 27.92, 0, 21.79, 21.79, 21.79, 21.79, 0
+Alpine 4 Technologies Ltd. (Total), 100, 100, 100, 100, 0, 0, 0, 0, 0, 0 
+Amplitech Group Inc. (Total), 100, 100, 100, 100, 0, 100, 100, 100, 100, 0
+Arris International Pic (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+Clearfield Inc. (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+Franklin Wireless Corp. (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+Fabrinet (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+Harmonic Inc. (Total), 100, 100, 0, 100, 0, 0, 0, 0, 0, 0
+Infinera Corp. (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+Communications Systems Inc. (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+Lumentum Holdings Inc. (Total), 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 
+Lightwave Logic Inc. (Total), 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 
+Netgear Inc. (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+Parkervision Inc. (Total), 100, 100, 0, 100, 0, 0, 0, 0, 0, 0
+Seachange International Inc. (Total), 100, 100, 0, 100, 0, 100, 100, 0, 100, 0
+Zoom Telephonics Inc. (Total), 100, 100, 0, 100, 0, 0, 0, 0, 0, 0
+Ii-vi Inc. (Total), 25.5, 25.5, 0, 25.5, 0, 26.09, 26.09, 0, 26.09, 0
+Applied Micro Circuits Corp. (Total), 0, 100, 0, 100, 0, 0, 0, 0, 0, 0
