@@ -69,6 +69,40 @@ header{
 	top: 70%; left: 3%; bottom: 0; right: 0;
 }
 
+.productsChart{
+	margin: auto;
+	position: absolute;
+	top: 70%; left: 3%; bottom: 0; right: 0;
+}
+
+.overlapsChart{
+	margin: auto;
+	position: absolute;
+	top: 70%; left: 3%; bottom: 0; right: 0;
+}
+
+.overlapsChart tbody td {
+  padding: 10px;
+  border: solid 1px #000;
+  text-align: center;
+  font-weight: bold;
+}
+
+.overlapsChart thead th {
+  font-size: 300%;
+  padding: 10 px;
+  border: 3px solid black;
+  text-align: center;
+}
+
+.overlapsChart thead td {
+  padding: 15px;
+  border: solid 1px #000;
+  text-align: center;
+}
+
+.overlapsChart tr:nth-child(even) {background-color: #f2f2f2;}
+
 path {  stroke: #fff; }
 path:hover {  opacity:0.9; }
 rect:hover {  fill:blue; }
@@ -165,6 +199,8 @@ tbody tr:first-child td {
 			document.getElementById("competitorChart").style.display = "none";
 			document.getElementById("customersChart").style.display = "none";
 			document.getElementById("suppliersChart").style.display = "none";
+			document.getElementById("productsChart").style.display = "none";
+			document.getElementById("overlapsChart").style.display = "none";
 		}
         window.onload = hideAllElements;
         </script>
@@ -198,9 +234,9 @@ tbody tr:first-child td {
 				<option value="none" selected="selected"><------Choose an Analysis Topic------></option>
 				<option value="t1">Competitors</option>
 				<option value="t2">Customer & Contracts</option>
-				<!--<option value="t3">Employment and Retirement</option>-->
+				<option value="t3">Collins Aerospace Overlaps</option>
 				<!--<option value="t4">Financial Outlook</option>-->
-				<option value="t5">Product Overlaps</option>
+				<option value="t5">Products</option>
 				<option value="t6">Raw Materials, Suppliers & Seasonality</option>
 				<option value="t7">Risk Factors</option>
 			</select>
@@ -230,6 +266,167 @@ tbody tr:first-child td {
 	</div>
 	
 	<div id="competitorChart" class="competitorChart" align="center">
+	</div>
+	
+	<div id="productsChart" class="productsChart" align="center">
+		<a href="https://www.raytheon.com/capabilities" target="_blank">
+			<img src="./imgs/rtnproducts.jpg"></img>
+			<img src="./imgs/rtnglossary.jpg"></img>
+		</a>
+		<img src="./imgs/porters5.png"></img>
+	</div>
+	
+	<div id="overlapsChart" class="overlapsChart" align="center">
+		<table>
+			<thead>
+				<tr>
+				<th>Keyword</th>
+				<td><img src="../figs/raytheon.png" height="100" width="500"></img></td>
+				<td><img src="../figs/collins.png" height="100" width="500"></img></td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Training</td>
+					<td>
+						<a href="https://www.raytheon.com/capabilities/training" target="_blank">
+							<img src="./imgs/rtn_training.png" height="300" width="500"></img>
+						</a>
+					</td>
+					<td>
+						<a href="https://www.rockwellcollins.com/Products-and-Services/Commercial-Aviation/Service-Solutions/Training.aspx" target="_blank">
+							<img src="./imgs/cln_training.png" height="300" width="500"></img>
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>Simulation</td>
+					<td>
+						<a href="https://www.raytheon.com/capabilities/products/modsim" target="_blank">
+							<img src="./imgs/rtn_simulation.png" height="300" width="500"></img>
+						</a>
+					</td>
+					<td>
+						<a href="https://www.rockwellcollins.com/Products-and-Services/Defense/Simulation-and-Training.aspx" target="_blank">
+							<img src="./imgs/cln_simulation.png" height="300" width="500"></img>
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>Mission & Immersive labs</td>
+					<td>
+						<a href="https://www.industryweek.com/digital-tools/virtual-reality-factories-and-missiles-take-shape-raytheon" target="_blank">
+							<img src="./imgs/rtn_ImmersiveLabs.png" height="300" width="500"></img>
+						</a>
+					</td>
+					<td>
+						<a href="https://www.rockwellcollins.com/Products-and-Services/Defense/Simulation-and-Training/Training-Systems/Coalescence.aspx" target="_blank">
+							<img src="./imgs/cln_coalescence.png" height="300" width="500"></img>
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>Live Virtual Constructive (LVC)</td>
+					<td>
+						<a href="http://investor.raytheon.com/news-releases/news-release-details/raytheon-and-csc-form-alliance-pursue-us-army-warfighter?ID=818036&c=84193&p=irol-newsArticle" target="_blank">
+							<img src="./imgs/rtn_lvc.png" height="300" width="500"></img>
+						</a>
+					</td>
+					<td>
+						<a href="https://www.rockwellcollins.com/Products-and-Services/Defense/Simulation-and-Training/Live-Virtual-Constructive-blended-test-and-training/Live-Virtual-and-Constructive.aspx" target="_blank">
+							<img src="./imgs/cln_lvc.png" height="300" width="500"></img>
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>Near eye displays</td>
+					<td>
+						<img src="./imgs/cln_ImmersiveLabs.png" height="300" width="500"></img>
+					</td>
+					<td>
+						<a href="https://www.rockwellcollins.com/Products-and-Services/Defense/Simulation-and-Training/Products-and-Services/Simulation-and-Training-Helmet-Mounted-Display/SimEye-SX50TII-Helmet-Mounted-Display.aspx" target="_blank">
+							<img src="./imgs/cln_hud.png" height="300" width="500"></img>
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>JTAC</td>
+					<td>
+						<a href="https://www.raytheon.com/news/feature/networked_soldier" target="_blank">
+							<img src="./imgs/rtn_jtac.png" height="300" width="500"></img>
+						</a>
+					</td>
+					<td>
+						<a href="https://www.rockwellcollins.com/Products-and-Services/Defense/Targeting/Simulation/RealFires.aspx" target="_blank">
+							<img src="./imgs/cln_jtac.png" height="300" width="500"></img>
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>E-2</td>
+					<td>
+						<a href="https://aviationweek.com/awin/raytheon-has-completed-its-23-billion-acquisition-e-systems-inc" target="_blank">
+							<img src="./imgs/rtn_e_systems.png" height="300" width="500"></img>
+						</a>
+					</td>
+					<td>
+						<img src="./imgs/cln_ImmersiveLabs.png" height="300" width="500"></img>
+					</td>
+				</tr>
+				<tr>
+					<td>Joint Strike Fighter</td>
+					<td>
+						<a href="https://www.raytheon.com/news/feature/arming_the_f-35" target="_blank">
+							<img src="./imgs/rtn_jsf.png" height="300" width="500"></img>
+						</a>
+					</td>
+					<td>
+						<a href="http://www.defense-aerospace.com/articles-view/release/3/202136/collins-australia-details-involvement-in-f_35-program.html" target="_blank">
+							<img src="./imgs/cln_jsf.png" height="300" width="500"></img>
+						</a>
+					</td>
+				</tr>					
+				<tr>
+					<td>Commercial Airlines</td>
+					<td>
+						<a href="http://home.iwichita.com/rh1/hold/av/avhist/bch/raytheon.htm" target="_blank">
+							<img src="./imgs/rtn_commair.png" height="300" width="500"></img>
+						</a>
+					</td>
+					<td>
+						<a href="https://www.rockwellcollins.com/Products-and-Services/Commercial-Aviation.aspx" target="_blank">
+							<img src="./imgs/cln_commair.png" height="300" width="500"></img>
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>Game Engine</td>
+					<td>
+						<a href="https://www.raytheon.com/news/feature/patriot-warfighter-machine-interface" target="_blank">
+							<img src="./imgs/rtn_games.png" height="300" width="500"></img>
+						</a>
+					</td>
+					<td>
+						<a href="https://www.mro-network.com/maintenance-repair-overhaul/rockwell-collins-use-gaming-technology-keep-aircraft-flying" target="_blank">
+							<img src="./imgs/cln_games.png" height="300" width="500"></img>
+						</a>
+					</td>
+				</tr>
+				<tr>
+					<td>Flight Simulator</td>
+					<td>
+						<a href="http://www.defense-aerospace.com/articles-view/release/3/1379/raytheon-sells-flight-simulation-business-%28jan.10%29.html" target="_blank">
+							<img src="./imgs/rtn_flightsim.png" height="300" width="500"></img>
+						</a>
+					</td>
+					<td>
+						<a href="https://www.rockwellcollins.com/Data/News/2018-Cal-Yr/CS/20180426-TRU-Sim-Training-integrated-visual-system-commercial-flight-simulators.aspx" target="_blank">
+							<img src="./imgs/cln_flightsim.png" height="300" width="500"></img>
+						</a>
+					</td>
+				</tr>	
+			</tbody>
+		</table>
 	</div>
 	
 	<div id="suppliersChart" class="suppliersChart" align="center">
@@ -921,6 +1118,8 @@ function changeVisualInfo() {
 		document.getElementById("riskFactors").style.display = "none";
 		document.getElementById("customersChart").style.display = "none";
 		document.getElementById("suppliersChart").style.display = "none";
+		document.getElementById("productsChart").style.display = "none";
+		document.getElementById("overlapsChart").style.display = "none";
 		document.getElementById("competitorChart").style.display = "block";
 	}
 	else if(selectedValue==="t2")
@@ -929,7 +1128,29 @@ function changeVisualInfo() {
 		document.getElementById("competitorChart").style.display = "none";
 		document.getElementById("riskFactors").style.display = "none";
 		document.getElementById("suppliersChart").style.display = "none";
+		document.getElementById("productsChart").style.display = "none";
+		document.getElementById("overlapsChart").style.display = "none";
 		document.getElementById("customersChart").style.display = "block";
+	}
+	else if(selectedValue==="t3")
+	{
+		document.getElementById("timeSlider").style.display = "none";
+		document.getElementById("competitorChart").style.display = "none";
+		document.getElementById("riskFactors").style.display = "none";
+		document.getElementById("suppliersChart").style.display = "none";
+		document.getElementById("productsChart").style.display = "none";
+		document.getElementById("customersChart").style.display = "none";
+		document.getElementById("overlapsChart").style.display = "block";
+	}
+	else if(selectedValue==="t5")
+	{
+		document.getElementById("timeSlider").style.display = "none";
+		document.getElementById("competitorChart").style.display = "none";
+		document.getElementById("riskFactors").style.display = "none";
+		document.getElementById("suppliersChart").style.display = "none";
+		document.getElementById("customersChart").style.display = "none";
+		document.getElementById("overlapsChart").style.display = "none";
+		document.getElementById("productsChart").style.display = "block";
 	}
 	else if(selectedValue==="t6")
 	{
@@ -937,6 +1158,8 @@ function changeVisualInfo() {
 		document.getElementById("competitorChart").style.display = "none";
 		document.getElementById("riskFactors").style.display = "none";
 		document.getElementById("customersChart").style.display = "none";
+		document.getElementById("productsChart").style.display = "none";
+		document.getElementById("overlapsChart").style.display = "none";
 		document.getElementById("suppliersChart").style.display = "block";
 	}
 	else if(selectedValue==="t7")
@@ -945,6 +1168,8 @@ function changeVisualInfo() {
 		document.getElementById("competitorChart").style.display = "none";
 		document.getElementById("customersChart").style.display = "none";
 		document.getElementById("suppliersChart").style.display = "none";
+		document.getElementById("productsChart").style.display = "none";
+		document.getElementById("overlapsChart").style.display = "none";
 		document.getElementById("riskFactors").style.display = "block";
 	}
 }
