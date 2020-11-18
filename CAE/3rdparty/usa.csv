@@ -1,0 +1,93 @@
+SimX,Country,Region,TrainingOrganization,SiteLocation,ACMaker,ACFamily,ACTypes,ACSector,EngMakers,EngTypes,Cat,SimMaker,Date,IGMaker,IGModel,Windows,FOV,DisMaker,MotionType,MotionMaker,Level,RegLocation,Remarks,Web,Email,Tel,SWeb,SEmail,STel
+ATC02012,USA,North America,Airbus Americas Customer Services,"Miami, FL",Airbus,A320,A320-200,Narrow-body Transport,IAE/GE,V2527-A5/CFM56-5B4,2J,CAE,2000,CAE,Tropos 6022XR,3chCC,200x40,CAE,6E,Moog AMS,FFS D,"FAA
+ANAC",USA/Brazil,,www.airbusnorthamerica.com, <media@airbus.com>,+1 305 8713655,,
+ATC02011,USA,North America,Airbus Americas Customer Services,"Miami, FL",Airbus,A330/340,A340-300/A330-200/A340-600,Wide-body Transport,GE/RR/PW,CFM56-5C/Trent772B/CF6-80E1/Trent 556-61/PW4168,2J/4J,CAE,2006,CAE,Tropos 6000,3chCC,200x40,CAE,6H,CAE,FFS D,"FAA
+EASA",Europe/USA,,www.airbusnorthamerica.com, <media@airbus.com>,+1 305 8713655,,
+ALL01001,USA,North America,Alliance Aviation,"Tampa, FL",ATR,ATR42/72,ATR72-500/ATR42-500,Regional Prop,PWC,PW127F,2P,CAE,2008,CAE,MaxVue,3chCC,180x40,CAE,6H,CAE,FFS D,FAA,USA,,www.allianceaviationinc.com, <info@allianceaviationinc.com>,+1 305 870 6002,,
+AMR03001,USA,North America,American Airlines,"Charlotte, NC",Airbus,A320,A320-200,Narrow-body Transport,GE,CFM56-5B4,2J,CAE,1999,CAE,MaxVue+,3chCC,180x40,CAE,6H,CAE,FFS D,FAA,USA,,www.aa.com,Howard Garbee <howard.garbee@aa.com>,+1 704 3592770,,
+AMR03002,USA,North America,American Airlines,"Charlotte, NC",Airbus,A320,A320-200,Narrow-body Transport,GE,CFM56-5B4,2J,CAE,1999,CAE,MaxVue+,3chCC,180x40,CAE,6H,CAE,FFS D,FAA,USA,,www.aa.com,Howard Garbee <howard.garbee@aa.com>,+1 704 3592770,,
+AMR03003,USA,North America,American Airlines,"Charlotte, NC",Airbus,A320,A320-200,Narrow-body Transport,GE/IAE,CFM56-5B4/V2527-A5,2J,CAE,2012,CAE,Tropos 6220,4chCC,210x40,CAE,6E,Moog,FFS D,FAA,USA,,www.aa.com,Howard Garbee <howard.garbee@aa.com>,+1 704 3592770,,
+AMR03014,USA,North America,American Airlines,"Charlotte, NC",Airbus,A320,A320-200,Narrow-body Transport,IAE/GE,V2527-A5/CFM56-5B4,2J,CAE,2011,CAE,Tropos 6220,4chCC,210x40,CAE,6E,Moog,FFS D,FAA,USA,,www.aa.com,Howard Garbee <howard.garbee@aa.com>,+1 704 3592770,,
+AMR03004,USA,North America,American Airlines,"Charlotte, NC",Airbus,A330/340,A330-243,Wide-body Transport,RR,Trent772B-60 ,2J,CAE,1999,CAE,Tropos 6220,3chCC,180x40,CAE,6E,Moog,FFS D,FAA,USA,,www.aa.com,Howard Garbee <howard.garbee@aa.com>,+1 704 3592770,,
+AMR03005,USA,North America,American Airlines,"Charlotte, NC",Airbus,A330/340,A330-323,Wide-body Transport,PW,PW4168A,2J,CAE,2009,CAE,Maxvue+,4chCC,210x40,CAE,6H,Moog,FFS D,FAA,USA,,www.aa.com,Howard Garbee <howard.garbee@aa.com>,+1 704 3592770,,
+AMR03008,USA,North America,American Airlines,"Charlotte, NC",Boeing,B757/767,B757-200,Wide-body Transport,RR,RB211-534,2J,CAE,2013,CAE,Tropos 6000,4ch/4w,150x40,CAE,6H,CAE,FFS C,FAA,USA,,www.aa.com,Howard Garbee <howard.garbee@aa.com>,+1 704 3592770,,
+AMR03011,USA,North America,American Airlines,"Charlotte, NC",Bombardier,CRJ,CRJ700/CRJ200,Regional Jet,GE,CF34-8C5B1/CF34-8C5,2J,CAE,2001,CAE,MaxVue+,3chCC,180x40,CAE,6H,CAE,FFS D,FAA,USA,,www.aa.com,Howard Garbee <howard.garbee@aa.com>,+1 704 3592770,,
+AMR03012,USA,North America,American Airlines,"Charlotte, NC",Bombardier,CRJ,CRJ700/CRJ1000/CRJ900,Regional Jet,GE,CF34-8C5B1/CF34-8C5A1/CF34-8C5,2J,CAE,2002,CAE,MaxVue+,3chCC,180x40,CAE,6H,CAE,FFS D,FAA,USA,,www.aa.com,Howard Garbee <howard.garbee@aa.com>,+1 704 3592770,,
+AMR03013,USA,North America,American Airlines,"Charlotte, NC",Bombardier,CRJ,CRJ900NG,Regional Jet,GE,CF34-8C5,2J,CAE,2016,CAE,Tropos 6220,3chCC,180x40,CAE,6H,CAE,FFS D,FAA,USA,,www.aa.com,Howard Garbee <howard.garbee@aa.com>,+1 704 3592770,,
+AMR03010,USA,North America,American Airlines,"Charlotte, NC",Embraer,E170/190,E-170,Regional Jet,GE,CF34-8E5A1,2J,CAE,2014,CAE,Tropos 6000,3chCC,180x40,CAE,6H,Moog,FFS D,FAA,USA,,www.aa.com,Howard Garbee <howard.garbee@aa.com>,+1 704 3592770,,
+AMR03015,USA,North America,American Airlines,"Charlotte, NC",Embraer,Emb145,ERJ-145,Regional Jet,RR,AE3007-A1P,2J,CAE,1999,CAE,Tropos XR,3chCC,180x40,CAE,6H,CAE,FFS D,FAA,USA,,www.aa.com,Howard Garbee <howard.garbee@aa.com>,+1 704 3592770,,
+AMR02003,USA,North America,American Airlines,"Phoenix, AZ",Airbus,A320,A320-214/A320-232,Narrow-body Transport,GE/IAE,CFM56/V2527-A5,2J,CAE,2012,CAE,Tropos 6000,4chCC,210x40,CAE,6E,Moog,FFS D,FAA,USA,,www.aa.com,Howard Garbee <howard.garbee@aa.com>,+1 704 3592770,,
+ATL01002,USA,North America,Atlas Air Training Center,"Miami, FL",Boeing,B747,B747-400F,Jumbo Transport,GE,CF6-80C2B5F,4J,CAE,2001,CAE,Tropos,3chCC,150x40,CAE,6H,CAE,FFS C,FAA,USA,,www.atlasair.com,Randy Schwellinger <randy.schwellinger@atlasair.com>,+1 786 265 5993,,
+ATL01003,USA,North America,Atlas Air Training Center,"Miami, FL",Boeing,B747,B747-400F,Jumbo Transport,GE,CF6-80C2B5F,4J,CAE,2009,CAE,Tropos,5chCC,210x40,CAE,6H,CAE,FFS D,FAA,USA,,www.atlasair.com,Randy Schwellinger <randy.schwellinger@atlasair.com>,+1 786 265 5993,,
+ATR06001,USA,North America,ATR Training Centre,"Miami, FL",ATR,ATR42/72,ATR72-600,Regional Prop,PWC,PW127M,2P,CAE,2017,CAE,Tropos 6000,3chCC,200x40,CAE,6E,CAE,FFS D,"FAA
+EASA",Europe/USA,,www.atr.fr,Renan Le-Mouel <renan.le-mouel@atr.fr>,+33 56 2216751,,
+AFG03001,USA,North America,Avenger Flight Group,"Dallas, TX",Boeing,B737NG,B737-800,Narrow-body Transport,GE,CFM56-7B27,2J,CAE,2016,CAE,Tropos 6000XR,3chCC,200x40,CAE,6E,CAE,FFS D,FAA,USA,,www.afgsim.com, <info@afgsim.com>,,,
+BFS08032,USA,North America,Boeing Flight Services/CAE,"Miami, FL",Boeing,B737NG,B737-800,Narrow-body Transport,GE,CFM56-7B,2J,CAE,2002,CAE,Tropos 6000,3chCC,180x40,CAE,6H,CAE,FFS D,FAA,USA,,www.boeing.com/tfs, <CustomerTeam@Boeing.com>,+1 786 265 7707,,
+BAT02356,USA,North America,Bombardier Aerospace Training Center,"Dallas, TX",Bombardier,Challenger300,Challenger 300/Challenger 350,Business,Honeywell,HTF7000/HTF7350,2J,RC,2017,CAE,Tropos 6000XR,3chCC,180x40,CAE,6H,RC/Link UK,FFS D,FAA,USA/China/Europe,,www.bombardier.com,Dan Linn <dan.linn@aero.bombardier.com>,+1 469 7916429,,
+BAT02357,USA,North America,Bombardier Aerospace Training Center,"Dallas, TX",Bombardier,Challenger600,Challenger 604,Business,GE,CF34-3B,2J,CAE,2002,CAE,MaxVue+,3chCC,180x40,CAE,6H,CAE,FFS D,"EASA
+CAAC
+FAA
+TC",China/Europe/USA,,www.bombardier.com,Dan Linn <dan.linn@aero.bombardier.com>,+1 469 7916429,,
+BAT02562,USA,North America,Bombardier Aerospace Training Center,"Dallas, TX",Bombardier,Challenger600,Challenger 605,Business,GE,CF34-3B,2J,CAE,2010,CAE,Tropos 6000,3chCC,180x40,CAE,6H,CAE,FFS D,"EASA
+CAAC
+FAA
+TC
+ANAC",Europe/USA/China,,www.bombardier.com,Dan Linn <dan.linn@aero.bombardier.com>,+1 469 7916429,,
+BAT02028,USA,North America,Bombardier Aerospace Training Center,"Dallas, TX",Bombardier,Global,Global 6000GVFD,Business,RR,BR710A2-20,2J,CAE,2013,CAE,Tropos 6200,3chCC,200x40,CAE,6E,CAE,FFS D,"EASA
+CAAC
+FAA
+TC
+ANAC",Europe/USA/China,,www.bombardier.com,Dan Linn <dan.linn@aero.bombardier.com>,+1 469 7916429,,
+BAT02372,USA,North America,Bombardier Aerospace Training Center,"Dallas, TX",Bombardier,Lear40/45,Learjet 45,Business,Honeywell,TFE731-20AR-1B,2J,CAE,2000,CAE,MaxVue+,3chCC,180x40,CAE,6H,CAE,FFS D,"EASA
+CAAC
+FAA
+TC
+ANAC",China/Europe/USA,,www.bombardier.com,Dan Linn <dan.linn@aero.bombardier.com>,+1 469 7916429,,
+BAT02999,USA,North America,Bombardier Aerospace Training Center,"Dallas, TX",Bombardier,Lear70/75,Learjet 75/Learjet 70,Business,Honeywell,TFE731-40BR,2J,CAE,2013,CAE,Tropos 6000,3chCC,180x40,CAE,6H,CAE,FFS D,"EASA
+CAAC
+FAA
+TC",Europe/USA/China,,www.bombardier.com,Dan Linn <dan.linn@aero.bombardier.com>,+1 469 7916429,,
+UNI02032,USA,North America,Continental Airlines (United),"Houston, TX",Boeing,B737C,B737-500,Narrow-body Transport,GE,CFM56-3B1,2J,L3 CTS,1994,CAE,MaxVue +,3chCC,180x40,L3 CTS,6H,L3 CTS,FFS D,FAA,USA,,www.continental.com, <patrick.cleary@coair.com>,+1 281 553 8746,,
+UNI02035,USA,North America,Continental Airlines (United),"Houston, TX",Boeing,B737NG,B737-800,Narrow-body Transport,GE,CFM56-7B27,2J,CAE,1998,CAE,MaxVue +,3chCC,180x40,CAE,6H,CAE,FFS D,FAA,USA,,www.continental.com, <patrick.cleary@coair.com>,+1 281 553 8746,,
+UNI02036,USA,North America,Continental Airlines (United),"Houston, TX",Boeing,B737NG,B737-800,Narrow-body Transport,GE,CFM56-7B27,2J,CAE,2008,CAE,MaxVue +,3chCC,180x40,CAE,6H,CAE,FFS D,FAA,USA,,www.continental.com, <patrick.cleary@coair.com>,+1 281 553 8746,,
+UNI02026,USA,North America,Continental Airlines (United),"Houston, TX",Boeing,B757/767,B757-200,Wide-body Transport,RR,RB211-535E4,2J,L3 CTS,1995,CAE,MaxVue +,3chCC,150x40,L3 CTS,6H,L3 CTS,FFS D,FAA,USA,,www.continental.com, <patrick.cleary@coair.com>,+1 281 553 8746,,
+UNI02028,USA,North America,Continental Airlines (United),"Houston, TX",Embraer,Emb145,ERJ-145,Regional Jet,RR,AE3007-A1,2J,CAE,2000,CAE,MaxVue +,3chCC,180x40,CAE,6H,CAE,FFS D,FAA,USA,,www.continental.com, <patrick.cleary@coair.com>,+1 281 553 8746,,
+UNI02029,USA,North America,Continental Airlines (United),"Houston, TX",Embraer,Emb145,ERJ-145,Regional Jet,RR,AE3007-A1,2J,CAE,2001,CAE,MaxVue +,3chCC,180x40,CAE,6H,CAE,FFS D,FAA,USA,,www.continental.com, <patrick.cleary@coair.com>,+1 281 553 8746,,
+UNI02030,USA,North America,Continental Airlines (United),"Houston, TX",Embraer,Emb145,ERJ-145,Regional Jet,RR,AE3007-A1,2J,CAE,2003,CAE,MaxVue +,3chCC,180x40,CAE,6H,CAE,FFS D,FAA,USA,,www.continental.com, <patrick.cleary@coair.com>,+1 281 553 8746,,
+FLR01003,USA,North America,FlyRight Inc.,"Concord, NC",Bombardier,Dash8,Dash 8-100/Dash 8-300,Regional Prop,PWC,PW121/PW123,2P,CAE,2017,CAE,Tropos 6000,3chCC,180x40,CAE,6H,CAE,FFS C,"FAA
+ANAC
+TC",Canada/Brazil/USA,,www.flyrightinc.com, <info@flyrightinc.com>,+1 704 720 9623,,
+GLO01001,USA,North America,Global One Training Group,"Sanford, FL",Boeing,B727/737,B727-200,Narrow-body Transport,PW,JT8D-15,3J,CAE,2004,CAE,MaxVue,3ch/4w,150x39,CAE,6H,CAE,FFS C,FAA,USA,,www.727training.com, <info@globalonetraininggroup.com>,+1 305 869 2999,,
+JBL01001,USA,North America,JetBlue Airways,"Orlando, FL",Airbus,A320,A320,Narrow-body Transport,IAE,V2527-A5 ,2J,CAE,2005,CAE,Tropos,3chCC,150x40,CAE,6H,CAE,FFS D,FAA,USA,,www.jetblue.com,Patty North <patty.north@jetblue.com>,+1 407 812 2435,,
+JBL01002,USA,North America,JetBlue Airways,"Orlando, FL",Airbus,A320,A320,Narrow-body Transport,IAE,V2527-A5 ,2J,CAE,2005,CAE,Tropos,3chCC,150x40,CAE,6H,CAE,FFS D,FAA,USA,,www.jetblue.com,Patty North <patty.north@jetblue.com>,+1 407 812 2435,,
+JBL01003,USA,North America,JetBlue Airways,"Orlando, FL",Airbus,A320,A320,Narrow-body Transport,IAE,V2527-A5 ,2J,CAE,2005,CAE,Tropos,3chCC,150x40,CAE,6H,CAE,FFS D,FAA,USA,,www.jetblue.com,Patty North <patty.north@jetblue.com>,+1 407 812 2435,,
+JBL01004,USA,North America,JetBlue Airways,"Orlando, FL",Airbus,A320,A320,Narrow-body Transport,IAE,V2527-A5 ,2J,CAE,2005,CAE,Tropos,3chCC,150x40,CAE,6H,CAE,FFS D,FAA,USA,,www.jetblue.com,Patty North <patty.north@jetblue.com>,+1 407 812 2435,,
+JBL01008,USA,North America,JetBlue Airways,"Orlando, FL",Airbus,A320,A320,Narrow-body Transport,IAE,V2527-A5 ,2J,CAE,2017,CAE,Tropos 6000XR,3chCC,200x40,CAE,6E,CAE,FFS D,FAA,USA,,www.jetblue.com,Patty North <patty.north@jetblue.com>,+1 407 812 2435,,
+JBL01009,USA,North America,JetBlue Airways,"Orlando, FL",Airbus,A320,A320,Narrow-body Transport,IAE,V2527-A5 ,2J,CAE,2017,CAE,Tropos 6000XR,3chCC,200x40,CAE,6E,CAE,FFS D,FAA,USA,,www.jetblue.com,Patty North <patty.north@jetblue.com>,+1 407 812 2435,,
+JBL01010,USA,North America,JetBlue Airways,"Orlando, FL",Airbus,A320,A320,Narrow-body Transport,IAE,V2527-A5 ,2J,CAE,2017,CAE,Tropos 6000XR,3chCC,200x40,CAE,6E,CAE,FFS D,FAA,USA,,www.jetblue.com,Patty North <patty.north@jetblue.com>,+1 407 812 2435,,
+JBL01005,USA,North America,JetBlue Airways,"Orlando, FL",Embraer,E170/190,E-190,Regional Jet,GE,CF34-10E,2J,CAE,2005,CAE,Tropos,3chCC,150x40,CAE,6H,CAE,FFS D,FAA,USA,,www.jetblue.com,Patty North <patty.north@jetblue.com>,+1 407 812 2435,,
+JBL01006,USA,North America,JetBlue Airways,"Orlando, FL",Embraer,E170/190,E-190,Regional Jet,GE,CF34-10E,2J,CAE,2005,CAE,Tropos,3chCC,150x40,CAE,6H,CAE,FFS D,FAA,USA,,www.jetblue.com,Patty North <patty.north@jetblue.com>,+1 407 812 2435,,
+PAN01015,USA,North America,Pan Am International Flight Academy,"Miami, FL",Boeing,B747,B747-400,Wide-body Transport,GE,CF6-80C2B1F,4J,CAE,1990,CAE,Tropos 6000,3ch/4w,150x40,CAE,6H,CAE,FFS C,FAA,USA,,www.panamacademy.com,Miguel Martin <mmartin@panamacademy.com>,+1 877 3942118,,
+PAN01024,USA,North America,Pan Am International Flight Academy,"Miami, FL",Boeing,B747,B747-400,Wide-body Transport,GE,CF6-80C2B1F,4J,CAE,2009,CAE,Tropos 6000,3ch/4w,150x40,CAE,6H,CAE,FFS D,FAA,USA,,www.panamacademy.com,Miguel Martin <mmartin@panamacademy.com>,+1 877 3942118,,
+PAN01021,USA,North America,Pan Am International Flight Academy,"Miami, FL",Saab,Saab,SF340B,Regional Prop,GE,CT7-9B4,2P,CAE,1998,CAE,Maxvue,3chCC,150x40,CAE,6H,CAE,FFS D,"FAA
+TC",Canada/USA,,www.panamacademy.com,Miguel Martin <mmartin@panamacademy.com>,+1 877 3942118,,
+CAE38001,USA,North America,Rotorsim USA (Leonardo/CAE),"Morristown, NJ",Leonardo Helicopters,AW139,AW139,VTOL,PWC,PT6C-67C,R2,CAE,2008,CAE,Medallion 6221,5chCC+2chin,220x60,CAE,6HV,CAE,FFS D,"EASA
+FAA
+ANAC
+TC",Europe/USA/Brazil,,www.agustawestland.com,Jon Sackett <jon.sackett@agustawestland.com>,+1 514 3416780 x3100,,
+SWA01004,USA,North America,Southwest Airlines,"Dallas, TX",Boeing,B737NG,B737-800,Narrow-body Transport,GE,CFM56-7B27,2J,CAE,2012,CAE,Tropos 6000XR,3chCC,200x40,CAE,6E,CAE,FFS D,FAA,USA,,www.southwest.com,Joe Marott <joe.marott@wnco.com>,+1 214 792 1404,,
+SWA01005,USA,North America,Southwest Airlines,"Dallas, TX",Boeing,B737NG,B737-700,Narrow-body Transport,GE,CFM56-7B24,2J,CAE,1997,CAE,Tropos 6000XR,3chCC,180x40,CAE,6H,CAE,FFS D,FAA,USA,,www.southwest.com,Joe Marott <joe.marott@wnco.com>,+1 214 792 1404,,
+SWA01006,USA,North America,Southwest Airlines,"Dallas, TX",Boeing,B737NG,B737-700,Narrow-body Transport,GE,CFM56-7B24,2J,CAE,2002,CAE,Tropos 6000XR,3chCC,180x40,CAE,6H,CAE,FFS D,FAA,USA,,www.southwest.com,Joe Marott <joe.marott@wnco.com>,+1 214 792 1404,,
+SWA01007,USA,North America,Southwest Airlines,"Dallas, TX",Boeing,B737NG,B737-700,Narrow-body Transport,GE,CFM56-7B24,2J,CAE,2002,CAE,Tropos 6000XR,3chCC,180x40,CAE,6H,CAE,FFS D,FAA,USA,,www.southwest.com,Joe Marott <joe.marott@wnco.com>,+1 214 792 1404,,
+SWA01008,USA,North America,Southwest Airlines,"Dallas, TX",Boeing,B737NG,B737-700,Narrow-body Transport,GE,CFM56-7B24,2J,CAE,2006,CAE,Tropos 6000XR,3chCC,180x40,CAE,6H,CAE,FFS D,FAA,USA,,www.southwest.com,Joe Marott <joe.marott@wnco.com>,+1 214 792 1404,,
+SWA01009,USA,North America,Southwest Airlines,"Dallas, TX",Boeing,B737NG,B737-700,Narrow-body Transport,GE,CFM56-7B24,2J,CAE,2009,CAE,Tropos 6000XR,3chCC,200x40,CAE,6E,CAE,FFS D,FAA,USA,,www.southwest.com,Joe Marott <joe.marott@wnco.com>,+1 214 792 1404,,
+SWA01010,USA,North America,Southwest Airlines,"Dallas, TX",Boeing,B737NG,B737-800,Narrow-body Transport,GE,CFM56-7B27,2J,CAE,2015,CAE,Tropos 6000XR,3chCC,200x40,CAE,6E,CAE,FFS D,FAA,USA,,www.southwest.com,Joe Marott <joe.marott@wnco.com>,+1 214 792 1404,,
+SWA01011,USA,North America,Southwest Airlines,"Dallas, TX",Boeing,B737NG,B737-800,Narrow-body Transport,GE,CFM56-7B27,2J,CAE,2016,CAE,Tropos 6000XR,3chCC,200x40,CAE,6E,CAE,FFS D,FAA,USA,,www.southwest.com,Joe Marott <joe.marott@wnco.com>,+1 214 792 1404,,
+SWA01012,USA,North America,Southwest Airlines,"Dallas, TX",Boeing,B737NG,B737-800,Narrow-body Transport,GE,CFM56-7B27,2J,CAE,2016,CAE,Tropos 6000XR,3chCC,200x40,CAE,6E,CAE,FFS D,FAA,USA,,www.southwest.com,Joe Marott <joe.marott@wnco.com>,+1 214 792 1404,,
+SWA01013,USA,North America,Southwest Airlines,"Dallas, TX",Boeing,B737NG,B737-800,Narrow-body Transport,GE,CFM56-7B27,2J,CAE,2017,CAE,Tropos 6000XR,3chCC,200x40,CAE,6E,CAE,FFS D,FAA,USA,,www.southwest.com,Joe Marott <joe.marott@wnco.com>,+1 214 792 1404,,
+SWA01014,USA,North America,Southwest Airlines,"Dallas, TX",Boeing,B737NG,B737-800,Narrow-body Transport,GE,CFM56-7B27,2J,CAE,2017,CAE,Tropos 6000XR,3chCC,200x40,CAE,6E,CAE,FFS D,FAA,USA,,www.southwest.com,Joe Marott <joe.marott@wnco.com>,+1 214 792 1404,,
+SWA01015,USA,North America,Southwest Airlines,"Dallas, TX",Boeing,B737NG,B737-800,Narrow-body Transport,GE,CFM56-7B27,2J,CAE,2017,CAE,Tropos 6000XR,3chCC,200x40,CAE,6E,CAE,FFS D,FAA,USA,,www.southwest.com,Joe Marott <joe.marott@wnco.com>,+1 214 792 1404,,
+SWA01016,USA,North America,Southwest Airlines,"Dallas, TX",Boeing,B737NG,B737-800,Narrow-body Transport,GE,CFM56-7B27,2J,CAE,2017,CAE,Tropos 6000XR,3chCC,200x40,CAE,6E,CAE,FFS D,FAA,USA,,www.southwest.com,Joe Marott <joe.marott@wnco.com>,+1 214 792 1404,,
+SWA01017,USA,North America,Southwest Airlines,"Dallas, TX",Boeing,B737NG,B737-800,Narrow-body Transport,GE,CFM56-7B27,2J,CAE,2017,CAE,Tropos 6000XR,3chCC,200x40,CAE,6E,CAE,FFS D,FAA,USA,,www.southwest.com,Joe Marott <joe.marott@wnco.com>,+1 214 792 1404,,
+SWA01025,USA,North America,Southwest Airlines,"Dallas, TX",Boeing,B737NG,B737-800,Narrow-body Transport,GE,CFM56-7B27,2J,CAE,2018,CAE,Tropos 6000XR,3chCC,200x40,CAE,6E,CAE,FFS D,FAA,USA,,www.southwest.com,Joe Marott <joe.marott@wnco.com>,+1 214 792 1404,,
+UNI01025,USA,North America,United Airlines Training Centre,"Denver, CO",Boeing,B757/767,B767-400ER,Wide-body Transport,GE,CF6-80C2,2J,CAE,2000,CAE,MaxVue A+,3chCC,150x40,CAE,6H,CAE,FFS C,FAA,USA,,www.united.com, <media.relations@united.com>,+1 303 7803600,,
