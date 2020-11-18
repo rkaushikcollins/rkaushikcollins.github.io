@@ -1,0 +1,59 @@
+table {
+    display: block;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 150%;
+    overflow: auto;
+    width: auto;
+}  
+
+th {
+    background-color: #C94416;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+td {
+    background-color: rgb(238, 238, 238);
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+}
+
+body {
+    font: 10px sans-serif;
+}
+  
+svg {
+    padding: 10px 0 0 10px;
+}
+  
+.arc {
+    stroke: #fff;
+}
+
+.tooltip{
+    background-color: #f76f42;
+    color: #fff;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+select#selectButton {
+    text-align:center;
+    display: block;
+}
+
+.page_header{
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+}
+
+div#table_options{
+    font-size: 20px;;
+}
