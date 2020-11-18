@@ -1,0 +1,23 @@
+SimX,Country,Region,TrainingOrganization,SiteLocation,ACMaker,ACFamily,ACTypes,ACSector,EngMakers,EngTypes,Cat,SimMaker,Date,IGMaker,IGModel,Windows,FOV,DisMaker,MotionType,MotionMaker,Level,RegLocation,Remarks,Web,Email,Tel,SWeb,SEmail,STel
+ABX01001,USA,North America,ABX Air Inc.,"Wilmington, OH",Boeing,B757/767,B767-200,Wide-body Transport,GE,CF6-80A,2J,TRU,2005,FSI,Vital X,3ch/4w,150x40,RC,6H,TRU,FFS C,FAA,USA,,www.abxair.com,Jack Greenwood <jack.greenwood@abxair.com>,+1 937 3825591,,
+ABX01003,USA,North America,ABX Air Inc.,"Wilmington, OH",Boeing/McDD,DC9,DC-9-30,Narrow-body Transport,PW,JT8D-9,2J,TRU,2003,FSI,Vital X,3chCC,150x40,RC,6H,Bosch Rexroth,FFS C,FAA,USA,,www.abxair.com,Jack Greenwood <jack.greenwood@abxair.com>,+1 937 3825591,,
+ATC02009,USA,North America,Airbus Americas Customer Services,"Miami, FL",Airbus,A320,A320-200,Narrow-body Transport,IAE/GE,V2527-A5/CFM56-5B4,2J,FSI,2011,FSI,Vital X,3chCC,200x40,FSI,6E,Moog,FFS D,"FAA
+ANAC",Brazil/USA,,www.airbusnorthamerica.com, <media@airbus.com>,+1 305 8713655,,
+ATC02008,USA,North America,Airbus Americas Customer Services,"Miami, FL",Airbus,A350,A350-XWB,Wide-body Transport,RR,TrentXWB,2J,FSI,2016,FSI,Vital 1100,3chCC,200x40,FSI,6E,FSI/Moog,FFS D,"FAA
+EASA
+ANAC",Europe/Brazil/USA,,www.airbusnorthamerica.com, <media@airbus.com>,+1 305 8713655,,
+BFS08009,USA,North America,Boeing Flight Services,"Miami, FL",Boeing,B757/767,B767-300/B757-200,Wide-body Transport,RR/GE/PW,RB211-524H/CF6/PW2037,2J,CAE,2001,FSI,Vital 8+,3chCC,180x40,FSI,6H,CAE,FFS D,"FAA
+DGACF",France/USA,,www.boeing.com/tfs, <CustomerTeam@Boeing.com>,+1 786 265 7707,,
+DNW01014,USA,North America,Delta Air Lines,"Atlanta, GA",Boeing/McDD,B717/MD90,B717-200,Narrow-body Transport,RR,BR715-A1-30,2J,FSI,1999,FSI,Vital 8+,3chCC,180x40,FSI,6H,FSI,FFS D,FAA,USA,,www.delta.com, <dal.pilottrngsvcs@delta.com>,+1 404 7150834,,
+DNW01031,USA,North America,Delta Air Lines,"Atlanta, GA",Boeing/McDD,B717/MD90,B717-200,Narrow-body Transport,RR,BR715-C1-30,2J,CAE,2002,FSI,Vital 8+,3chCC,180x40,FSI,6H,CAE,FFS D,FAA,USA,,www.delta.com, <dal.pilottrngsvcs@delta.com>,+1 404 7150834,,
+ERU01001,USA,North America,Embry Riddle (ERAU),"Daytona Beach, FL",Bombardier,CRJ,CRJ200,Regional Jet,GE,CF34-3B1/CF34-3A1,2J,FSI,2001,FSI,Vital 8,3chCC,180x40,FSI,6H,FSI,FFS D,FAA,USA,,www.erau.com,Raul Rumbaut <rumbautr@erau.edu>,+1 386 2266968,,
+MET01002,USA,North America,Helicopter Flight Training Center (Metro Aviation),"Shreveport, LA",Airbus Helicopters,H135,EC135,VTOL,PWC,PW206B2,R2,FSI,2014,FSI,Vital 1100,5chCC,200x60,FSI,6E,FSI/Moog,FFS D,"FAA
+TC
+ANACA",Canada/Argentina/USA,,www.metroaviation.com/training-center.php,Terry Palmer <tpalmer@metroaviation.com>,,,
+MET01004,USA,North America,Helicopter Flight Training Center (Metro Aviation),"Shreveport, LA",Airbus Helicopters,H145,EC145,VTOL,Turbomeca,Arriel 2E,R2,FSI,2017,FSI,Vital 1100,3chCC,200x40,FSI,6E,FSI/Moog,FFS D,FAA,USA,,www.metroaviation.com/training-center.php,Terry Palmer <tpalmer@metroaviation.com>,,,
+MET01005,USA,North America,Helicopter Flight Training Center (Metro Aviation),"Shreveport, LA",Airbus Helicopters,Squirrel,AS350 B3,VTOL,Turbomeca,Arriel 2B1,R1,FSI,2016,FSI,Vital 1100,3chCC,200x40,FSI,6E,FSI/Moog,FFS D,FAA,USA,,www.metroaviation.com/training-center.php,Terry Palmer <tpalmer@metroaviation.com>,,,
+NAS01001,USA,North America,NASA AMES Sim Labs,"Moffet Field, CA",Boeing,B747,B747-400,Jumbo Transport,PW,PW4000,4J,CAE,1993,FSI,Vital X,3chCC,180x40,CAE,6H,CAE,FFS D,FAA,USA,,www.nasa.gov/centers/ames/home,Abigail Tabor <abigail.s.tabor@nasa.gov>,+1 650 604 3937,,
+PAN04004,USA,North America,Pan Am International Flight Academy,"Las Vegas, NV",Boeing/McDD,MD80Series,MD-87/MD-88,Narrow-body Transport,PW,JT8D-217C/JT8D-219,2J,CAE,1988,FSI,Vital 4,3ch/4w,150x40,CAE,6H,CAE,FFS C,FAA,USA,,www.panamacademy.com,Miguel Martin <mmartin@panamacademy.com>,+1 877 3942118,,
+PAN01031,USA,North America,Pan Am International Flight Academy,"Miami, FL",Airbus,A300/310,A300B4,Wide-body Transport,GE,CF6-50C2,2J,L3 CTS,1985,FSI,Vital 4,3ch/4w,150x40,L3 CTS,6H,L3 CTS,FFS C,FAA,USA,,www.panamacademy.com,Miguel Martin <mmartin@panamacademy.com>,+1 877 3942118,,
+SKW01001,USA,North America,SkyWest Airlines,"Denver, CO",Embraer,E170/190,E-175,Regional Jet,GE,CF34-8E5,2J,FSI,2014,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,FAA,USA,,www.skywest.com, ,+1 435 6343000,,
+SKW01002,USA,North America,SkyWest Airlines,"Denver, CO",Embraer,E170/190,E-175,Regional Jet,GE,CF34-8E5,2J,FSI,2015,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,FAA,USA,,www.skywest.com, ,+1 435 6343000,,

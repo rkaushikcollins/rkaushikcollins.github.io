@@ -1,0 +1,6 @@
+SimX,Country,Region,TrainingOrganization,SiteLocation,ACMaker,ACFamily,ACTypes,ACSector,EngMakers,EngTypes,Cat,SimMaker,Date,IGMaker,IGModel,Windows,FOV,DisMaker,MotionType,MotionMaker,Level,RegLocation,Remarks,Web,Email,Tel,SWeb,SEmail,STel
+ICA01003,France,Europe,HOP Training by Icare,Morlaix,Bombardier,CRJ,CRJ700/CRJ1000,Regional Jet,GE,CF34-8C1/CF34-8C5A1,2J,FSI,2009,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"EASA
+CAAC",China/Europe,,www.hoptraining.fr,Marc Borina <maborina@hop.fr>,+33 2 98881010 ,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+ICA01004,France,Europe,HOP Training by Icare,Morlaix,Embraer,Emb145,ERJ-145,Regional Jet,RR,AE3007A1/AE3007A/AE3007A1P,2J,FSI,2001,FSI,Vital 8+,3chCC,180x40,FSI,6H,FSI,FFS D,"EASA
+FAA",Europe/USA,,www.hoptraining.fr,Marc Borina <maborina@hop.fr>,+33 2 98881010 ,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+ICA02001,France,Europe,HOP Training by Icare,Paris,ATR,ATR42/72,ATR42-500/ATR72-200/ATR42-300,Regional Prop,PWC,PW127E/PW124B/PW120,2P,FSI,1991,FSI,Vital X,3chCC,150x40,FSI,6H,FSI,FFS C,EASA,Europe,,www.hoptraining.fr,Marc Borina <maborina@hop.fr>,+33 2 98881010 ,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000

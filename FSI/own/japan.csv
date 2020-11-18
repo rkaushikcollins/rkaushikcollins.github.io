@@ -1,0 +1,5 @@
+SimX,Country,Region,TrainingOrganization,SiteLocation,ACMaker,ACFamily,ACTypes,ACSector,EngMakers,EngTypes,Cat,SimMaker,Date,IGMaker,IGModel,Windows,FOV,DisMaker,MotionType,MotionMaker,Level,RegLocation,Remarks,Web,Email,Tel,SWeb,SEmail,STel
+FSI23001,Japan,Asia,FSI Tokyo Learning Center,Tokyo-Ota-Ku,Bombardier,CRJ,CRJ700/CRJ200,Regional Jet,GE,CF34-8C5,2J,FSI,2010,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,JCAB,Japan,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI23002,Japan,Asia,FSI Tokyo Learning Center,Tokyo-Ota-Ku,Bombardier,Q400,Dash 8 Q400,Regional Prop,PWC,PW150A,2P,FSI,2011,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"JCAB
+CASA",Japan/Australia,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI23003,Japan,Asia,FSI Tokyo Learning Center,Tokyo-Ota-Ku,Embraer,E170/190,E-170,Regional Jet,GE,CF34-8E5,2J,FSI,2017,FSI,Vital 1100,3chCC,200x40,FSI,6E,FSI/Moog,FFS D,JCAB,Japan,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,

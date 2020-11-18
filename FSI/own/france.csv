@@ -1,0 +1,40 @@
+SimX,Country,Region,TrainingOrganization,SiteLocation,ACMaker,ACFamily,ACTypes,ACSector,EngMakers,EngTypes,Cat,SimMaker,Date,IGMaker,IGModel,Windows,FOV,DisMaker,MotionType,MotionMaker,Level,RegLocation,Remarks,Web,Email,Tel,SWeb,SEmail,STel
+FSI11003,France,Europe,FSI Paris Learning Center,Paris-Le Bourget,Dassault,Falcon20/200,Falcon 20F/Falcon 20D/Falcon 20F-5,Business,GE/Honeywell,CF700-2D-2/CF700-2D/TFE731-5BR,2J,FSI,1995,FSI,Vital 8+,3ch/4w,150x40,FSI,6H,FSI,FFS C,"FAA
+TC
+EASA
+MDGAC",Europe/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+FSI11004,France,Europe,FSI Paris Learning Center,Paris-Le Bourget,Dassault,Falcon2000,Falcon 2000,Business,Honeywell,CFE738-1-1B,2J,FSI,1998,FSI,Vital 8+,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+EASA
+TC
+MDGAC",Europe/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+FSI11006,France,Europe,FSI Paris Learning Center,Paris-Le Bourget,Dassault,Falcon50,Falcon 50,Business,Honeywell,TFE731-3-1C,3J,FSI,1992,FSI,Vital 8+,3chCC,150x40,FSI,6H,FSI,FFS C,"FAA
+TC
+EASA
+MDGAC",Canada/Europe/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+FSI11007,France,Europe,FSI Paris Learning Center,Paris-Le Bourget,Dassault,Falcon7X,Falcon 7X,Business,PWC,PW307A,3J,FSI,2012,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+GACA",Saudi Arabia/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+FSI11008,France,Europe,FSI Paris Learning Center,Paris-Le Bourget,Dassault,Falcon900,Falcon 900,Business,Honeywell,TFE731-5AR,3J,FSI,1987,FSI,Vital 8+,3chCC,165x40,FSI,6H,FSI,FFS C,"FAA
+EASA
+TC
+MDGAC",USA/Canada/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+FSI11005,France,Europe,FSI Paris Learning Center,Paris-Le Bourget,Dassault,FalconEAsy,Falcon 900EX EASy/Falcon 2000EX EASy,Business,Honeywell/PWC,TFE731-60/PW308C,2J/3J,FSI,2007,FSI,Vital 9,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+EASA
+MDGAC
+TC
+GACA",USA/Mexico/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+FSI11015,France,Europe,FSI Paris Learning Center,Paris-Le Bourget,Dassault,FalconEAsy,Falcon 2000LXS,Business,PWC,PW308C+,2J,FSI,2016,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"EASA
+FAA",Europe/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+FSI11010,France,Europe,FSI Paris Learning Center,Paris-Le Bourget,Embraer,E170/190,E-190/E-170,Regional Jet,GE,CF34-10E5/CF34-8E5,2J,FSI,2007,FSI,Vital 9,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+EASA
+TC
+MDGAC
+GACA",Canada/Europe/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+FSI11013,France,Europe,FSI Paris Learning Center,Paris-Le Bourget,Embraer,Emb120,Emb120,Regional Prop,PWC,PW118,2P,FSI,1991,FSI,Vital 8+,3ch/4w,150x40,FSI,6H,FSI,FFS C,"EASA
+FAA",USA/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+FSI11012,France,Europe,FSI Paris Learning Center,Paris-Le Bourget,Embraer,Emb145,Legacy 650,Regional Jet,RR,AE3007A2,2J,FSI,2001,FSI,Vital 1100,3chCC,180x40,FSI,6H,FSI,FFS D,"EASA
+FAA
+GACA
+MDGAC",Europe/Saudi Arabia/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+FSI11016,France,Europe,FSI Paris Learning Center,Paris-Le Bourget,Dassault,Falcon8X,Falcon 8X,Business,PWC,PW307D,3J,FSI,2016,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+ANAC
+EASA",Europe/Brazil/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000

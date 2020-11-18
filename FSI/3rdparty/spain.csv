@@ -1,0 +1,4 @@
+SimX,Country,Region,TrainingOrganization,SiteLocation,ACMaker,ACFamily,ACTypes,ACSector,EngMakers,EngTypes,Cat,SimMaker,Date,IGMaker,IGModel,Windows,FOV,DisMaker,MotionType,MotionMaker,Level,RegLocation,Remarks,Web,Email,Tel,SWeb,SEmail,STel
+AEU01001,Spain,Europe,Air Europa,Mallorca,Boeing,B737NG,B737-700/B737-800,Narrow-body Transport,GE,CFM56-7B,2J,FSI,2000,FSI,Vital 8+,3chCC,180x40,FSI,6H,FSI,FFS D,"EASA
+FAA",USA/Europe,,www.aireuropa.com, <comunicacion@globalia-corp.com>,+34 91 5401682,,
+SEN01001,Spain,Europe,SENASA,Madrid,Boeing,B757/767,B757-200,Wide-body Transport,RR,RB211-535E4,2J,FSI,1993,FSI,Vital 7,3ch/4w,150x40,FSI,6H,FSI,FFS B,EASA,Europe,,www.senasa.es, <planning@senasa.es>,+34 91 301 9443,,

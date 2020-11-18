@@ -1,0 +1,37 @@
+SimX,Country,Region,TrainingOrganization,SiteLocation,ACMaker,ACFamily,ACTypes,ACSector,EngMakers,EngTypes,Cat,SimMaker,Date,IGMaker,IGModel,Windows,FOV,DisMaker,MotionType,MotionMaker,Level,RegLocation,Remarks,Web,Email,Tel,SWeb,SEmail,STel
+FSI14001,Canada,North America,FSI Montreal Learning Center,"Montreal, PQ",Bombardier,Challenger600,Challenger 601/Challenger 600,Business,GE,CF34-1A,2J,FSI,1987,FSI,Vital 7,3chCC,150x40,FSI,6H,FSI,FFS C,"TC
+FAA
+UKCAA
+MDGAC",Canada/UK/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+FSI14002,Canada,North America,FSI Montreal Learning Center,"Montreal, PQ",Bombardier,Challenger600,Challenger 601,Business,GE,CF34-3A,2J,FSI,1993,FSI,Vital 7,3chCC,165x40,FSI,6H,FSI,FFS D,"TC
+FAA
+EASA
+MDGAC
+GACA",Europe/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+FSI25001,Canada,North America,FSI Toronto Learning Center,Toronto-Downsview,Beechcraft,KA300,B1900D,Regional Prop,PWC,PT6A-67D,2P,FSI,2000,FSI,Vital X,3chCC,180x40,FSI,6H,FSI,FFS D,"TC
+FAA
+EASA
+MDGAC",Europe/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+FSI25002,Canada,North America,FSI Toronto Learning Center,Toronto-Downsview,Bombardier,Dash7,Dash 7,Regional Prop,PWC,PT6A-50,4P,FSI,1991,FSI,Vital X,3ch/4w,150x40,FSI,4H,FSI,FFS B,"TC
+FAA
+MDGAC",Mexico/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+FSI25003,Canada,North America,FSI Toronto Learning Center,Toronto-Downsview,Bombardier,Dash8,Dash 8-300/Dash 8-200/Dash 8-100,Regional Prop,PWC,PW123E/PW123D/PW121,2P,FSI,2003,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"TC
+FAA
+EASA
+MDGAC",Canada/USA/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+FSI25004,Canada,North America,FSI Toronto Learning Center,Toronto-Downsview,Bombardier,Dash8,Dash 8-300/Dash 8-100,Regional Prop,PWC,PW123/PW120A,2P,FSI,1989,FSI,Vital X,3ch/4w,150x40,FSI,6H,FSI,FFS C,"TC
+FAA
+UKCAA
+MDGAC",Canada/USA/UK,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+FSI25005,Canada,North America,FSI Toronto Learning Center,Toronto-Downsview,Bombardier,Q400,Dash 8-400,Regional Prop,PWC,PW150A,2P,FSI,2000,FSI,Vital X,3chCC,180x40,FSI,6H,FSI,FFS D,"TC
+FAA
+EASA
+MDGAC",Europe/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+FSI25006,Canada,North America,FSI Toronto Learning Center,Toronto-Downsview,Bombardier,Q400,Dash 8-400,Regional Prop,PWC,PW150A,2P,FSI,2009,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"TC
+FAA
+EASA
+MDGAC",Europe/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+FSI25007,Canada,North America,FSI Toronto Learning Center,Toronto-Downsview,Bombardier,TwinOtter,Twin Otter,Regional Prop,PWC,PT6A-27,2P,FSI,1993,FSI,Vital X,2ch/2w,60x40,FSI,4H,FSI,FFS B,"TC
+FAA
+EASA
+MDGAC",Canada/Europe/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000

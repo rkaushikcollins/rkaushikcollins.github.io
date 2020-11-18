@@ -1,0 +1,9 @@
+SimX,Country,Region,TrainingOrganization,SiteLocation,ACMaker,ACFamily,ACTypes,ACSector,EngMakers,EngTypes,Cat,SimMaker,Date,IGMaker,IGModel,Windows,FOV,DisMaker,MotionType,MotionMaker,Level,RegLocation,Remarks,Web,Email,Tel,SWeb,SEmail,STel
+UAZ01003,Brazil,South America,Azul,Campinas,ATR,ATR42/72,ATR72-600,Regional Prop,PWC,PW127F,2P,FSI,2013,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"ANAC
+EASA",Brazil/Europe,,www.voeazul.com.br,Gessica Gomes <gessica.gomes@voeazul.com.br>,+55 19 31984544,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+UAZ01001,Brazil,South America,Azul,Campinas,Embraer,E170/190,E-190,Regional Jet,GE,CF34-10E7,2J,FSI,2009,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"ANAC
+EASA",Brazil/Europe,,www.voeazul.com.br,Gessica Gomes <gessica.gomes@voeazul.com.br>,+55 19 31984544,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+UAZ01002,Brazil,South America,Azul,Campinas,Embraer,E170/190,E-190,Regional Jet,GE,CF34-10E7,2J,FSI,2011,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"ANAC
+EASA",Europe/Brazil,,www.voeazul.com.br,Gessica Gomes <gessica.gomes@voeazul.com.br>,+55 19 31984544,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+EPA01001,Brazil,South America,EPA Training Center,Curitiba,Embraer,Emb120,Emb120,Regional Prop,PWC,PW118,2P,L3 CTS,1990,FSI,Vital 4,1ch/2w,60x40,FSI,6H,L3 CTS,FFS B,ANAC,Brazil,,www.epa.aero,Flavio Farias <flavio@epa.aero>,+55 41 3356 3636,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+EPA01002,Brazil,South America,EPA Training Center,Curitiba,Embraer,Emb145,ERJ-145,Regional Jet,RR,AE3007-A1P/AE3007-A/AE3007-A1,2J,FSI,2003,FSI,Vital X,3ch/4w,180x40,FSI,6H,FSI,FFS D,ANAC,Brazil,,www.epa.aero,Flavio Farias <flavio@epa.aero>,+55 41 3356 3636,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000

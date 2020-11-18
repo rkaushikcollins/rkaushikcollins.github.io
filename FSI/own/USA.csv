@@ -1,0 +1,814 @@
+SimX,Country,Region,TrainingOrganization,SiteLocation,ACMaker,ACFamily,ACTypes,ACSector,EngMakers,EngTypes,Cat,SimMaker,Date,IGMaker,IGModel,Windows,FOV,DisMaker,MotionType,MotionMaker,Level,RegLocation,Remarks,Web,Email,Tel,SWeb,SEmail,STel
+FSI01001,USA,North America,FSI Atlanta Learning Center,"Atlanta, GA",Beechcraft,KA200,KA200 4-blade/KA200 3-blade/KA200 Raisbeck,Regional Prop,PWC,PT6A-42,2P,FSI,2002,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+MDGAC
+CAAC
+ANAC",USA/Mexico/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI01002,USA,North America,FSI Atlanta Learning Center,"Atlanta, GA",Beechcraft,KA300,KA350,Regional Prop,PWC,PT6A-60A  ,2P,FSI,1993,FSI,Vital 4,3ch/4w,150x40,FSI,6H,FSI,FFS C,"FAA
+TC
+MDGAC
+ANAC",Mexico/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI01003,USA,North America,FSI Atlanta Learning Center,"Atlanta, GA",Beechcraft,KA300,KA350,Regional Prop,PWC,PT6A-60A  ,2P,FSI,2008,FSI,Vital 9,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+TC
+MDGAC
+ANAC",Canada/Mexico/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI01017,USA,North America,FSI Atlanta Learning Center,"Atlanta, GA",Beechcraft,KA300,KA350,Regional Prop,PWC,PT6A-60A,2P,FSI,2016,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+TC
+EASA",Canada/Europe/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI01004,USA,North America,FSI Atlanta Learning Center,"Atlanta, GA",Bombardier,CRJ,CRJ,Regional Jet,GE,CF34-3A1,2J,FSI,2000,FSI,Vital 8+,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+MDGAC",Mexico/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI01005,USA,North America,FSI Atlanta Learning Center,"Atlanta, GA",Bombardier,CRJ,CRJ,Regional Jet,GE,CF34-3A1,2J,FSI,2000,FSI,Vital 8+,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+MDGAC",Mexico/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI01006,USA,North America,FSI Atlanta Learning Center,"Atlanta, GA",Bombardier,CRJ,CRJ,Regional Jet,GE,CF34-3B1,2J,FSI,2001,FSI,Vital 8+,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+MDGAC",Mexico/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI01007,USA,North America,FSI Atlanta Learning Center,"Atlanta, GA",Bombardier,CRJ,CRJ700,Regional Jet,GE,CF34-8C5,2J,FSI,2014,FSI,Vital 1100,3chCC,180x40,FSI,6H,FSI,FFS D,FAA,USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI01009,USA,North America,FSI Atlanta Learning Center,"Atlanta, GA",Bombardier,Dash8,Dash 8-100/Dash 8-300/Dash 8-200,Regional Prop,PWC,PW120A/PW123/PW121,2P,FSI,2001,FSI,Vital 8,3chCC,180x40,FSI,6H,FSI,FFS C,"FAA
+TC
+UKCAA
+MDGAC",UK/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI01010,USA,North America,FSI Atlanta Learning Center,"Atlanta, GA",Bombardier,Lear31,Learjet 31A,Business,Honeywell,TFE731-2-3B,2J,FSI,2002,FSI,Vital 8+,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+ANAC
+UKCAA
+MDGAC",USA/Brazil/UK,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI01011,USA,North America,FSI Atlanta Learning Center,"Atlanta, GA",Bombardier,Lear35/36,Learjet 35,Business,Honeywell,TFE731-2-2B,2J,FSI,1986,FSI,Vital X,3ch/4w,150x40,FSI,6H,FSI,FFS C,"FAA
+TC
+UKCAA
+ANAC",UK/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI01012,USA,North America,FSI Atlanta Learning Center,"Atlanta, GA",Bombardier,Lear40/45,Learjet 45,Business,Honeywell,TFE731-20,2J,FSI,2000,FSI,Vital 8+,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+EASA
+MDGAC
+ANAC",USA/Canada/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI01013,USA,North America,FSI Atlanta Learning Center,"Atlanta, GA",Bombardier,Lear60,Learjet 60,Business,PWC,PW305A,2J,FSI,2001,FSI,Vital 8+,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+EASA
+MDGAC
+ANAC",Canada/Europe/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI01014,USA,North America,FSI Atlanta Learning Center,"Atlanta, GA",Cessna,CitationII/V,Citation II/Citation I,Business,PWC/PW,JT15D-5/JT15D-1,2J,FSI,1987,FSI,Vital X,3ch/4w,150x40,FSI,6H,FSI,FFS C,"FAA
+UKCAA
+TC
+MDGAC",USA/Canada/UK,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI01018,USA,North America,FSI Atlanta Learning Center,"Atlanta, GA",Cessna,CitationS,Citation Sovereign,Business,PWC,PW306C,2J,FSI,2007,FSI,Vital 9,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"TC
+ANAC
+FAA",USA/Brazil/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI01015,USA,North America,FSI Atlanta Learning Center,"Atlanta, GA",Embraer,Emb120,Emb120,Regional Prop,PWC,PW118,2P,FSI,1991,FSI,Vital 4,3ch/4w,150x40,FSI,6H,FSI,FFS C,"FAA
+TC
+MDGAC",Mexico/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI05001,USA,North America,FSI Cincinnati Learning Center,"Erlanger, KY",Bombardier,CRJ,CRJ,Regional Jet,GE,CF34-3A1,2J,FSI,2000,FSI,Vital 8+,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+MDGAC",Mexico/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI05005,USA,North America,FSI Cincinnati Learning Center,"Erlanger, KY",Bombardier,CRJ,CRJ,Regional Jet,GE,CF34-3A1,2J,FSI,2000,FSI,Vital 8h+,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+MDGAC",Mexico/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI05006,USA,North America,FSI Cincinnati Learning Center,"Erlanger, KY",Bombardier,CRJ,CRJ,Regional Jet,GE,CF34-3A1,2J,FSI,2001,FSI,Vital 8+,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+MDGAC",Mexico/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI05007,USA,North America,FSI Cincinnati Learning Center,"Erlanger, KY",Bombardier,CRJ,CRJ,Regional Jet,GE,CF34-3A1,2J,FSI,1997,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+MDGAC",Mexico/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI05002,USA,North America,FSI Cincinnati Learning Center,"Erlanger, KY",Embraer,E170/190,E-170,Regional Jet,GE,CF34-8E5,2J,FSI,2016,FSI,Vital 1100,3chCC,200x40,FSI,6E,FSI/Moog,FFS D,FAA,USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI05004,USA,North America,FSI Cincinnati Learning Center,"Erlanger, KY",Embraer,E170/190,E-170,Regional Jet,GE,CF34-8E5,2J,FSI,2013,FSI,Vital X,3chCC,200x40,FSI,6E,FSI/Moog,FFS D,FAA,USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI05003,USA,North America,FSI Cincinnati Learning Center,"Erlanger, KY",Embraer,Emb145,ERJ-145,Regional Jet,RR,AE3007A,2J,FSI,1998,FSI,Vital 8,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+UKCAA
+MDGAC",UK/Mexico/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI02009,USA,North America,FSI Columbus Learning Center,"Columbus, OH",Beechcraft,Hawker800,Hawker 900XP,Business,Honeywell,TFE731-50R,2J,FSI,2009,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+TC
+MDGAC
+GACA
+CAAC",USA/Mexico/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI02010,USA,North America,FSI Columbus Learning Center,"Columbus, OH",Bombardier,Challenger300,CL-350,Business,Honeywell,HTF7350,2J,FSI,2014,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+EASA",USA/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI02015,USA,North America,FSI Columbus Learning Center,"Columbus, OH",Bombardier,Challenger300,CL-350,Business,Honeywell,HTF7350,2J,FSI,2016,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+EASA",Europe/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI02011,USA,North America,FSI Columbus Learning Center,"Columbus, OH",Bombardier,Challenger650,CL-650,Business,GE,CF34-3B,2J,FSI,2015,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+TC
+CAAC",China/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI02001,USA,North America,FSI Columbus Learning Center,"Columbus, OH",Bombardier,Global,Global Vision 6000,Business,RR,BR710A2-20,2J,FSI,2012,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+EASA
+TC
+GACA
+CAAC",Canada/Europe/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI02013,USA,North America,FSI Columbus Learning Center,"Columbus, OH",Cessna,CitationL,Citation Latitude,Business,PWC,PW306D1,2J,FSI,2016,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+EASA",USA/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI02003,USA,North America,FSI Columbus Learning Center,"Columbus, OH",Cessna,CitationS,Citation Sovereign,Business,PWC,PW306C,2J,FSI,2006,FSI,Vital 9,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+MDGAC
+GACA",USA/Saudi Arabia/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI02004,USA,North America,FSI Columbus Learning Center,"Columbus, OH",Cessna,CitationX,Citation X,Business,RR,AE3007C,2J,FSI,2001,FSI,Vital 1100,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+UKCAA
+MDGAC
+GACA",Mexico/UK/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI02002,USA,North America,FSI Columbus Learning Center,"Columbus, OH",Cessna,CitationXL,Citation Excel,Business,PWC,PW545A,2J,FSI,2001,FSI,Vital X,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+UKCAA
+MDGAC
+GACA",USA/UK/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI02005,USA,North America,FSI Columbus Learning Center,"Columbus, OH",Cessna,CitationXL,Citation XLS,Business,PWC,PW545B,2J,FSI,2007,FSI,Vital 9,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+MDGAC
+GACA
+TC",Saudi Arabia/USA/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI02012,USA,North America,FSI Columbus Learning Center,"Columbus, OH",Cessna,CitationXL,Citation XLS+,Business,PWC,PW545C,2J,FSI,2016,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,FAA,USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI02006,USA,North America,FSI Columbus Learning Center,"Columbus, OH",Dassault,Falcon2000,Falcon 2000,Business,Honeywell,CFE738-1-1B,2J,FSI,2003,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+MDGAC
+GACA",Saudi Arabia/USA/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI02007,USA,North America,FSI Columbus Learning Center,"Columbus, OH",Embraer,Phenom,Phenom 300,Business,PWC,PW535E,2J,FSI,2013,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+EASA
+GACA",Europe/Saudi Arabia/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI02014,USA,North America,FSI Columbus Learning Center,"Columbus, OH",Embraer,Phenom,Phenom 300,Business,PWC,PW535E,2J,FSI,2017,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+EASA
+GACA",Europe/USA/Saudi Arabia,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI02008,USA,North America,FSI Columbus Learning Center,"Columbus, OH",Gulfstream,Gulfstream200,G200,Business,PWC,PW306A,2J,FSI,2007,FSI,Vital 9,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+MDGAC",USA/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI03001,USA,North America,FSI Daleville Learning Center,"Daleville, AL",Beechcraft,KA200,King Air UC12B/KA200,Regional Prop,PWC,PT6A-41,2P,FSI,1986,FSI,Vital 9,5ch/6w,200x40,FSI,6H,FSI,FFS C,FAA,USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI03003,USA,North America,FSI Daleville Learning Center,"Daleville, AL",Beechcraft,KA200,King Air C12V,Regional Prop,PWC,PT6A-42,2P,FSI,2004,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS B,FAA,USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI03004,USA,North America,FSI Daleville Learning Center,"Daleville, AL",Beechcraft,KA200,King Air C12D,Regional Prop,PWC,PT6A-41,2P,FSI,1992,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS C,FAA,USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI03005,USA,North America,FSI Daleville Learning Center,"Daleville, AL",Beechcraft,KA200,King Air C12D,Regional Prop,PWC,PT6A-41,2P,FSI,1994,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS C,FAA,USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI03006,USA,North America,FSI Daleville Learning Center,"Daleville, AL",Beechcraft,KA200,King Air C12V,Regional Prop,PWC,PT6A-42,2P,FSI,2011,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS B,FAA,USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI03007,USA,North America,FSI Daleville Learning Center,"Daleville, AL",Beechcraft,KA200,King Air C12V,Regional Prop,PWC,PT6A-42,2P,FSI,2011,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS B,FAA,USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI35005,USA,North America,FSI Denver Learning Center,"Denver, CO",Airbus Helicopters,H130,H130,VTOL,Turbomeca,Arriel 2D,R1,FSI,2017,FSI,Vital 1100,3chCC,200x40,FSI,6E,FSI/Moog,FFS D,FAA,USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI35003,USA,North America,FSI Denver Learning Center,"Denver, CO",Airbus Helicopters,H135,EC135,VTOL,PWC,PW206B2,R2,FSI,2013,FSI,Vital 1100,5chCC,200x60,FSI,6E,FSI/Moog,FFS D,"FAA
+TC
+ANAC",Canada/Brazil/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI35002,USA,North America,FSI Denver Learning Center,"Denver, CO",Airbus Helicopters,Squirrel,AS350 B3,VTOL,Turbomeca,Arriel 2B1,R1,FSI,2017,FSI,Vital 1100,3chCC,200x40,FSI,6E,FSI/Moog,FFS D,FAA,USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI35004,USA,North America,FSI Denver Learning Center,"Denver, CO",Bell Helicopter,JetRanger,Bell 407GX,VTOL,RR,Allison 250-C47B ,R1,FSI,2017,FSI,Vital 1100,3chCC,200x40,FSI,6E,FSI/Moog,FFS D,FAA,USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI35006,USA,North America,FSI Denver Learning Center,"Denver, CO",Bombardier,CRJ,CRJ700,Regional Jet,GE,CF34-8C1,2J,FSI,2003,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+MDGAC",Mexico/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI35007,USA,North America,FSI Denver Learning Center,"Denver, CO",Bombardier,CRJ,CRJ,Regional Jet,GE,CF34-3A1,2J,FSI,2002,FSI,Vital 8+,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+MDGAC",Mexico/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI04002,USA,North America,FSI DFW North Learning Center,"Dallas-Fort Worth, TX",Bell Helicopter,Bell430,Bell 430,VTOL,RR,Allison 250-C47B,R2,FSI,1999,FSI,Vital X,3chCC,180x50,FSI,6H,FSI,FFS C,"FAA
+TC
+EASA
+ANAC",Canada/USA/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI04009,USA,North America,FSI DFW North Learning Center,"Dallas-Fort Worth, TX",Bell Helicopter,Huey,Bell 212/Bell 412,VTOL,PWC,PT6T-3B,R2,FSI,2003,FSI,Vital X,3chCC,180x40,FSI,6H,FSI,FFS C,"FAA
+MDGAC
+ANAC",Brazil/Mexico/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI04004,USA,North America,FSI DFW North Learning Center,"Dallas-Fort Worth, TX",Bombardier,CRJ,CRJ200/CRJ700,Regional Jet,GE,CF34-8C1,2J,FSI,2003,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+MDGAC
+GACA",Saudi Arabia/USA/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI04006,USA,North America,FSI DFW North Learning Center,"Dallas-Fort Worth, TX",Dassault,Falcon20/200,Falcon 20F-5/Falcon 20F,Business,Honeywell/GE,TFE731-5BR/CF-700-2D-2,2J,FSI,1994,FSI,Vital 8,3chCC,150x40,FSI,6H,FSI,FFS D,"FAA
+TC
+MDGAC",USA/Mexico/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI04007,USA,North America,FSI DFW North Learning Center,"Dallas-Fort Worth, TX",Dassault,Falcon2000,Falcon 2000,Business,Honeywell,CFE738-1-1B,2J,FSI,2000,FSI,Vital 8h+,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+UKCAA
+TC
+MDGAC",UK/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI04010,USA,North America,FSI DFW North Learning Center,"Dallas-Fort Worth, TX",Dassault,Falcon7X,Falcon 7X,Business,PWC,PW307A,3J,FSI,2012,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+ANAC
+EASA
+TC
+GACA",USA/Brazil/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI04008,USA,North America,FSI DFW North Learning Center,"Dallas-Fort Worth, TX",Dassault,FalconEAsy,Falcon 2000EX EASy,Business,PWC,PW308C,2J,FSI,2006,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+TC
+GACA
+MDGAC
+CAAC",Canada/Saudi Arabia/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI04011,USA,North America,FSI DFW North Learning Center,"Dallas-Fort Worth, TX",Dassault,FalconEAsy,Falcon 900EX,Business,Honeywell,TFE731-60,3J,FSI,2000,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+UKCAA
+TC
+MDGAC",Canada/USA/UK,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI04013,USA,North America,FSI DFW North Learning Center,"Dallas-Fort Worth, TX",Dassault,FalconEAsy,Falcon 900LX,Business,Honeywell,TFE731-60,3J,FSI,2012,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"EASA
+FAA
+TC
+ANAC",Canada/USA/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI04012,USA,North America,FSI DFW North Learning Center,"Dallas-Fort Worth, TX",Embraer,Emb145,ERJ-145,Regional Jet,RR,AE3007A,2J,FSI,2004,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+MDGAC
+GACA",USA/Saudi Arabia/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI04028,USA,North America,FSI DFW North Learning Center,"Dallas-Fort Worth, TX",Embraer,Emb145,Legacy 500,Regional Jet,Honeywell,HTF7500E,2J,FSI,2016,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+ANAC",USA/Brazil,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI04014,USA,North America,FSI DFW North Learning Center,"Dallas-Fort Worth, TX",Gulfstream,Gulfstream100,G100,Business,Honeywell,TFE731-40R,2J,FSI,2005,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+EASA
+TC
+MDGAC
+GACA",Europe/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI04015,USA,North America,FSI DFW North Learning Center,"Dallas-Fort Worth, TX",Gulfstream,Gulfstream100,G150,Business,Honeywell,TFE731-40R,2J,FSI,2009,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+EASA
+TC
+MDGAC
+ANAC",Europe/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI04016,USA,North America,FSI DFW North Learning Center,"Dallas-Fort Worth, TX",Gulfstream,Gulfstream100,G150,Business,Honeywell,TFE731-40R,2J,FSI,2006,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"EASA
+FAA
+TC
+MDGAC",Canada/Europe/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI04017,USA,North America,FSI DFW North Learning Center,"Dallas-Fort Worth, TX",Gulfstream,Gulfstream200,G200,Business,PWC,PW306A,2J,FSI,2000,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+EASA
+CAAC
+MDGAC",USA/Canada/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI04018,USA,North America,FSI DFW North Learning Center,"Dallas-Fort Worth, TX",Gulfstream,Gulfstream200,G200,Business,PWC,PW306A,2J,FSI,2003,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+EASA
+CAAC
+MDGAC",Europe/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI04019,USA,North America,FSI DFW North Learning Center,"Dallas-Fort Worth, TX",Gulfstream,Gulfstream200,G280,Business,Honeywell,HTF7250G,2J,FSI,2012,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+TC
+EASA
+CAAC
+ANAC",Europe/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI04027,USA,North America,FSI DFW North Learning Center,"Dallas-Fort Worth, TX",Gulfstream,Gulfstream200,G280,Business,Honeywell,HTF7250G,2J,FSI,2015,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+EASA
+TC
+ANAC",Canada/Europe/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI04020,USA,North America,FSI DFW North Learning Center,"Dallas-Fort Worth, TX",Gulfstream,GulfstreamPV,G450/G550,Business,RR,Tay MK 611-8C/BR710C4-11,2J,FSI,2012,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+MDGAC
+GACA
+CAAC",Mexico/USA/Saudi Arabia,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI04021,USA,North America,FSI DFW North Learning Center,"Dallas-Fort Worth, TX",Gulfstream,GulfstreamSPZ,G-III,Business,RR,Spey 511-8,2J,FSI,1996,FSI,Vital 8,3chCC,160x40,FSI,6H,FSI,FFS D,"FAA
+TC
+GACA
+MDGAC
+UKCAA",Canada/USA/Saudi Arabia,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI04022,USA,North America,FSI DFW North Learning Center,"Dallas-Fort Worth, TX",Gulfstream,GulfstreamSPZ,G-IV,Business,RR,Tay MK 611-8,2J,FSI,2005,FSI,Vital 9,3chCC,150x40,FSI,6H,FSI,FFS D,"FAA
+GACA
+MDGAC",Mexico/USA/Saudi Arabia,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI04023,USA,North America,FSI DFW North Learning Center,"Dallas-Fort Worth, TX",Pilatus,PC12,PC12NG,Regional Prop,PWC,PT6A-67P,1P,FSI,2013,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+TC
+MDGAC
+ANAC
+EASA",USA/Mexico/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI04024,USA,North America,FSI DFW North Learning Center,"Dallas-Fort Worth, TX",Pilatus,PC12,PC12/47,Regional Prop,PWC,PT6A-66,1P,FSI,2014,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+TC
+ANAC
+MDGAC",Brazil/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI04003,USA,North America,FSI DFW North Learning Center,"Dallas-Fort Worth, TX",Pilatus,PC24,PC24,Business,Williams,FJ-44-4A,2J,FSI,2017,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS C,"FAA
+TC
+ANAC
+MDGAC
+EASA",USA/Canada/Brazil,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI33002,USA,North America,FSI DFW South Learning Center,"Fort Worth, TX",Airbus Helicopters,H135,EC135,VTOL,PWC,PW206B2,R2,FSI,2014,FSI,Vital 1100,5chCC,200x60,RC,6E,FSI/Moog,FFS D,"FAA
+TC
+ANAC",Brazil/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI33004,USA,North America,FSI DFW South Learning Center,"Fort Worth, TX",Bell Helicopter,Huey,Bell 412/Bell 212,VTOL,PWC,PT6T-3D,R2,FSI,2015,FSI,Vital 1100,5chCC,220x60,FSI,6E,FSI,FFS D,"FAA
+TC
+ANAC
+GACA",USA/Canada/Brazil,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI33006,USA,North America,FSI DFW South Learning Center,"Fort Worth, TX",Bell Helicopter,Huey,Bell 412,VTOL,PWC,PT6T-3D,R2,FSI,1999,FSI,Vital X,3chCC,200x60,FSI,6H,FSI,FFS D,"FAA
+EASA
+TC
+MDGAC
+ANAC",Europe/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI33003,USA,North America,FSI DFW South Learning Center,"Fort Worth, TX",Sikorsky,S76,S-76B,VTOL,PWC,PT6B-36A,R2,FSI,1988,FSI,Vital X,3chCC,150x40,FSI,6H,FSI,FFS C,"FAA
+TC
+UKCAA
+MDGAC",UK/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI36001,USA,North America,FSI HondaJet Training Center,"Greensboro, NC",Honda,HondaJet,HondaJet,Business,GE Honda,HF120,2J,FSI,2015,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+EASA
+MDGAC",Europe/Mexico/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 631 2084,,
+FSI08002,USA,North America,FSI Houston Learning Center,"Houston, TX",ATR,ATR42/72,ATR72-200/ATR42,Regional Prop,PWC,PW124B/PW120,2P,FSI,1991,FSI,Vital X,3ch/4w,150x40,FSI,6H,FSI,FFS C,"FAA
+TC
+MDGAC",Canada/Mexico/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI08003,USA,North America,FSI Houston Learning Center,"Houston, TX",ATR,ATR42/72,ATR42-500/ATR72-500,Regional Prop,PWC,PW127E ,2P,FSI,2009,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+MDGAC
+ANAC",USA/Canada/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI08008,USA,North America,FSI Houston Learning Center,"Houston, TX",Beechcraft,Hawker800,Hawker 800XP,Business,Honeywell,TFE731-5BR,2J,FSI,2003,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+MDGAC",Canada/USA/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI08004,USA,North America,FSI Houston Learning Center,"Houston, TX",Bombardier,Challenger600,Challenger 601,Business,GE,CF34-3A,2J,FSI,1997,FSI,Vital 8,3chCC,160x40,FSI,6H,FSI,FFS D,"FAA
+UKCAA
+TC
+MDGAC",UK/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI08005,USA,North America,FSI Houston Learning Center,"Houston, TX",Dassault,Falcon10/100,Falcon 10,Business,Honeywell,TFE731-2,2J,FSI,1983,FSI,Vital 8,3ch/4w,150x40,FSI,6H,FSI,FFS C,"FAA
+TC
+MDGAC",Mexico/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI08010,USA,North America,FSI Houston Learning Center,"Houston, TX",Dassault,Falcon50,Falcon 50,Business,Honeywell,TFE731-3-1C,3J,FSI,1994,FSI,Vital 8,3chCC,180x40,FSI,6H,FSI,FFS C,"FAA
+UKCAA
+TC
+MDGAC",USA/UK/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI08006,USA,North America,FSI Houston Learning Center,"Houston, TX",Embraer,Emb145,ERJ-145,Regional Jet,RR,AE3007A,2J,FSI,2001,FSI,Vital 8,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+MDGAC",USA/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI08007,USA,North America,FSI Houston Learning Center,"Houston, TX",Embraer,Emb145,ERJ-145,Regional Jet,RR,AE3007A,2J,FSI,2002,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+ANAC
+MDGAC",Brazil/USA/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI08009,USA,North America,FSI Houston Learning Center,"Houston, TX",Saab,Saab,SF340A,Regional Prop,GE,CT7-5A2,2P,FSI,1995,FSI,Vital X,3ch/4w,150x40,FSI,6H,FSI,FFS D,"FAA
+TC
+MDGAC",Mexico/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI10001,USA,North America,FSI Lafayette Learning Center,"Lafayette, LA",Leonardo Helicopters,AW139,AW139,VTOL,PWC,PT6C-67C,R2,FSI,2013,FSI,Vital 1100,5chCC,220x60,FSI,6E,FSI/Moog,FFS D,"FAA
+ANAC
+TC",Canada/USA/Brazil,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI10004,USA,North America,FSI Lafayette Learning Center,"Lafayette, LA",Sikorsky,S76,S-76C+/S-76C++,VTOL,Turbomeca,Arriel 2S1/Arriel 2S2,R2,FSI,2008,FSI,Vital X,5chCC,200x60,FSI,6E,FSI/Moog,FFS D,"FAA
+TC
+ANAC",Brazil/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI10005,USA,North America,FSI Lafayette Learning Center,"Lafayette, LA",Sikorsky,S92,S-92,VTOL,GE,CT7-8A,R2,FSI,2009,FSI,Vital X,5chCC,200x60,FSI,6E,FSI/Moog,FFS D,"FAA
+TC
+ANAC",Canada/USA/Brazil,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI10006,USA,North America,FSI Lafayette Learning Center,"Lafayette, LA",Sikorsky,S92,S-92A,VTOL,GE,CT7-8A,R2,FSI,2013,FSI,Vital 1100,5chCC,220x60,FSI,6E,FSI/Moog,FFS D,"FAA
+TC
+ANAC",USA/Brazil/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI07003,USA,North America,FSI LaGuardia Learning Center,"Flushing, NY",Beechcraft,KA200,KA200/King Air UC12B,Regional Prop,PWC,PT6A-42,2P,FSI,1987,FSI,Vital X,3ch/4w,150x40,FSI,6H,FSI,FFS C,"FAA
+TC
+MDGAC
+ANAC",Mexico/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI07001,USA,North America,FSI LaGuardia Learning Center,"Flushing, NY",Beechcraft,KA300,B1900,Regional Prop,PWC,PT6A-65B,2P,FSI,1989,FSI,Vital 4,3ch/4w,150x40,FSI,6H,FSI,FFS C,"FAA
+TC
+MDGAC",Canada/USA/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI07002,USA,North America,FSI LaGuardia Learning Center,"Flushing, NY",Beechcraft,KA300,B1900D,Regional Prop,PWC,PT6A-67D,2P,FSI,1996,FSI,Vital X,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+MDGAC",Canada/USA/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI07004,USA,North America,FSI LaGuardia Learning Center,"Flushing, NY",Bombardier,Shorts360,Shorts 360,Regional Prop,PWC,PT6A-65AR,2P,FSI,1989,FSI,Vital 4,3ch/4w,150x40,FSI,6H,FSI,FFS C,"FAA
+TC
+MDGAC",USA/Mexico/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI12001,USA,North America,FSI Long Beach Learning Center,"Long Beach, CA",Beechcraft,KA200,KA200,Regional Prop,PWC,PT6A-42,2P,FSI,1998,FSI,Vital 8+,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+MDGAC",Canada/USA/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI12003,USA,North America,FSI Long Beach Learning Center,"Long Beach, CA",Cessna,CitationII/V,Citation II/Citation I,Business,PWC/PW,JT15D-4/JT15D-1B,2J,FSI,2002,FSI,Vital 1100,3ch/4w,150x40,FSI,6H,FSI,FFS C,"FAA
+TC
+UKCAA
+MDGAC",USA/UK/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI12004,USA,North America,FSI Long Beach Learning Center,"Long Beach, CA",Cessna,CitationII/V,Citation V,Business,PW,JT15D-5A,2J,FSI,1990,FSI,Vital 9,3ch/4w,150x40,FSI,6H,FSI,FFS C,"FAA
+TC
+UKCAA
+MDGAC",UK/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI12008,USA,North America,FSI Long Beach Learning Center,"Long Beach, CA",Gulfstream,GulfstreamPV,G-V,Business,RR,BR710-48,2J,FSI,1997,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+MDGAC
+UKCAA",Canada/USA/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI12009,USA,North America,FSI Long Beach Learning Center,"Long Beach, CA",Gulfstream,GulfstreamPV,G450/G550,Business,RR,Tay MK 611-8C/BR710C4-11,2J,FSI,2008,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+TC
+CAAC
+MDGAC
+HKCAD",China/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI12010,USA,North America,FSI Long Beach Learning Center,"Long Beach, CA",Gulfstream,GulfstreamPV,G650,Business,RR,BR725A1-12,2J,FSI,2014,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+MDGAC
+CAAC
+TC
+HKCAD",USA/Mexico/China,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI12006,USA,North America,FSI Long Beach Learning Center,"Long Beach, CA",Gulfstream,GulfstreamSPZ,G-III,Business,RR,Spey 511-8,2J,FSI,1986,FSI,Vital 9,3chCC,165x40,FSI,6H,FSI,FFS C,"FAA
+TC
+MDGAC
+UKCAA",Canada/USA/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI12007,USA,North America,FSI Long Beach Learning Center,"Long Beach, CA",Gulfstream,GulfstreamSPZ,G-IV,Business,RR,Tay MK 611-8,2J,FSI,1989,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+MDGAC
+UKCAA",USA/Mexico/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI17001,USA,North America,FSI Orlando Learning Center,"Orlando, FL",Cessna,CitationII/V,Citation Bravo,Business,PWC,PW530A,2J,FSI,2003,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+UKCAA
+MDGAC",Canada/USA/UK,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI17004,USA,North America,FSI Orlando Learning Center,"Orlando, FL",Cessna,CitationII/V,Citation Encore UC-35B,Business,PWC,PW535A,2J,FSI,2002,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+UKCAA
+MDGAC",Canada/USA/UK,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI17007,USA,North America,FSI Orlando Learning Center,"Orlando, FL",Cessna,CitationII/V,Citation Encore+,Business,PWC,PW535B,2J,FSI,2007,FSI,Vital 9,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+TC
+ANAC",Canada/USA/Brazil,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI17002,USA,North America,FSI Orlando Learning Center,"Orlando, FL",Cessna,CitationJet,Citation CJ2,Business,Williams,FJ44-2C,2J,FSI,2003,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+EASA
+ANAC",Canada/USA/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI17003,USA,North America,FSI Orlando Learning Center,"Orlando, FL",Cessna,CitationJet,Citation CJ3,Business,Williams,FJ44-3A,2J,FSI,2007,FSI,Vital 9,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"TC
+EASA
+FAA
+MDGAC
+ANAC",Europe/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI17014,USA,North America,FSI Orlando Learning Center,"Orlando, FL",Cessna,CitationJet,Citation CJ4,Business,Williams,FJ44-4A,2J,FSI,2010,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+EASA
+ANAC",Brazil/Europe/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI17008,USA,North America,FSI Orlando Learning Center,"Orlando, FL",Cessna,CitationS,Citation Sovereign,Business,PWC,PW306C,2J,FSI,2006,FSI,Vital 9,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"TC
+EASA
+FAA
+ANAC",Canada/USA/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI17009,USA,North America,FSI Orlando Learning Center,"Orlando, FL",Cessna,CitationX,Citation X,Business,RR,AE3007C,2J,FSI,1996,FSI,Vital 1100,3chCC,180x40,FSI,6H,FSI,FFS D,"TC
+UKCAA
+FAA
+ANAC",Canada/USA/UK,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI17005,USA,North America,FSI Orlando Learning Center,"Orlando, FL",Cessna,CitationXL,Citation Excel,Business,PWC,PW545A,2J,FSI,2003,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+EASA
+ANAC",Canada/USA/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI17010,USA,North America,FSI Orlando Learning Center,"Orlando, FL",Cessna,CitationXL,Citation XLS,Business,PWC,PW545B,2J,FSI,2008,FSI,Vital 9,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"TC
+EASA
+FAA
+ANAC",USA/Europe/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI17011,USA,North America,FSI Orlando Learning Center,"Orlando, FL",Cessna,CitationXL,Citation XLS+,Business,PWC,PW545C,2J,FSI,2009,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+ANAC
+MDGAC",USA/Mexico/Brazil,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI17006,USA,North America,FSI Orlando Learning Center,"Orlando, FL",Cessna,Mustang,Citation Mustang,Business,PWC,PW615F,2J,FSI,2009,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"TC
+ANAC
+FAA",Brazil/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI18001,USA,North America,FSI Salt Lake City Learning Center,"Salt Lake City, UT",Bombardier,CRJ,CRJ,Regional Jet,GE,CF34-3A1,2J,FSI,1999,FSI,Vital 8,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+MDGAC",USA/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI18002,USA,North America,FSI Salt Lake City Learning Center,"Salt Lake City, UT",Bombardier,CRJ,CRJ,Regional Jet,GE,CF34-3A1,2J,FSI,2001,FSI,Vital 8,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+MDGAC",Mexico/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI18003,USA,North America,FSI Salt Lake City Learning Center,"Salt Lake City, UT",Bombardier,CRJ,CRJ200/CRJ700,Regional Jet,GE,CF34-3B1/CF34-8C5B1,2J,FSI,2002,FSI,Vital 8,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+MDGAC",USA/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI18004,USA,North America,FSI Salt Lake City Learning Center,"Salt Lake City, UT",Bombardier,CRJ,CRJ700,Regional Jet,GE,CF34-8C5B1,2J,FSI,2011,FSI,Vital X,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+MDGAC",Mexico/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI18005,USA,North America,FSI Salt Lake City Learning Center,"Salt Lake City, UT",Embraer,E170/190,E-170,Regional Jet,GE,CF34-8E5,2J,CAE,2011,FSI,Vital 1100,3chCC,180x40,CAE,6H,CAE,FFS D,"DGCAN
+FAA",USA/Netherlands,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI19007,USA,North America,FSI San Antonio Learning Center,"San Antonio, TX",Cessna,CitationII/V,Citation S/II,Business,PW,JT15D-4B,2J,FSI,1986,FSI,Vital 4,3ch/4w,150x40,FSI,6H,FSI,FFS C,"TC
+UKCAA
+FAA
+MDGAC",USA/Canada/UK,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI19008,USA,North America,FSI San Antonio Learning Center,"San Antonio, TX",Cessna,CitationII/V,Citation Ultra,Business,PW,JT15D-5D,2J,FSI,1997,FSI,Vital 1100,3chCC,180x40,FSI,6H,FSI,FFS C,"TC
+UKCAA
+FAA
+MDGAC",USA/Canada/UK,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI19005,USA,North America,FSI San Antonio Learning Center,"San Antonio, TX",Cessna,CitationIII,Citation III,Business,Honeywell,TFE731-3B,2J,FSI,1984,FSI,Vital 8+,3ch/4w,150x40,FSI,6H,FSI,FFS C,"TC
+UKCAA
+FAA
+MDGAC",UK/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI19002,USA,North America,FSI San Antonio Learning Center,"San Antonio, TX",Cessna,CitationJet,Citation CJ1,Business,Williams,FJ44,2J,FSI,2001,FSI,Vital 8+,3chCC,180x40,FSI,6H,FSI,FFS C,"TC
+EASA
+FAA
+MDGAC
+ANAC",Canada/Europe/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI19006,USA,North America,FSI San Antonio Learning Center,"San Antonio, TX",Cessna,CitationJet,CitationJet,Business,Williams,FJ44-1A,2J,FSI,1998,FSI,Vital 8+,3chCC,180x40,FSI,6H,FSI,FFS C,"TC
+EASA
+FAA
+MDGAC
+ANAC",Canada/Europe/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI19010,USA,North America,FSI San Antonio Learning Center,"San Antonio, TX",Cessna,CitationJet,Citation CJ2+,Business,Williams,FJ44-3A-24,2J,FSI,2006,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"EASA
+TC
+ANAC",Canada/Europe/Brazil,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI19003,USA,North America,FSI San Antonio Learning Center,"San Antonio, TX",Cessna,CitationXL,Citation Excel,Business,PWC,PW545A,2J,FSI,2003,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"TC
+MDGAC
+FAA",USA/Mexico/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI19009,USA,North America,FSI San Antonio Learning Center,"San Antonio, TX",Fairchild,Metro,Metro C-26,Regional Prop,Honeywell,TPE331-12UAR-701G,2P,FSI,1995,FSI,Vital 8+,3ch/4w,150x40,FSI,6H,FSI,FFS C,"TC
+FAA
+MDGAC",Canada/Mexico/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI20005,USA,North America,FSI Savannah Learning Center,"Savannah, GA",Gulfstream,Gulfstream200,G280,Business,Honeywell,HTF7250G,2J,FSI,2018,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+EASA
+TC
+ANAC",Canada/USA/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI20001,USA,North America,FSI Savannah Learning Center,"Savannah, GA",Gulfstream,GulfstreamPV,G450,Business,RR,Tay MK 611-8C,2J,FSI,2005,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+EASA
+TC
+MDGAC
+ANAC",Europe/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI20002,USA,North America,FSI Savannah Learning Center,"Savannah, GA",Gulfstream,GulfstreamPV,G450,Business,RR,Tay MK 611-8C,2J,FSI,2007,FSI,Vital 9,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+CAAC
+TC
+MDGAC
+EASA",USA/China/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI20003,USA,North America,FSI Savannah Learning Center,"Savannah, GA",Gulfstream,GulfstreamPV,G550,Business,RR,BR710C4-11,2J,FSI,2006,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+EASA
+TC
+FATA
+MDGAC",Canada/Europe/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI20004,USA,North America,FSI Savannah Learning Center,"Savannah, GA",Gulfstream,GulfstreamPV,G550,Business,RR,BR710C4-11,2J,FSI,2003,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+UKCAA
+FATA
+CAAC",USA/UK/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI20009,USA,North America,FSI Savannah Learning Center,"Savannah, GA",Gulfstream,GulfstreamPV,G-V,Business,RR,BR710-48,2J,FSI,1999,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+UKCAA
+MDGAC",USA/Canada/UK,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI20010,USA,North America,FSI Savannah Learning Center,"Savannah, GA",Gulfstream,GulfstreamPV,G450/G550,Business,RR,Tay MK 611-8C/BR710C4-11,2J,FSI,2009,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+TC
+MDGAC
+GACA",Mexico/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI20011,USA,North America,FSI Savannah Learning Center,"Savannah, GA",Gulfstream,GulfstreamPV,G650,Business,RR,BR725A1-12,2J,FSI,2012,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+EASA
+GACA
+MDGAC",Europe/USA/Saudi Arabia,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI20012,USA,North America,FSI Savannah Learning Center,"Savannah, GA",Gulfstream,GulfstreamPV,G650,Business,RR,BR725A1-12,2J,FSI,2012,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+JCAB
+GACA
+HKCAD",USA/Saudi Arabia/Japan,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI20006,USA,North America,FSI Savannah Learning Center,"Savannah, GA",Gulfstream,GulfstreamSPZ,G-IV,Business,RR,Tay MK 611-8,2J,FSI,2007,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+FATA
+MDGAC
+GACA",Russia/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI20008,USA,North America,FSI Savannah Learning Center,"Savannah, GA",Gulfstream,GulfstreamSPZ,G-IV,Business,RR,Tay MK 611-8,2J,FSI,1999,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+UKCAA
+FATA
+MDGAC",Russia/UK/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI20014,USA,North America,FSI Savannah Learning Center,"Savannah, GA",Gulfstream,GulfstreamSymmetry,G500,Business,PWC,PW814GA,2J,FSI,2014,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+TC
+EASA",Europe/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI21001,USA,North America,FSI Seattle Learning Center,"Seattle, WA",BAES,Jetstream,Jetstream 32/Jetstream 31,Regional Prop,Honeywell,TPE331-12UAR/TPE331-10UG,2P,FSI,1991,FSI,Vital 4,3ch/4w,150x40,FSI,6H,FSI,FFS C,"FAA
+TC
+MDGAC",Mexico/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI21002,USA,North America,FSI Seattle Learning Center,"Seattle, WA",Beechcraft,KA300,B1900D,Regional Prop,PWC,PT6A-67D,2P,FSI,1996,FSI,Vital X,3ch/4w,150x40,FSI,6H,FSI,FFS D,"FAA
+TC
+MDGAC",Mexico/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI21003,USA,North America,FSI Seattle Learning Center,"Seattle, WA",Bombardier,Dash8,Dash 8-200/Dash 8-300/Dash 8-100,Regional Prop,PWC,PW123C/PW123E/PW121,2P,FSI,1992,FSI,Vital X,3ch/4w,150x40,FSI,6H,FSI,FFS C,"FAA
+TC
+MDGAC
+UKCAA",Mexico/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI21004,USA,North America,FSI Seattle Learning Center,"Seattle, WA",Bombardier,Dash8,Dash 8-300/Dash 8-100,Regional Prop,PWC,PW123E/PW121,2P,FSI,1994,FSI,Vital 7,3ch/4w,150x40,FSI,6H,FSI,FFS C,"FAA
+TC
+MDGAC
+UKCAA",Canada/USA/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI21008,USA,North America,FSI Seattle Learning Center,"Seattle, WA",Bombardier,Dash8,Dash 8-100/Dash 8-200/Dash 8-300,Regional Prop,PWC,PW121/PW123C/PW123E,2P,FSI,2014,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+TC",Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI21005,USA,North America,FSI Seattle Learning Center,"Seattle, WA",Bombardier,Q400,Dash 8 Q400,Regional Prop,PWC,PW150A,2P,FSI,2000,FSI,Vital X,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+MDGAC",Mexico/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI21006,USA,North America,FSI Seattle Learning Center,"Seattle, WA",Bombardier,Q400,Dash 8 Q400,Regional Prop,PWC,PW150A,2P,FSI,2007,FSI,Vital 9,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+TC
+MDGAC",Mexico/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI21009,USA,North America,FSI Seattle Learning Center,"Seattle, WA",Bombardier,Q400,Dash 8 Q400,Regional Prop,PWC,PW150A,2P,FSI,2008,FSI,Vital 9,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+TC
+MDGAC",Mexico/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI21010,USA,North America,FSI Seattle Learning Center,"Seattle, WA",Embraer,E170/190,E-170/E-190,Regional Jet,GE,CF34-8E5/CF34-10E7,2J,FSI,2017,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"EASA
+FAA",USA/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI22002,USA,North America,FSI St. Louis Learning Center,"St. Louis, MO",Bombardier,CRJ,CRJ200,Regional Jet,GE,CF34-3B1,2J,FSI,2007,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+CAAC
+MDGAC",China/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI22003,USA,North America,FSI St. Louis Learning Center,"St. Louis, MO",Bombardier,CRJ,CRJ900/CRJ700,Regional Jet,GE,CF34-8C5/CF34-8C1,2J,FSI,2006,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+MDGAC",USA/Mexico/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI22004,USA,North America,FSI St. Louis Learning Center,"St. Louis, MO",Bombardier,CRJ,CRJ700,Regional Jet,GE,CF34-8C1,2J,FSI,2003,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+MDGAC",Canada/USA/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI22006,USA,North America,FSI St. Louis Learning Center,"St. Louis, MO",Embraer,E170/190,E-170,Regional Jet,GE,CF34-8E5,2J,FSI,2006,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+ANAC
+MDGAC",USA/Mexico/Brazil,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI22007,USA,North America,FSI St. Louis Learning Center,"St. Louis, MO",Embraer,E170/190,E-170,Regional Jet,GE,CF34-8E5,2J,FSI,2008,FSI,Vital 9,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+TC
+MDGAC",USA/Canada/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI22008,USA,North America,FSI St. Louis Learning Center,"St. Louis, MO",Embraer,E170/190,E-190/E-170,Regional Jet,GE,CF34-10E5A1/CF34-8E5,2J,FSI,2010,FSI,Vital 9,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+ANAC
+MDGAC",Brazil/Mexico/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI22013,USA,North America,FSI St. Louis Learning Center,"St. Louis, MO",Embraer,E170/190,E-170,Regional Jet,GE,CF34-8E5,2J,FSI,2015,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,FAA,USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI22014,USA,North America,FSI St. Louis Learning Center,"St. Louis, MO",Embraer,E170/190,E-170,Regional Jet,GE,CF34-8E5,2J,FSI,2016,FSI,Vital 1100,3chCC,200x40,FSI,6E,FSI/Moog,FFS D,FAA,USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI22018,USA,North America,FSI St. Louis Learning Center,"St. Louis, MO",Embraer,E170/190,E-170,Regional Jet,GE,CF34-8E5,2J,FSI,2013,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+ANAC",USA/Brazil,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI22019,USA,North America,FSI St. Louis Learning Center,"St. Louis, MO",Embraer,E170/190,E-170,Regional Jet,GE,CF34-8E5,2J,FSI,2014,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+ANAC",USA/Brazil,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI22009,USA,North America,FSI St. Louis Learning Center,"St. Louis, MO",Embraer,Emb145,ERJ-145,Regional Jet,RR,AE3007A,2J,FSI,2000,FSI,Vital 8,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+UKCAA
+MDGAC",UK/Mexico/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI22010,USA,North America,FSI St. Louis Learning Center,"St. Louis, MO",Embraer,Emb145,ERJ-145,Regional Jet,RR,AE3007A,2J,FSI,2002,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+UKCAA
+MDGAC",USA/UK/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI22011,USA,North America,FSI St. Louis Learning Center,"St. Louis, MO",Embraer,Emb145,ERJ-145,Regional Jet,RR,AE3007A,2J,FSI,2002,FSI,Vital X,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+UKCAA
+ANAC",Brazil/USA/UK,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI22012,USA,North America,FSI St. Louis Learning Center,"St. Louis, MO",Embraer,Emb145,Legacy 650,Regional Jet,RR,AE3007-A2,2J,FSI,2013,FSI,Vital X,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+CAAC
+ANAC",China/Brazil/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI22020,USA,North America,FSI St. Louis Learning Center,"St. Louis, MO",Embraer,Emb145,Legacy 500,Regional Jet,Honeywell,HTF7500E,2J,FSI,2014,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+EASA
+ANAC",Europe/USA/Brazil,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI22017,USA,North America,FSI St. Louis Learning Center,"St. Louis, MO",Rockwell,Sabreliner,Sabre 65,Business,Honeywell,TFE731-3R-1D,2J,FSI,1982,FSI,Vital 8,2ch/2w,60x40,FSI,4H,FSI,FFS A,"FAA
+MDGAC",Mexico/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI15001,USA,North America,FSI Teterboro Learning Center,"Moonachie, NJ",Dassault,Falcon2000,Falcon 2000,Business,Honeywell,CFE738-1-1B,2J,FSI,1996,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+UKCAA
+ANAC",Canada/UK/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI15003,USA,North America,FSI Teterboro Learning Center,"Moonachie, NJ",Dassault,Falcon50,Falcon 50EX,Business,Honeywell,TFE731-40,3J,FSI,1999,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+EASA
+ANAC",Europe/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI15002,USA,North America,FSI Teterboro Learning Center,"Moonachie, NJ",Dassault,FalconEAsy,Falcon 2000EX EASy,Business,PWC,PW308C,2J,FSI,2004,FSI,Vital X,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+EASA
+TC
+ANAC
+MDGAC",USA/Canada/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI15004,USA,North America,FSI Teterboro Learning Center,"Moonachie, NJ",Dassault,FalconEAsy,Falcon 900EX,Business,Honeywell,TFE731-60,3J,FSI,1998,FSI,Vital X,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+EASA
+MDGAC",Europe/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI15005,USA,North America,FSI Teterboro Learning Center,"Moonachie, NJ",Dassault,FalconEAsy,Falcon 900EX EASy,Business,Honeywell,TFE731-60,3J,FSI,2003,FSI,Vital X,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+EASA
+TC
+CAAC
+MDGAC",USA/Canada/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI26001,USA,North America,FSI Tucson Learning Center,"Tucson, AZ",Bombardier,Challenger600,Challenger 601,Business,GE,CF34-3A,2J,FSI,1997,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"TC
+EASA
+FAA
+MDGAC
+ANAC",Europe/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI26002,USA,North America,FSI Tucson Learning Center,"Tucson, AZ",Bombardier,Challenger600,Challenger 604,Business,GE,CF34-3B,2J,FSI,1998,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"TC
+EASA
+FAA
+MDGAC",Europe/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI26003,USA,North America,FSI Tucson Learning Center,"Tucson, AZ",Bombardier,Lear31,Learjet 31A,Business,Honeywell,TFE731-2-3B,2J,FSI,1994,FSI,Vital 1100,3ch/4w,150x40,FSI,6H,FSI,FFS D,"TC
+EASA
+FAA
+MDGAC",USA/Canada/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI26005,USA,North America,FSI Tucson Learning Center,"Tucson, AZ",Bombardier,Lear35/36,Learjet 35,Business,Honeywell,TFE731-2-2B,2J,FSI,1989,FSI,Vital 8+,3ch/4w,150x40,FSI,6H,FSI,FFS C,"TC
+UKCAA
+FAA
+MDGAC",USA/UK/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI26006,USA,North America,FSI Tucson Learning Center,"Tucson, AZ",Bombardier,Lear40/45,Learjet 45,Business,Honeywell,TFE731-20AR,2J,FSI,2000,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"TC
+MDGAC
+FAA
+ANAC",Mexico/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI26009,USA,North America,FSI Tucson Learning Center,"Tucson, AZ",Bombardier,Lear50,Learjet 55,Business,Honeywell,TFE731-3AR-2B,2J,FSI,1986,FSI,Vital 9,3ch/4w,150x40,FSI,6H,FSI,FFS C,"FAA
+UKCAA
+TC
+ANAC",USA/Canada/UK,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI26007,USA,North America,FSI Tucson Learning Center,"Tucson, AZ",Bombardier,Lear60,Learjet 60,Business,PWC,PW305A,2J,FSI,1995,FSI,Vital 8+,3ch/4w,150x40,FSI,6H,FSI,FFS D,"TC
+UKCAA
+FAA
+MDGAC",Canada/UK/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI26008,USA,North America,FSI Tucson Learning Center,"Tucson, AZ",Bombardier,Lear60,Learjet 60,Business,PWC,PW305A,2J,FSI,1999,FSI,Vital 8+,3chCC,180x40,FSI,6H,FSI,FFS D,"TC
+EASA
+FAA
+MDGAC",USA/Canada/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI27001,USA,North America,FSI West Palm Beach Learning Center,"West Palm Beach, FL",Piaggio,Avanti,Avanti/Avanti II,Business,PWC,PT6A-66/PT6A-66B,2P,FSI,2006,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"TC
+EASA
+FAA
+MDGAC",USA/Europe/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI27002,USA,North America,FSI West Palm Beach Learning Center,"West Palm Beach, FL",Piaggio,Avanti,Avanti,Business,PWC,PT6A-66B,2P,FSI,2009,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"TC
+EASA
+FAA
+MDGAC
+ANAC",Canada/Europe/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI27003,USA,North America,FSI West Palm Beach Learning Center,"West Palm Beach, FL",Sikorsky,BlackHawk,S-70,VTOL,GE,T700-GE-701C,R2,FSI,2003,FSI,Vital X,5chCC,200x60,FSI,6H,FSI,FFS D,"FAA
+MDGAC",USA/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI27004,USA,North America,FSI West Palm Beach Learning Center,"West Palm Beach, FL",Sikorsky,BlackHawk,S-70i,VTOL,GE,T700-GE-701D,R2,FSI,2014,FSI,Vital 1100,5chCC,220x60,FSI,6E,FSI/Moog,FFS D,FAA,USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI27005,USA,North America,FSI West Palm Beach Learning Center,"West Palm Beach, FL",Sikorsky,S76,S-76C+,VTOL,Turbomeca,Arriel 2S1,R2,FSI,2000,FSI,Vital X,5chCC,200x60,FSI,6H,FSI,FFS D,"TC
+MDGAC
+FAA
+CAAC",Mexico/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI27007,USA,North America,FSI West Palm Beach Learning Center,"West Palm Beach, FL",Sikorsky,S76,S-76C+/S-76C++,VTOL,Turbomeca,Arriel 2S1/Arriel 2S2,R2,FSI,2007,FSI,Vital X,5chCC,200x60,FSI,6E,FSI/Moog,FFS D,"TC
+EASA
+FAA
+CAAC
+ANAC",Canada/USA/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI27008,USA,North America,FSI West Palm Beach Learning Center,"West Palm Beach, FL",Sikorsky,S76,S-76D,VTOL,PWC,PW210S,R2,FSI,2013,FSI,Vital 1100,5chCC,220x60,FSI,6E,FSI/Moog,FFS D,"TC
+EASA
+FAA
+CAAC
+MDGAC",USA/Europe/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI27006,USA,North America,FSI West Palm Beach Learning Center,"West Palm Beach, FL",Sikorsky,S92,S-92,VTOL,GE,CT7-8A,R2,FSI,2004,FSI,Vital X,5chCC,200x60,FSI,6H,FSI,FFS D,"TC
+MDGAC
+FAA
+CABD
+CAAC",Canada/USA/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI28001,USA,North America,FSI Wichita Cessna Learning Center,"Wichita, KS",Cessna,Caravan,Caravan 208,Utility,PWC,PT6A-114,1P,FSI,1990,FSI,Vital 4,2ch/2w,60x40,FSI,4H,FSI,FFS B,"FAA
+TC
+GACA",Saudi Arabia/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI28007,USA,North America,FSI Wichita Cessna Learning Center,"Wichita, KS",Cessna,CitationII/V,Citation Encore,Business,PWC,PW535A,2J,FSI,2002,FSI,Vital 8,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+EASA
+MDGAC",Canada/Europe/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI28003,USA,North America,FSI Wichita Cessna Learning Center,"Wichita, KS",Cessna,CitationIII,Citation III/Citation VII,Business,Honeywell,TFE731-3B100,2J,FSI,1993,FSI,Vital X,3ch/4w,150x40,FSI,6H,FSI,FFS C,"FAA
+TC
+CAAC
+ANAC
+UKCAA",Canada/China/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI28005,USA,North America,FSI Wichita Cessna Learning Center,"Wichita, KS",Cessna,CitationJet,Citation CJ3,Business,Williams,FJ44-3A,2J,FSI,2004,FSI,Vital 1100,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+EASA
+ANAC",USA/Europe/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI28006,USA,North America,FSI Wichita Cessna Learning Center,"Wichita, KS",Cessna,CitationL,Citation Latitude,Business,PWC,PW306D1,2J,FSI,2015,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+EASA
+CAAC",USA/Europe/China,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI28013,USA,North America,FSI Wichita Cessna Learning Center,"Wichita, KS",Cessna,CitationS,Citation Sovereign,Business,PWC,PW306C,2J,FSI,2004,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+EASA
+ANAC",USA/Europe/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI28016,USA,North America,FSI Wichita Cessna Learning Center,"Wichita, KS",Cessna,CitationS,Citation Sovereign+/Citation X+,Business,PWC/RR,PW306D/AE3007C2,2J,FSI,2014,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+ANAC",Brazil/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI28014,USA,North America,FSI Wichita Cessna Learning Center,"Wichita, KS",Cessna,CitationX,Citation X,Business,RR,AE3007C,2J,FSI,2002,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+EASA
+TC
+UKCAA
+GACA",Europe/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI30001,USA,North America,FSI Wichita East Pilot Learning Center,"Wichita, KS",Beechcraft,Hawker400,Beechjet 400A,Business,PW,JT15D-5,2J,FSI,1998,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+UKCAA
+MDGAC
+GACA",USA/Mexico/UK,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI30002,USA,North America,FSI Wichita East Pilot Learning Center,"Wichita, KS",Beechcraft,Hawker400,Beechjet 400A,Business,PW,JT15D-5A,2J,FSI,2000,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+EASA
+MDGAC
+GACA",USA/Europe/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI30009,USA,North America,FSI Wichita East Pilot Learning Center,"Wichita, KS",Beechcraft,Hawker4000,Hawker 4000,Business,PWC,PW308A,2J,FSI,2007,FSI,Vital X,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+CAAC
+EASA
+MDGAC",USA/Europe/China,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI30011,USA,North America,FSI Wichita East Pilot Learning Center,"Wichita, KS",Beechcraft,Hawker800,Hawker 800XP,Business,Honeywell,TFE731-5BR-1H,2J,FSI,1999,FSI,Vital 8,3chCC,180x40,FSI,6H,FSI,FFS D,"TC
+UKCAA
+FAA
+MDGAC",Canada/UK/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI30012,USA,North America,FSI Wichita East Pilot Learning Center,"Wichita, KS",Beechcraft,Hawker800,Hawker 800XP,Business,Honeywell,TFE731-5BR,2J,FSI,2002,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"TC
+EASA
+FAA
+MDGAC
+GACA",Europe/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI30013,USA,North America,FSI Wichita East Pilot Learning Center,"Wichita, KS",Beechcraft,Hawker800,Hawker 900XP,Business,Honeywell,TFE731-50R,2J,FSI,2008,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"TC
+EASA
+FAA
+CAAC
+MDGAC",Europe/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI30016,USA,North America,FSI Wichita East Pilot Learning Center,"Wichita, KS",Beechcraft,Hawker800,Hawker 750,Business,Honeywell,TFE731-5BR-1H,2J,FSI,2008,FSI,Vital 9,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"EASA
+MDGAC
+GACA
+FAA",Saudi Arabia/Mexico/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI30006,USA,North America,FSI Wichita East Pilot Learning Center,"Wichita, KS",Beechcraft,KA100,King Air C90B,Regional Prop,PWC,PT6A-21,2P,FSI,1999,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+UKCAA
+MDGAC",UK/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI30007,USA,North America,FSI Wichita East Pilot Learning Center,"Wichita, KS",Beechcraft,KA100,King Air C90GT,Regional Prop,PWC,PT6A-135A,2P,FSI,2008,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+EASA
+CAAC
+MDGAC",Europe/China/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI30003,USA,North America,FSI Wichita East Pilot Learning Center,"Wichita, KS",Beechcraft,KA200,King Air 200GT,Regional Prop,PWC,PT6A-52,2P,FSI,2004,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"TC
+EASA
+FAA
+MDGAC
+ANAC",Canada/USA/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI30004,USA,North America,FSI Wichita East Pilot Learning Center,"Wichita, KS",Beechcraft,KA300,King Air 350,Regional Prop,PWC,PT6A-60A,2P,FSI,2004,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+MDGAC
+CAAC
+UKCAA",Canada/Mexico/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI30005,USA,North America,FSI Wichita East Pilot Learning Center,"Wichita, KS",Beechcraft,KA300,King Air 350,Regional Prop,PWC,PT6A-60A,2P,FSI,2003,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+UKCAA
+TC
+CAAC
+MDGAC",Canada/USA/UK,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI30014,USA,North America,FSI Wichita East Pilot Learning Center,"Wichita, KS",Beechcraft,KA300,King Air 350,Regional Prop,PWC,PT6A-60A,2P,FSI,2010,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+TC
+EASA
+FATA
+GACA",Europe/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI30020,USA,North America,FSI Wichita East Pilot Learning Center,"Wichita, KS",Beechcraft,KAGarmin,King Air 200 G1000/King Air 350 G1000,Regional Prop,PWC,PT6A-52/PT6A-60A,2P,FSI,2015,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+TC",USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI30008,USA,North America,FSI Wichita East Pilot Learning Center,"Wichita, KS",Beechcraft,Premier,Premier I,Business,Williams,FJ44-2A,2J,FSI,2001,FSI,Vital X,3chCC,180x40,FSI,6H,FSI,FFS D,"TC
+EASA
+FAA
+MDGAC",USA/Europe/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI30010,USA,North America,FSI Wichita East Pilot Learning Center,"Wichita, KS",Bombardier,Lear40/45,Learjet 45,Business,Honeywell,TFE731-20BR,2J,FSI,2009,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+TC
+MDGAC
+ANAC",Canada/Mexico/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI30015,USA,North America,FSI Wichita East Pilot Learning Center,"Wichita, KS",Cessna,Caravan,Caravan 208,Utility,PWC,PT6A-114A,1P,FSI,1996,FSI,Vital X,3ch/4w,150x40,FSI,6H,FSI,FFS C,"FAA
+TC
+UKCAA
+MDGAC",UK/Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI30023,USA,North America,FSI Wichita East Pilot Learning Center,"Wichita, KS",Cessna,Caravan,Caravan 208,Utility,PWC,PT6A-114A,1P,FSI,2015,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+TC",Canada/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI30024,USA,North America,FSI Wichita East Pilot Learning Center,"Wichita, KS",Cessna,Caravan,Caravan 208,Utility,PWC,PT6A-114A,1P,FSI,2016,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+CAAC
+EASA
+TC",China/USA/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI30017,USA,North America,FSI Wichita East Pilot Learning Center,"Wichita, KS",Cessna,CitationJet,Citation CJ3+/Citation M2,Business,Williams,FJ44-1AP-21,2J,FSI,2013,FSI,Vital X,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+ANAC
+EASA",USA/Europe/Brazil,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI30018,USA,North America,FSI Wichita East Pilot Learning Center,"Wichita, KS",Cessna,Mustang,Citation Mustang,Business,PWC,PW615F,2J,FSI,2007,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+TC
+MDGAC
+EASA
+ANAC",USA/Canada/Mexico,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI16012,USA,North America,FSI Wilmington Learning Center,"New Castle, DE",Beechcraft,Hawker600,HS125-700,Business,Honeywell,TFE731-3-1H,2J,FSI,1986,FSI,Vital 8+,3ch/4w,150x40,FSI,6H,FSI,FFS C,"FAA
+UKCAA
+TC
+MDGAC
+FATA",USA/UK/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI16010,USA,North America,FSI Wilmington Learning Center,"New Castle, DE",Beechcraft,Hawker800,Hawker 800XP,Business,Honeywell,TFE731-5BR,2J,FSI,2001,FSI,Vital 8,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+EASA
+MDGAC
+GACA",Canada/Europe/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI16011,USA,North America,FSI Wilmington Learning Center,"New Castle, DE",Beechcraft,Hawker800,Hawker 800XP,Business,Honeywell,TFE731-5BR-1H,2J,FSI,2005,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"TC
+EASA
+FAA
+MDGAC
+GACA",Europe/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI16013,USA,North America,FSI Wilmington Learning Center,"New Castle, DE",Beechcraft,Premier,Premier I,Business,Williams,FJ44-2A,2J,FSI,2007,FSI,Vital 9,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"TC
+EASA
+FAA
+MDGAC
+ANAC",Canada/Europe/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI16001,USA,North America,FSI Wilmington Learning Center,"New Castle, DE",Bombardier,Challenger300,Challenger 300,Business,Honeywell,HTF7000,2J,FSI,2006,FSI,Vital 1100,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+EASA
+MDGAC
+ANAC",USA/Europe/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI16002,USA,North America,FSI Wilmington Learning Center,"New Castle, DE",Bombardier,Challenger600,Challenger 604,Business,GE,CF34-3B,2J,FSI,2001,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"TC
+EASA
+FAA
+MDGAC
+GACA",USA/Europe/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI16016,USA,North America,FSI Wilmington Learning Center,"New Castle, DE",Bombardier,Challenger600,Challenger 605,Business,GE,CF34-3B,2J,FSI,2012,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+EASA
+ANAC",USA/Europe/Brazil,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI16003,USA,North America,FSI Wilmington Learning Center,"New Castle, DE",Bombardier,Global,Global Express,Business,RR,BR710A2-20,2J,FSI,2004,FSI,Vital 1100,3chCC,180x40,FSI,6H,FSI,FFS D,"TC
+EASA
+FAA
+MDGAC
+ANAC",USA/Europe/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI16005,USA,North America,FSI Wilmington Learning Center,"New Castle, DE",Dassault,Falcon900,Falcon 900,Business,Honeywell,TFE731-5BR,3J,FSI,1987,FSI,Vital 8,3chCC,180x40,FSI,6H,FSI,FFS C,"FAA
+TC
+UKCAA
+MDGAC",UK/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI16006,USA,North America,FSI Wilmington Learning Center,"New Castle, DE",Gulfstream,Gulfstream200,G200,Business,PWC,PW306A,2J,FSI,2009,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+EASA
+TC
+MDGAC",Europe/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI16007,USA,North America,FSI Wilmington Learning Center,"New Castle, DE",Gulfstream,GulfstreamPV,G550,Business,RR,BR710C4-11,2J,FSI,2006,FSI,Vital 9,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+EASA
+TC
+MDGAC
+GACA",Canada/Europe/USA,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI16009,USA,North America,FSI Wilmington Learning Center,"New Castle, DE",Gulfstream,GulfstreamPV,G-V,Business,RR,BR710-48,2J,FSI,2002,FSI,Vital 9,3chCC,180x40,FSI,6H,FSI,FFS D,"TC
+EASA
+FAA
+MDGAC
+UKCAA",Europe/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI16017,USA,North America,FSI Wilmington Learning Center,"New Castle, DE",Gulfstream,GulfstreamPV,G650,Business,RR,BR725A1-12,2J,FSI,2016,FSI,Vital 1100,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"FAA
+EASA",USA/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI16008,USA,North America,FSI Wilmington Learning Center,"New Castle, DE",Gulfstream,GulfstreamSPZ,G-IV,Business,RR,Tay MK 611-8,2J,FSI,2000,FSI,Vital 1100,3chCC,180x40,FSI,6H,FSI,FFS D,"FAA
+TC
+EASA
+GACA",Europe/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI16014,USA,North America,FSI Wilmington Learning Center,"New Castle, DE",IAI,Westwind,Astra SP,Business,Honeywell,TFE731-3 ,2J,FSI,1991,FSI,Vital 4,3ch/4w,150x40,FSI,6H,FSI,FFS C,"FAA
+UKCAA
+TC
+MDGAC",USA/Canada/UK,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FSI16015,USA,North America,FSI Wilmington Learning Center,"New Castle, DE",IAI,Westwind,Westwind II,Business,Honeywell,TFE731-1100G,2J,FSI,1994,FSI,Vital 7,3ch/4w,150x40,FSI,6H,FSI,FFS C,"FAA
+UKCAA
+TC",UK/USA/Canada,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,

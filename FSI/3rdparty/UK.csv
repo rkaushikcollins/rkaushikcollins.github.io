@@ -1,0 +1,9 @@
+SimX,Country,Region,TrainingOrganization,SiteLocation,ACMaker,ACFamily,ACTypes,ACSector,EngMakers,EngTypes,Cat,SimMaker,Date,IGMaker,IGModel,Windows,FOV,DisMaker,MotionType,MotionMaker,Level,RegLocation,Remarks,Web,Email,Tel,SWeb,SEmail,STel
+FBE01001,UK,Europe,FlyBe Training Academy/FSI,Exeter,Bombardier,Q400,Dash 8 Q400,Regional Prop,PWC,PW150A,2P,FSI,2006,FSI,Vital 9,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"EASA
+FAA",USA/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+FBE01002,UK,Europe,FlyBe Training Academy/FSI,Exeter,Embraer,E170/190,E-190/E-170,Regional Jet,GE,CF34-10E7/CF34-8E5,2J,FSI,2012,FSI,Vital X,3chCC,180x40,FSI,6E,FSI/Moog,FFS D,"EASA
+FAA",USA/Europe,,www.flightsafety.com/fs_location_global.php,John Slish <john.slish@flightsafety.com>,+1 514 6312084,,
+QSL01003,UK,Europe,Quadrant Systems Ltd.,Burgess Hill,Boeing,B757/767,B757-200,Narrow-body Transport,RR/PW,RB211-535E4/PW2037,2J,FSI,2013,FSI,Vital 8,3chCC,180x40,FSI,6H,FSI,FFS C,"UKCAA
+EASA",UK/Europe,,www.quadrant-systems.co.uk, <sales@quadrant-systems.co.uk>,+44 1444 246226,,
+QSL01002,UK,Europe,Quadrant Systems Ltd.,Burgess Hill,Boeing/McDD,B717/MD90,B717-200,Narrow-body Transport,RR,BR715-C1-30/BR715-A1-30,2J,CAE,2001,FSI,Vital 8+,3chCC,180x40,CAE,6H,CAE,FFS D,"EASA
+FAA",USA/Europe,,www.quadrant-systems.co.uk, <sales@quadrant-systems.co.uk>,+44 1444 246226,,
