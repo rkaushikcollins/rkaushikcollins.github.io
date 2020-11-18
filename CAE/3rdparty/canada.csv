@@ -1,0 +1,57 @@
+SimX,Country,Region,TrainingOrganization,SiteLocation,ACMaker,ACFamily,ACTypes,ACSector,EngMakers,EngTypes,Cat,SimMaker,Date,IGMaker,IGModel,Windows,FOV,DisMaker,MotionType,MotionMaker,Level,RegLocation,Remarks,Web,Email,Tel,SWeb,SEmail,STel
+ACA01002,Canada,North America,Air Canada Flight Training,"Toronto, ON",Airbus,A320,A320-200,Narrow-body Transport,GE,CFM56-5A1,2J,CAE,1990,CAE,MaxVue+,3chCC,150x40,CAE,6H,CAE,FFS D,TC,Canada,,www.aircanadaflighttraining.com,Joseph Saliba <joseph.saliba@aircanada.ca>,+1 905 6762910,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+ACA01003,Canada,North America,Air Canada Flight Training,"Toronto, ON",Airbus,A320,A320-214,Narrow-body Transport,GE,CFM56-5B4,2J,CAE,2002,CAE,MaxVue+,3chCC,180x40,CAE,6H,CAE,FFS D,"TC
+FAA",Canada/USA,,www.aircanadaflighttraining.com,Joseph Saliba <joseph.saliba@aircanada.ca>,+1 905 6762910,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+ACA01001,Canada,North America,Air Canada Flight Training,"Toronto, ON",Airbus,A330/340,A330-300/A340-300,Wide-body Transport,RR/GE,Trent772B/CFM56-5C,2J/4J,L3 CTS,2002,CAE,MaxVue+,3chCC,180x40,CAE,6H,L3 CTS,FFS D,TC,Canada,,www.aircanadaflighttraining.com,Joseph Saliba <joseph.saliba@aircanada.ca>,+1 905 6762910,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+ACA01005,Canada,North America,Air Canada Flight Training,"Toronto, ON",Boeing,B737Max,B737 MAX8,Narrow-body Transport,GE,Leap-1B,2J,CAE,2017,CAE,Tropos 6000XR,3chCC,200x40,CAE,6E,CAE,FFS C,TC,Canada,,www.aircanadaflighttraining.com,Joseph Saliba <joseph.saliba@aircanada.ca>,+1 905 6762910,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+ACA01007,Canada,North America,Air Canada Flight Training,"Toronto, ON",Boeing,B737Max,B737 MAX8,Narrow-body Transport,GE,Leap-1B,2J,CAE,2018,CAE,Tropos 6000XR,3chCC,200x40,CAE,6E,CAE,FFS D,TC,Canada,,www.aircanadaflighttraining.com,Joseph Saliba <joseph.saliba@aircanada.ca>,+1 905 6762910,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+ACA01006,Canada,North America,Air Canada Flight Training,"Toronto, ON",Boeing,B757/767,B767-300ER,Wide-body Transport,GE,CF6-80C2-B6F,2J,CAE,2002,CAE,MaxVue+,3chCC,180x40,CAE,6H,CAE,FFS D,"TC
+FAA",Canada/USA,,www.aircanadaflighttraining.com,Joseph Saliba <joseph.saliba@aircanada.ca>,+1 905 6762910,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+ACA01008,Canada,North America,Air Canada Flight Training,"Toronto, ON",Boeing,B777,B777-300ER,Wide-body Transport,GE,GE90-115B,2J,CAE,2007,CAE,Tropos 6200,3chCC,200x40,CAE,6H,CAE,FFS D,"TC
+EASA
+FAA",USA/Canada/Europe,,www.aircanadaflighttraining.com,Joseph Saliba <joseph.saliba@aircanada.ca>,+1 905 6762910,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+ACA01004,Canada,North America,Air Canada Flight Training,"Toronto, ON",Boeing,B787,B787-8,Wide-body Transport,GE,GEnx-1B67,2J,CAE,2013,CAE,TroposXR,3chCC,210x40,CAE,6E,CAE,FFS D,"TC
+FAA",Canada/USA,,www.aircanadaflighttraining.com,Joseph Saliba <joseph.saliba@aircanada.ca>,+1 905 6762910,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+ACA01012,Canada,North America,Air Canada Flight Training,"Toronto, ON",Boeing,B787,B787-8,Wide-body Transport,GE,GEnx-1B67,2J,CAE,2013,CAE,TroposXR,3chCC,210x40,CAE,6E,CAE,FFS D,"TC
+FAA",USA/Canada,,www.aircanadaflighttraining.com,Joseph Saliba <joseph.saliba@aircanada.ca>,+1 905 6762910,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+ACA01010,Canada,North America,Air Canada Flight Training,"Toronto, ON",Embraer,E170/190,E-175/E-190,Regional Jet,GE,CF34-8E5A1/CF34-10E5A1,2J,CAE,2006,CAE,MaxVue+,3chCC,180x40,CAE,6H,CAE,FFS D,"TC
+FAA",USA/Canada,,www.aircanadaflighttraining.com,Joseph Saliba <joseph.saliba@aircanada.ca>,+1 905 6762910,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+ACA01011,Canada,North America,Air Canada Flight Training,"Toronto, ON",Embraer,E170/190,E-175/E-190,Regional Jet,GE,CF34-8E5A1/CF34-10E5A1,2J,CAE,2006,CAE,MaxVue Plus,3chCC,180x40,CAE,6H,CAE,FFS D,"TC
+FAA",USA/Canada,,www.aircanadaflighttraining.com,Joseph Saliba <joseph.saliba@aircanada.ca>,+1 905 6762910,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+ACA02001,Canada,North America,Air Canada Flight Training,"Vancouver, BC",Airbus,A320,A320-200,Narrow-body Transport,GE,CFM56-5A1,2J,CAE,1990,CAE,MaxVue+,3chCC,150x40,CAE,6H,CAE,FFS D,TC,Canada,,www.aircanadaflighttraining.com,Joseph Saliba <joseph.saliba@aircanada.ca>,+1 905 6762910,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+ACA02007,Canada,North America,Air Canada Flight Training,"Vancouver, BC",Boeing,B757/767,B767-300ER,Wide-body Transport,GE,CF6-80C2-B6F,2J,CAE,1991,CAE,MaxVue+,3chCC,150x40,CAE,6H,CAE,FFS C,"TC
+FAA",Canada/USA,,www.aircanadaflighttraining.com,Joseph Saliba <joseph.saliba@aircanada.ca>,+1 905 6762910,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+BAT01004,Canada,North America,Bombardier Aerospace Training Center,"Montreal, PQ",Bombardier,Challenger300,Challenger 350,Business,Honeywell,HTF7350,2J,CAE,2015,CAE,Tropos 6220,4chCC,200x40,CAE,6E,CAE,FFS D,"EASA
+CAAC
+FAA
+TC
+ANAC",Europe/China/USA,,www.bombardier.com,Dan Linn <dan.linn@aero.bombardier.com>,+1 469 7916429,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+BAT01019,Canada,North America,Bombardier Aerospace Training Center,"Montreal, PQ",Bombardier,Challenger300,Challenger 300,Business,Honeywell,AS907-1-1A,2J,CAE,2012,CAE,Tropos 6220,3chCC,180x40,CAE,6E,CAE,FFS D,"EASA
+CAAC
+FAA
+TC
+ANAC",Europe/USA/China,,www.bombardier.com,Dan Linn <dan.linn@aero.bombardier.com>,+1 469 7916429,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+BAT01389,Canada,North America,Bombardier Aerospace Training Center,"Montreal, PQ",Bombardier,Challenger600,Challenger 605/Challenger 650,Business,GE,CF34-3B,2J,CAE,2006,CAE,MaxVue,3chCC,180x40,CAE,6H,CAE,FFS D,"EASA
+CAAC
+FAA
+TC
+HKCAD",USA/Europe/China,,www.bombardier.com,Dan Linn <dan.linn@aero.bombardier.com>,+1 469 7916429,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+BAT01005,Canada,North America,Bombardier Aerospace Training Center,"Montreal, PQ",Bombardier,CSeries,CS100,Narrow-body Transport,PW,PW1521G,2J,CAE,2017,CAE,Tropos 6222XR,3chCC,200x40,CAE,6E,CAE,FFS D,"EASA
+TC
+FAA
+KOCA",USA/Canada/Europe,,www.bombardier.com,Dan Linn <dan.linn@aero.bombardier.com>,+1 469 7916429,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+BAT01351,Canada,North America,Bombardier Aerospace Training Center,"Montreal, PQ",Bombardier,Global,Global Express XRS,Business,RR,BR710A2-20,2J,CAE,2002,CAE,MaxVue+,5chCC,210x40,CAE,6H,CAE,FFS D,"EASA
+CAAC
+FAA
+TC
+HKCAD",Europe/USA/China,,www.bombardier.com,Dan Linn <dan.linn@aero.bombardier.com>,+1 469 7916429,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+BAT01520,Canada,North America,Bombardier Aerospace Training Center,"Montreal, PQ",Bombardier,Global,Global 6000GVFD,Business,RR,BR710A2-20,2J,CAE,2011,CAE,Tropos 6000,4chCC,210x40,CAE,6E,CAE,FFS D,"EASA
+CAAC
+FAA
+TC
+ANAC",Europe/USA/China,,www.bombardier.com,Dan Linn <dan.linn@aero.bombardier.com>,+1 469 7916429,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+TCA01002,Canada,North America,Transport Canada,"Ottawa, ON",Cessna,CitationII/V,Citation II,Business,PWC,JT15D,2J,CAE,1993,CAE,Tropos,3ch/3w,180x40,CAE,6H,CAE,FFS D,TC,Canada,,www.tc.gc.ca,Andre Souliere <andre.souliere@tc.gc.ca>,+1 613 998 3527,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+WJA01001,Canada,North America,WestJet,"Calgary, AB",Boeing,B737NG,B737-700,Narrow-body Transport,GE,CFM56,2J,CAE,2001,CAE,Tropos 6000XR,3chCC,180x40,CAE,6H,CAE,FFS D,TC,Canada,,www.westjet.com,Mark Tkach <mark.tkach@westjet.com>,+1 403 444 6244,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+WJA01002,Canada,North America,WestJet,"Calgary, AB",Boeing,B737NG,B737-700,Narrow-body Transport,GE,CFM56,2J,CAE,2003,CAE,Tropos 6000XR,3chCC,180x40,CAE,6H,CAE,FFS D,TC,Canada,,www.westjet.com,Mark Tkach <mark.tkach@westjet.com>,+1 403 444 6244,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+WJA01003,Canada,North America,WestJet,"Calgary, AB",Boeing,B737NG,B737-700,Narrow-body Transport,GE,CFM56,2J,CAE,2006,CAE,Tropos 6000XR,3chCC,200x40,CAE,6H,CAE,FFS D,TC,Canada,,www.westjet.com,Mark Tkach <mark.tkach@westjet.com>,+1 403 444 6244,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+WJA01004,Canada,North America,WestJet,"Calgary, AB",Bombardier,Q400,Dash 8 Q400,Regional Prop,PW,PW150A,2P,CAE,2015,CAE,Tropos 6000XR,3chCC,200x40,CAE,6E,CAE,FFS D,TC,Canada,,www.westjet.com,Mark Tkach <mark.tkach@westjet.com>,+1 403 444 6244,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000

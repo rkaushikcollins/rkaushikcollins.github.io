@@ -1,0 +1,29 @@
+SimX,Country,Region,TrainingOrganization,SiteLocation,ACMaker,ACFamily,ACTypes,ACSector,EngMakers,EngTypes,Cat,SimMaker,Date,IGMaker,IGModel,Windows,FOV,DisMaker,MotionType,MotionMaker,Level,RegLocation,Remarks,Web,Email,Tel,SWeb,SEmail,STel
+CAE17009,UK,Europe,CAE London Gatwick Training Centre,Crawley,Airbus,A320,A320 Family,Narrow-body Transport,GE/IAE,CFM56-5B4/V2527-A5,2J,CAE,2012,CAE,Tropos 6000,3chCC,180x40,CAE,6H,CAE,FFS D,EASA,Europe,,www.cae.com/civil-aviation,Cristina Murasan <cristina.murasan@cae.com>,+1 972 4568000,,
+CAE17008,UK,Europe,CAE London Gatwick Training Centre,Crawley,Embraer,E170/190,E-190/E-170,Regional Jet,GE,CF34-10E/CF34-8E,2J,CAE,2003,CAE,Tropos,3chCC,180x40,CAE,6H,CAE,FFS D,"EASA
+FAA",USA/Europe,,www.cae.com/civil-aviation,Cristina Murasan <cristina.murasan@cae.com>,+1 972 4568000,,
+CAE16001,UK,Europe,CAE London Training Centre (Burgess Hill),Burgess Hill,Airbus,A320,A320 Family,Narrow-body Transport,GE,CFM56-5B4,2J,CAE,2007,CAE,Tropos-6000,3chCC,200x40,CAE,6E,CAE,FFS D,"UKCAA
+EASA",UK/Europe,,www.cae.com/civil-aviation,Cristina Murasan <cristina.murasan@cae.com>,+1 972 4568000,,
+CAE16002,UK,Europe,CAE London Training Centre (Burgess Hill),Burgess Hill,Airbus,A320,A320 Family,Narrow-body Transport,GE,CFM56-5B4,2J,CAE,2007,CAE,Tropos-6000,3chCC,180x40,CAE,6E,CAE,FFS D,"UKCAA
+EASA",UK/Europe,,www.cae.com/civil-aviation,Cristina Murasan <cristina.murasan@cae.com>,+1 972 4568000,,
+CAE16003,UK,Europe,CAE London Training Centre (Burgess Hill),Burgess Hill,Airbus,A320,A320 Family,Narrow-body Transport,IAE/GE,V2527-A5/CFM56-5B4,2J,CAE,2004,CAE,Tropos,3chCC,200x40,CAE,6H,CAE,FFS D,"UKCAA
+EASA",UK/Europe,,www.cae.com/civil-aviation,Cristina Murasan <cristina.murasan@cae.com>,+1 972 4568000,,
+CAE16005,UK,Europe,CAE London Training Centre (Burgess Hill),Burgess Hill,Airbus,A330/340,A330/A340-600,Wide-body Transport,RR,Trent772B/Trent556-61,2J/4J,CAE,2002,CAE,MaxVue,3chCC,180x40,CAE,6H,CAE,FFS D,"UKCAA
+EASA",UK/Europe,,www.cae.com/civil-aviation,Cristina Murasan <cristina.murasan@cae.com>,+1 972 4568000,,
+CAE16006,UK,Europe,CAE London Training Centre (Burgess Hill),Burgess Hill,Boeing,B747,B747-400,Jumbo Transport,GE,CF6-80C2,4J,CAE,1989,CAE,Maxvue,3chCC,180x40,CAE,6H,CAE,FFS D,"UKCAA
+EASA",Europe/UK,,www.cae.com/civil-aviation,Cristina Murasan <cristina.murasan@cae.com>,+1 972 4568000,,
+CAE16007,UK,Europe,CAE London Training Centre (Burgess Hill),Burgess Hill,Bombardier,Global,Global Express 5000/Global Express 6000,Business,RR,BR710A2-20,2J,CAE,2002,CAE,MaxVue+,3chCC,180x40,CAE,6H,CAE,FFS D,"UKCAA
+FAA
+TC",USA/UK/Canada,,www.cae.com/civil-aviation,Cristina Murasan <cristina.murasan@cae.com>,+1 972 4568000,,
+CAE16008,UK,Europe,CAE London Training Centre (Burgess Hill),Burgess Hill,Bombardier,Lear40/45,Learjet 45,Business,Honeywell,TFE731-20,2J,CAE,2008,CAE,Tropos-6000,3chCC,180x40,CAE,6E,CAE,FFS D,"UKCAA
+EASA",Europe/UK,,www.cae.com/civil-aviation,Cristina Murasan <cristina.murasan@cae.com>,+1 972 4568000,,
+CAE16013,UK,Europe,CAE London Training Centre (Burgess Hill),Burgess Hill,Cessna,CitationII/V,Citation Bravo/Citation II/SP,Business,PWC/PW,PW530A/JT15D-4,2J,CAE,2008,CAE,Tropos 6000,3chCC,180x40,CAE,6E,CAE,FFS D,"UKCAA
+EASA",Europe/UK,,www.cae.com/civil-aviation,Cristina Murasan <cristina.murasan@cae.com>,+1 972 4568000,,
+CAE16012,UK,Europe,CAE London Training Centre (Burgess Hill),Burgess Hill,Cessna,CitationXL,Citation Excel/Citation XLS,Business,PWC,PW545A/PW545C,2J,CAE,2008,CAE,Tropos 6000,3chCC,180x40,CAE,6E,CAE,FFS D,"UKCAA
+EASA",Europe/UK,,www.cae.com/civil-aviation,Cristina Murasan <cristina.murasan@cae.com>,+1 972 4568000,,
+CAE16009,UK,Europe,CAE London Training Centre (Burgess Hill),Burgess Hill,Dassault,Falcon7X,Falcon 7X,Business,PWC,PW307A,3J,CAE,2006,CAE,Tropos,3chCC,200x40,CAE,6H,CAE,FFS D,"UKCAA
+EASA",UK/Europe,,www.cae.com/civil-aviation,Cristina Murasan <cristina.murasan@cae.com>,+1 972 4568000,,
+CAE16010,UK,Europe,CAE London Training Centre (Burgess Hill),Burgess Hill,Dassault,FalconEAsy,Falcon 900EX EASy/Falcon 2000EX EASy,Business,Honeywell/PWC,TFE731-60/PW308C,3J,CAE,2006,CAE,Tropos,3chCC,200x40,CAE,6H,CAE,FFS D,"UKCAA
+EASA",Europe/UK,,www.cae.com/civil-aviation,Cristina Murasan <cristina.murasan@cae.com>,+1 972 4568000,,
+CAE16004,UK,Europe,CAE London Training Centre (Burgess Hill),Burgess Hill,Embraer,Emb145,ERJ-135/ERJ-145,Regional Jet,RR,AE3007-A1,2J,CAE,2005,CAE,Tropos,3chCC,180x40,CAE,6H,CAE,FFS D,EASA,Europe,,www.cae.com/civil-aviation,Cristina Murasan <cristina.murasan@cae.com>,+1 972 4568000,,
+CAE16011,UK,Europe,CAE London Training Centre (Burgess Hill),Burgess Hill,Gulfstream,GulfstreamPV,G500/G550/G450/G350,Business,RR,BR710A1-10/Tay MK 611-8C,2J,CAE,2014,CAE,Tropos 6200,3chCC,200x40,CAE,6E,CAE,FFS D,EASA,Europe,,www.cae.com/civil-aviation,Cristina Murasan <cristina.murasan@cae.com>,+1 972 4568000,,

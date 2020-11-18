@@ -1,0 +1,3 @@
+SimX,Country,Region,TrainingOrganization,SiteLocation,ACMaker,ACFamily,ACTypes,ACSector,EngMakers,EngTypes,Cat,SimMaker,Date,IGMaker,IGModel,Windows,FOV,DisMaker,MotionType,MotionMaker,Level,RegLocation,Remarks,Web,Email,Tel,SWeb,SEmail,STel
+CAR01001,Luxembourg,Europe,Cargolux,Luxembourg,Boeing,B747,B747-400F,Jumbo Transport,GE/RR,CF6-80C2B1F/RB211-524H2-T,4J,CAE,2000,CAE,Tropos 6000,4chCC,200x40,CAE,6H,CAE,FFS D,EASA,Europe,,www.cargolux.com,Donald Warnatzsch <donald.warnatzsch@cargolux.com>,+352 4211 3754,,
+CAR01002,Luxembourg,Europe,Cargolux,Luxembourg,Boeing,B747,B747-8F,Jumbo Transport,GE,GEnx-2B67,4J,CAE,2012,CAE,Tropos 6000,4chCC,210x40,CAE,6E,CAE,FFS D,EASA,Europe,,www.cargolux.com,Donald Warnatzsch <donald.warnatzsch@cargolux.com>,+352 4211 3754,,

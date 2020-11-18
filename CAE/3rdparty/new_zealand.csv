@@ -1,0 +1,10 @@
+SimX,Country,Region,TrainingOrganization,SiteLocation,ACMaker,ACFamily,ACTypes,ACSector,EngMakers,EngTypes,Cat,SimMaker,Date,IGMaker,IGModel,Windows,FOV,DisMaker,MotionType,MotionMaker,Level,RegLocation,Remarks,Web,Email,Tel,SWeb,SEmail,STel
+ANZ01005,New Zealand,South Pacific,Air New Zealand Aviation Institute,Auckland,Airbus,A320,A320-232,Narrow-body Transport,IAE,V2527-A5,2J,CAE,2014,CAE,Tropos 1,3chCC,200x40,CAE,6H,CAE,FFS D,NZCAA,New Zealand,,www.aviationinstitute.co.nz, <aviationinstitute@airnz.co.nz>,+64 9 2555701,,
+ANZ01008,New Zealand,South Pacific,Air New Zealand Aviation Institute,Auckland,Airbus,A320,A320-232,Narrow-body Transport,IAE,V2527-A5,2J,CAE,2013,CAE,Tropos XR,3chCC,210x40,CAE,6E,CAE,FFS D,"NZCAA
+EASA",Europe/New Zealand,,www.aviationinstitute.co.nz, <aviationinstitute@airnz.co.nz>,+64 9 2555701,,
+ANZ01006,New Zealand,South Pacific,Air New Zealand Aviation Institute,Auckland,ATR,ATR42/72,ATR72-500,Regional Prop,PWC,PW127,2P,CAE,2010,CAE,Tropos 6,3chCC,210x40,CAE,6E,CAE,FFS D,"NZCAA
+EASA",New Zealand/Europe,,www.aviationinstitute.co.nz, <aviationinstitute@airnz.co.nz>,+64 9 2555701,,
+ANZ01011,New Zealand,South Pacific,Air New Zealand Aviation Institute,Auckland,ATR,ATR42/72,ATR72-600,Regional Prop,PWC,PW127,2P,CAE,2015,CAE,Tropos 6000,3chCC,210x40,CAE,6E,CAE,FFS D,"NZCAA
+EASA",New Zealand/Europe,,www.aviationinstitute.co.nz, <aviationinstitute@airnz.co.nz>,+64 9 2555701,,
+ANZ01001,New Zealand,South Pacific,Air New Zealand Aviation Institute,Auckland,Boeing,B777,B777-300ER,Wide-body Transport,GE,GE90-115BL,2J,CAE,2010,CAE,Tropos 6400,4chCC,200x40,CAE,6E,CAE,FFS D,NZCAA,New Zealand,,www.aviationinstitute.co.nz, <aviationinstitute@airnz.co.nz>,+64 9 2555701,,
+ANZ01010,New Zealand,South Pacific,Air New Zealand Aviation Institute,Auckland,Boeing,B787,B787-8,Wide-body Transport,RR,Trent1000,2J,CAE,2013,CAE,Tropos XR,3chCC,210x40,CAE,6E,CAE,FFS D,NZCAA,New Zealand,,www.aviationinstitute.co.nz, <aviationinstitute@airnz.co.nz>,+64 9 2555701,,

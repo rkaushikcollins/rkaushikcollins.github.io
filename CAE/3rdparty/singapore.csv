@@ -1,0 +1,29 @@
+SimX,Country,Region,TrainingOrganization,SiteLocation,ACMaker,ACFamily,ACTypes,ACSector,EngMakers,EngTypes,Cat,SimMaker,Date,IGMaker,IGModel,Windows,FOV,DisMaker,MotionType,MotionMaker,Level,RegLocation,Remarks,Web,Email,Tel,SWeb,SEmail,STel
+ATC07001,Singapore,Asia,Airbus Asia Training Centre,Singapore,Airbus,A320,A320-200,Narrow-body Transport,GE/IAE,CFM56-5B4/V2527-A5,2J,CAE,2016,CAE,Tropos 6200XR,3chCC,200x40,CAE,6E,CAE,FFS D,"CAAS
+EASA",Singapore/Europe,,www.airbus.com/support/training/network/airbus-asia-training-centre/, <contact.sales.aatc@airbus.com>,+65 6877 4322,,
+SIA01001,Singapore,Asia,Airbus Asia Training Centre,Singapore,Airbus,A330/340,A330-200,Wide-body Transport,RR,Trent772B-60,2J,CAE,2008,CAE,Tropos 6400,3chCC,180x40,CAE,6H,CAE,FFS D,CAAS,Singapore,,www.airbus.com/support/training/network/airbus-asia-training-centre/, <contact.sales.aatc@airbus.com>,+65 6877 4322,,
+SIA01010,Singapore,Asia,Airbus Asia Training Centre,Singapore,Airbus,A330/340,A330-200,Narrow-body Transport,RR,Trent772B-60,2J,CAE,2013,CAE,Tropos 6200,3chCC,200x40,CAE,6E,Moog AMS,FFS D,"CAAS
+EASA",Singapore/Europe,,www.airbus.com/support/training/network/airbus-asia-training-centre/, <contact.sales.aatc@airbus.com>,+65 6877 4322,,
+ATC07003,Singapore,Asia,Airbus Asia Training Centre,Singapore,Airbus,A350,A350-XWB,Wide-body Transport,RR,TrentXWB-84,2J,CAE,2015,CAE,Tropos 6200XR,3chCC,200x40,CAE,6E,CAE,FFS D,"EASA
+CAAS",Singapore/Europe,,www.airbus.com/support/training/network/airbus-asia-training-centre/, <contact.sales.aatc@airbus.com>,+65 6877 4322,,
+ATC07004,Singapore,Asia,Airbus Asia Training Centre,Singapore,Airbus,A350,A350-XWB,Wide-body Transport,RR,TrentXWB-84,2J,CAE,2016,CAE,Tropos 6200XR,3chCC,200x40,CAE,6E,CAE,FFS D,"EASA
+CAAS",Singapore/Europe,,www.airbus.com/support/training/network/airbus-asia-training-centre/, <contact.sales.aatc@airbus.com>,+65 6877 4322,,
+ATC07006,Singapore,Asia,Airbus Asia Training Centre,Singapore,Airbus,A350,A350-XWB,Wide-body Transport,RR,TrentXWB-84,2J,CAE,2018,CAE,Tropos 6200XR,3chCC,200x40,CAE,6E,CAE,FFS D,"EASA
+CAAS",Singapore/Europe,,www.airbus.com/support/training/network/airbus-asia-training-centre/, <contact.sales.aatc@airbus.com>,+65 6877 4322,,
+ATR04001,Singapore,Asia,ATR Training Centre,Singapore,ATR,ATR42/72,ATR72-600,Regional Prop,PWC,PW127M,2P,CAE,2012,CAE,Tropos 6220,3chCC,200x40,CAE,6E,CAE,FFS D,EASA,Europe,,www.atr.fr,Renan Le-Mouel <renan.le-mouel@atr.fr>,+33 56 2216751,,
+BAA02001,Singapore,Asia,BAA Training,Singapore,Airbus,A320,A320 Family,Narrow-body Transport,IAE/GE,V2527-A5/CFM56-5B4,2J,CAE,2018,CAE,Tropos 6000XR,3chCC,200x40,CAE,6E,CAE,FFS D,CAAS,Singapore,,www.balticaa.com, <info@balticaa.com>,+370 5 252 5536,,
+HAT01001,Singapore,Asia,Haite Aviation Training - Singapore,Singapore,Airbus,A320,A320-200,Narrow-body Transport,IAE/GE,V2527-A5/CFM56-5B4,2J,CAE,2015,CAE,Tropos 6000,3chCC,200x40,CAE,6E,Moog,FFS D,"CAAS
+EASA
+CAAC
+CAAV
+CAAP",Singapore/China/Europe,,www.haite-sg.com, <admin@haitegroup.com>,+65 8526 2353,,
+HAT01002,Singapore,Asia,Haite Aviation Training - Singapore,Singapore,Boeing,B737NG,B737-800,Narrow-body Transport,GE,CFM56-7B27,2J,CAE,2015,CAE,Tropos 6000,3chCC,200x40,CAE,6E,Moog,FFS D,"CAAS
+EASA
+CAAC
+CAAP",Europe/China/Singapore,,www.haite-sg.com, <admin@haitegroup.com>,+65 8526 2353,,
+SIM06001,Singapore,Asia,SIMAERO Asia Pte Ltd,Singapore,Embraer,E170/190,E-190,Regional Jet,GE,CF34-10E6,2J,CAE,2017,CAE,Tropos 6000,3chCC,200x40,CAE,6E,CAE,FFS D,CAAS,Singapore,,www.simaeroasia.com, ,+65 9811 3507,,
+SIA01005,Singapore,Asia,Singapore Airlines Training Centre,Singapore,Boeing,B747,B747-400,Jumbo Transport,PW,PW4056,4J,CAE,1992,CAE,Tropos 6000,3chCC,150x40,CAE,6H,CAE,FFS D,CAAS,Singapore,,www.singaporeair.com,Somnath Sengupta <somnath_sengupta@singaporeair.com.sg>,+65 65403614,,
+SIA01007,Singapore,Asia,Singapore Airlines Training Centre,Singapore,Boeing,B777,B777-200ER,Wide-body Transport,RR,Trent892,2J,CAE,2009,CAE,Tropos 6000,3chCC,180x40,CAE,6H,CAE,FFS D,CAAS,Singapore,,www.singaporeair.com,Somnath Sengupta <somnath_sengupta@singaporeair.com.sg>,+65 65403614,,
+SIA01008,Singapore,Asia,Singapore Airlines Training Centre,Singapore,Boeing,B777,B777-300/B777-200ER,Wide-body Transport,RR,Trent892,2J,CAE,2013,CAE,Tropos 6000,3chCC,180x40,CAE,6H,CAE,FFS D,"CAAS
+DCAT",Thailand/Singapore,,www.singaporeair.com,Somnath Sengupta <somnath_sengupta@singaporeair.com.sg>,+65 65403614,,
+SIA01009,Singapore,Asia,Singapore Airlines Training Centre,Singapore,Boeing,B777,B777-300ER,Wide-body Transport,GE,GE90-115BL,2J,CAE,2008,CAE,Tropos 6000,3chCC,180x40,CAE,6H,CAE,FFS D,CAAS,Singapore,,www.singaporeair.com,Somnath Sengupta <somnath_sengupta@singaporeair.com.sg>,+65 65403614,,

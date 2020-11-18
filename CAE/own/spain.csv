@@ -1,0 +1,14 @@
+SimX,Country,Region,TrainingOrganization,SiteLocation,ACMaker,ACFamily,ACTypes,ACSector,EngMakers,EngTypes,Cat,SimMaker,Date,IGMaker,IGModel,Windows,FOV,DisMaker,MotionType,MotionMaker,Level,RegLocation,Remarks,Web,Email,Tel,SWeb,SEmail,STel
+CAE09001,Spain,Europe,CAE Barcelona Training Centre,Barcelona,Airbus,A320,A320 Family,Narrow-body Transport,IAE/GE,V2527-A5/CFM56-5B4,2J,CAE,2004,CAE,Tropos,3chCC,180x40,CAE,6H,CAE,FFS D,UKCAA,UK,,www.cae.com/civil-aviation,Cristina Murasan <cristina.murasan@cae.com>,+1 972 4568000,,
+CAE09002,Spain,Europe,CAE Barcelona Training Centre,Barcelona,Airbus,A320,A320 Family,Narrow-body Transport,IAE/GE,V2527-A5/CFM56-5B4,2J,CAE,2002,CAE,MaxVue+,3chCC,180x40,CAE,6H,CAE,FFS D,EASA,Europe,,www.cae.com/civil-aviation,Cristina Murasan <cristina.murasan@cae.com>,+1 972 4568000,,
+CAE31001,Spain,Europe,CAE Madrid Training Centre,Madrid,Airbus,A320,A320 Family,Narrow-body Transport,GE/IAR,CFM56-5B4/V2527-A5,2J,CAE,2000,CAE,MaxVue+,3chCC,180x40,CAE,6H,CAE,FFS D,EASA,Europe,,www.cae.com/civil-aviation,Cristina Murasan <cristina.murasan@cae.com>,+1 972 4568000,,
+CAE31005,Spain,Europe,CAE Madrid Training Centre,Madrid,Airbus,A330/340,A330/A340,Wide-body Transport,GE/RR/PW,CF6-80E1/Trent772B/PW4168A/CFM56-5C,2J/4J,L3 CTS,1999,CAE,Maxvue+,3chCC,180x40,CAE,6H,L3 CTS,FFS D,"EASA
+DGACS",Europe/Spain,,www.cae.com/civil-aviation,Cristina Murasan <cristina.murasan@cae.com>,+1 972 4568000,,
+CAE31006,Spain,Europe,CAE Madrid Training Centre,Madrid,Airbus,A330/340,A340/A330,Wide-body Transport,GE/PW/RR,CFM56-5C/CF6-80E1/PW4168A/Trent772B,2J/4J,CAE,2001,CAE,MaxVue+,3chCC,180x40,CAE,6H,CAE,FFS D,"EASA
+TC",Canada/Europe,,www.cae.com/civil-aviation,Cristina Murasan <cristina.murasan@cae.com>,+1 972 4568000,,
+CAE31007,Spain,Europe,CAE Madrid Training Centre,Madrid,Airbus,A330/340,A330/A340,Wide-body Transport,RR/GE/PW,Trent772B/CFM56-5C/CF6-80E1/PW4168A,2J/4J,CAE,2002,CAE,MaxVue+,3chCC,180x40,CAE,6H,CAE,FFS D,EASA,Europe,,www.cae.com/civil-aviation,Cristina Murasan <cristina.murasan@cae.com>,+1 972 4568000,,
+CAE31011,Spain,Europe,CAE Madrid Training Centre,Madrid,ATR,ATR42/72,ATR42-600/ATR72-600,Regional Prop,PWC,PW127M,2P,CAE,2018,CAE,Tropos 6000,3chCC,200x40,CAE,6E,CAE,FFS D,EASA,Europe,,www.cae.com/civil-aviation,Cristina Murasan <cristina.murasan@cae.com>,+1 972 4568000,,
+CAE31010,Spain,Europe,CAE Madrid Training Centre,Madrid,Bombardier,CRJ,CRJ700/CRJ200/CRJ900,Regional Jet,GE,CF34-8C5/CF34-3B1/CF34-8C5A2,2J,CAE,1995,CAE,Maxvue+,3chCC,150x40,CAE,6H,CAE,FFS D,"EASA
+TC
+FAA",Europe/USA/Canada,,www.cae.com/civil-aviation,Cristina Murasan <cristina.murasan@cae.com>,+1 972 4568000,,
+CAE31009,Spain,Europe,CAE Madrid Training Centre,Madrid,Bombardier,Dash8,Dash 8-300,Regional Prop,PWC,PW123,2P,CAE,2002,CAE,MaxVue+,3chCC,180x40,CAE,6H,CAE,FFS D,EASA,Europe,,www.cae.com/civil-aviation,Cristina Murasan <cristina.murasan@cae.com>,+1 972 4568000,,

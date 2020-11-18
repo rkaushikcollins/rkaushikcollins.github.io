@@ -1,0 +1,26 @@
+SimX,Country,Region,TrainingOrganization,SiteLocation,ACMaker,ACFamily,ACTypes,ACSector,EngMakers,EngTypes,Cat,SimMaker,Date,IGMaker,IGModel,Windows,FOV,DisMaker,MotionType,MotionMaker,Level,RegLocation,Remarks,Web,Email,Tel,SWeb,SEmail,STel
+AIT01061,Italy,Europe,Alitalia Flight Training Centre,Rome,Airbus,A320,A320-214,Narrow-body Transport,GE,CFM56-5B4,2J,CAE,2011,CAE,Tropos 6000,4chCC,220x40,CAE,6E,CAE,FFS D,EASA,Europe,,www.alitalia.com, <flight.training@alitalia.it>,+39 6 6563 8884,Cristina Murasan <cristina.murasan@cae.com>,+1 972 456 8000
+CAE39004,Italy,Europe,Rotorsim Centre (Leonardo/CAE),Sesto Calende-A.Marchetti,Leonardo Helicopters,AW109,AW109E,VTOL,PWC,PW206C,R2,CAE,2006,CAE,Medallion 6220,5chCC,220x60,CAE,6EV,CAE,FFS D,"EASA
+FAA
+ANAC
+TC
+ENAC",USA/Brazil/Europe,,www.agustawestland.com,Jon Sackett <jon.sackett@agustawestland.com>,+1 514 3416780 x3100,,
+CAE39005,Italy,Europe,Rotorsim Centre (Leonardo/CAE),Sesto Calende-A.Marchetti,Leonardo Helicopters,AW139,AW139,VTOL,PWC,PT6C-67C,R2,CAE,2007,CAE,Medallion 6220,5chCC+2chin,220x60,CAE,6H,CAE,FFS D,"EASA
+FAA
+ANAC
+JCAB
+CAAC",Europe/Brazil/USA,,www.agustawestland.com,Jon Sackett <jon.sackett@agustawestland.com>,+1 514 3416780 x3100,,
+CAE39006,Italy,Europe,Rotorsim Centre (Leonardo/CAE),Sesto Calende-A.Marchetti,Leonardo Helicopters,AW189,AW189,VTOL,GE,CT7-2E1,R2,CAE/Leonardo,2013,CAE,Medallion 6220,8chDP,210x80,CAE,6EV,CAE,FFS D,"EASA
+FAA
+ANAC
+CAAC
+ENAC",USA/Europe/Brazil,,www.agustawestland.com,Jon Sackett <jon.sackett@agustawestland.com>,+1 514 3416780 x3100,,
+CAE39011,Italy,Europe,Rotorsim Centre (Leonardo/CAE),Sesto Calende-A.Marchetti,Leonardo Helicopters,AW139,AW139,VTOL,PWC,PT6C-67C,R2,CAE/Leonardo,2013,CAE,Medallion 6220,8chDP,210x80,CAE,6EV,CAE,FFS D,"EASA
+FAA
+ANAC
+JCAB
+CAAC",Europe/USA/Brazil,,www.agustawestland.com,Jon Sackett <jon.sackett@agustawestland.com>,+1 514 3416780 x3100,,
+CAE39009,Italy,Europe,Rotorsim Centre (Leonardo/CAE),Sesto Calende-A.Marchetti,Leonardo Helicopters,AW169,AW169,VTOL,PWC,PW210A,R2,CAE/Leonardo,2016,CAE,Medallion 6222,8chDP,210x80,CAE,6EV,CAE,FFS D,"EASA
+ENAC
+FAA",Europe/USA/Italy,,www.agustawestland.com,Jon Sackett <jon.sackett@agustawestland.com>,+1 514 3416780 x3100,,
+RYN04001,Italy,Europe,Ryanair,Bergamo-Orio Al Serio,Boeing,B737NG,B737-800,Narrow-body Transport,GE,CFM56-7B27,2J,CAE,2001,CAE,Tropos 6000XR,3chCC,180x40,CAE,6H,CAE,FFS D,EASA,Europe,,www.ryanair.com,M Whelan <whelanm@ryanair.com>,+44 13 32815952,,
