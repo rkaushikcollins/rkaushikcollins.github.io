@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+  <title>Competitor Analysis 1996-2020</title>
+  <link rel='stylesheet' href='style.css'>
+</head>
+
+<body onload="removeTable()">
+<script src="//d3js.org/d3.v3.min.js"></script>
+<div class="page_header" align="center">
+  <img src="top_header.jpg"></img>
+  <h1>Competitor Analysis (1978-2020)</h1>
+  <h1>Authors: Eduardo Bernal Garcia (eduardo.bernal.garcia@rockwellcollins.com ) <br> & Rishabh Kaushik (rishabh.kaushik@rockwellcollins.com)</h1>
+  <br>
+  <hr>
+</div>
+<div id="pie_charts" class_id="pie_charts">
+  <div id="table_options" class_id="table_options" align="center">
+    <input type="checkbox" id="tb_opt1" name="tb_opt1" value="tb_opt1" style="width:30px;height:30px;">
+    <label for="tb_opt1">Own Training Centers</label><br>
+    <br><br>
+    <input type="checkbox" id="tb_opt2" name="tb_opt2" value="tb_opt2" style="width:30px;height:30px;">
+    <label for="tb_opt2">3rd Party Training Centers</label><br>
+    <hr>
+    <br>
+  </div>  
+  <select id="selectButton" style="width:250px;margin: 10px;height:50px;margin:auto;"></select>
+    <br><br><br>
+</div>
+<br><br><br><br>
+<div class="table_chart" id="table_chart">
+</div>
+
+<script>
+  function removeTable() {
+    document.getElementById("table_chart").style.display="none"; 
+  }
+</script>
+
+<script>
+//d3.select("body").select('#table_chart').selectAll('table').remove();
+var radius = 74,
+    padding = 10;
+
+var color = d3.scale.ordinal()
+    .range(["#C94416", "#16c3c9", "#7b6888", "#6b486b", "#a05d56", "#d0743c"]);
+
+var arc = d3.svg.arc()
+    .outerRadius(radius)
+    .innerRadius(radius - 30);
+
+var pie = d3.layout.pie()
+    .sort(null)
+    .value(function(d) { return d.population; });
+
+    var tooltip = d3.select("#pie_charts")                           
+          .append('div')                                                
+          .attr('class', 'tooltip');                                    
+                      
+          tooltip.append('div')                                          
+          .attr('class', 'country');                                      
+             
+          tooltip.append('div')                                           
+          .attr('class', 'thirdPartyTrainingCenter');                                      
+
+          tooltip.append('div')                                           
+          .attr('class', 'ownTrainingCenter');
+
+          tooltip.append('div')                                           
+          .attr('class', 'totalTrainingCenters');
+
+var allGroup = ["<-------------------None---------------->","CAE", "FSI", "FSI + CAE Collab"]
+
+    // add the options to the button
+    d3.select("#selectButton")
+      .selectAll('myOptions')
+     	.data(allGroup)
+      .enter()
+    	.append('option')
+      .text(function (d) { return d; }) // text showed in the menu
+      .style("font-size", "16px")
+      .style("font-weight", "550")
+      .attr("value", function (d) { return d; }); // corresponding value returned by the button
+
+    d3.select("#selectButton").on("change", function(d) {
+        // recover the option that has been chosen
+        var selectedOption = d3.select(this).property("value");
+        var pie_path="";
+        if(selectedOption=='CAE')
+        {
+          pie_path="./CAE/CAE_split.csv";
+          d3.select("body").select('#table_chart').selectAll('table').remove();
+        }
+        else if(selectedOption=='FSI')
+        {
+          pie_path="./FSI/FSI_split.csv";
+          d3.select("body").select('#table_chart').selectAll('table').remove();
+        }
+        else if(selectedOption=='FSI + CAE Collab')
+        {
+          d3.select("body").select('#table_chart').selectAll('table').remove();
+          d3.select("body").select("#pie_charts").selectAll(".legend").remove();
+          d3.select("body").select("#pie_charts").selectAll(".pie").remove();
+          tooltip.style('display', 'none');
+          var columns = ['SimX','Country','Region','TrainingOrganization','SiteLocation','ACMaker','ACFamily','ACTypes','ACSector','EngMakers','EngTypes','Cat','SimMaker','Date','IGMaker','IGModel','Windows','FOV','DisMaker','MotionType','MotionMaker','Level','RegLocation','Remarks','Web','Email','Tel','SWeb','SEmail','STel'];
+          d3.csv("./FSI2CAE/belgium.csv",function (data) {
+	                  tabulate(data,columns);
+          });
+          d3.csv("./FSI2CAE/canada.csv",function (data) {
+	                  tabulate(data,columns);
+          });
+          d3.csv("./FSI2CAE/mexico.csv",function (data) {
+	                  tabulate(data,columns);
+          });
+          document.getElementById("table_chart").style.display="block";
+          return;
+        }
+        else
+          {
+            d3.select("body").select("#pie_charts").selectAll(".legend").remove();
+            d3.select("body").select("#pie_charts").selectAll(".pie").remove();
+            tooltip.style('display', 'none');
+            document.getElementById("table_chart").style.display="none"; 
+            return;
+          }
+        
+          d3.csv(pie_path, function(error,data) {
+          
+            if (error) throw error;
+
+            var pies = d3.select("body").select("#pie_charts").selectAll(".pie").data(data);
+            pies.remove();
+            pies.exit().remove();
+            
+            color.domain(d3.keys(data[0]).filter(function(key) { return key !== "Country"; }));
+
+            data.forEach(function(d) {
+              d.ages = color.domain().map(function(name) {
+                return {name: name, population: +d[name]};
+              });
+            });
+
+            d3.select("body").select("#pie_charts").selectAll(".legend").remove();
+
+            var legend = d3.select("body").select("#pie_charts").append("svg")
+              .attr("class", "legend")
+              .attr("width", (radius * 2)+72)
+              .attr("height", radius * 2)
+              .selectAll("g")
+              .data(color.domain().slice().reverse())
+              .enter().append("g")
+              .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+            legend.append("rect")
+              .attr("width", 18)
+              .attr("height", 18)
+              .style("fill", color);
+
+            legend.append("text")
+              .attr("x", 24)
+              .attr("y", 9)
+              .attr("dy", ".35em")
+              .text(function(d) { return d; })
+              .style("font-size", "16px")
+              .style("font-weight", "550");
+          
+          var piecharts = d3.select("body").select("#pie_charts").selectAll(".pie").data(data).enter()
+          .append("svg")
+          .attr("class", "pie")
+          .attr("width", radius * 2)
+          .attr("height", radius * 2)
+          .append("g")
+          .attr("transform", "translate(" + radius + "," + radius + ")");
+
+          piecharts
+          .selectAll(".arc")
+          .data(function(d) { return pie(d.ages); })
+          .enter().append("path")
+          .attr("class", "arc")
+          .attr("d", arc)
+          .style("fill", function(d) { return color(d.data.name); })
+          
+          piecharts
+          .append("text")
+          .attr("dy", ".35em")
+          .style("text-anchor", "middle")
+          .text(function(d) {
+            return d.Country; })
+          .style("font-size", "16px")
+          .style("font-weight", "550");                                                               
+          
+          piecharts.on('mouseover', function(d) {                             
+            tooltip.select('.country').html("Country: "+d.Country);                 
+            tooltip.select('.thirdPartyTrainingCenter').html("Total 3rd Party Training centers: "+d["3rd Party Training Center"]+" ("+parseFloat((parseInt(d["3rd Party Training Center"])/(parseInt(d["Own Training Center"])+parseInt(d["3rd Party Training Center"])))*100).toFixed(2)+"%)");                 
+            tooltip.select('.ownTrainingCenter').html("Total Own Training centers: "+d["Own Training Center"]+" ("+parseFloat((parseInt(d["Own Training Center"])/(parseInt(d["Own Training Center"])+parseInt(d["3rd Party Training Center"])))*100).toFixed(2)+"%)");
+            tooltip.select('.totalTrainingCenters').html("Total Training centers: "+ (parseInt(d["Own Training Center"])+parseInt(d["3rd Party Training Center"])));              
+            tooltip.style('display', 'block')
+            tooltip.style("font-size", "20px")
+            tooltip.style("font-weight", "700");                          
+          });
+
+          piecharts.on("click", function(d){
+            //get the right country name to use as filename for .csvs
+            var res = d.Country.split(" ");
+            var countryName="";
+            if(res.length>1)
+              countryName = (res[0]+"_"+res[1]).toLowerCase();
+            else
+              countryName = res[0].toLowerCase();
+
+
+		        if(document.querySelector("#tb_opt1").checked==false && document.querySelector("#tb_opt2").checked==false)
+              document.getElementById("table_chart").style.display="none";
+            else if(document.querySelector("#tb_opt1").checked==true && document.querySelector("#tb_opt2").checked==false) //own training centers 
+            {
+              if(document.querySelector("#selectButton").value=='CAE') //for CAE
+              {
+                if(parseInt(d["Own Training Center"])!=0)
+                {
+                  d3.select("body").select('#table_chart').selectAll('table').remove();
+                  var data_path= "./CAE/own/"+ countryName +".csv";
+                  d3.csv(data_path,function (data) {
+	                  var columns = ['SimX','Country','Region','TrainingOrganization','SiteLocation','ACMaker','ACFamily','ACTypes','ACSector','EngMakers','EngTypes','Cat','SimMaker','Date','IGMaker','IGModel','Windows','FOV','DisMaker','MotionType','MotionMaker','Level','RegLocation','Remarks','Web','Email','Tel','SWeb','SEmail','STel'];
+                    tabulate(data,columns);
+                    document.getElementById("table_chart").style.display="block";
+                  })
+                }
+                else
+                  return;
+              }
+              else if(document.querySelector("#selectButton").value=='FSI') //for FSI
+              {
+                if(parseInt(d["Own Training Center"])!=0)
+                {
+                  d3.select("body").select('#table_chart').selectAll('table').remove();
+                  var data_path= "./FSI/own/"+ countryName+".csv";
+                  d3.csv(data_path,function (data) {
+	                  var columns = ['SimX','Country','Region','TrainingOrganization','SiteLocation','ACMaker','ACFamily','ACTypes','ACSector','EngMakers','EngTypes','Cat','SimMaker','Date','IGMaker','IGModel','Windows','FOV','DisMaker','MotionType','MotionMaker','Level','RegLocation','Remarks','Web','Email','Tel','SWeb','SEmail','STel'];
+                    tabulate(data,columns);
+                    document.getElementById("table_chart").style.display="block";
+                  })
+                }
+                else
+                  return;
+              }
+              
+            }
+            else if(document.querySelector("#tb_opt1").checked==false && document.querySelector("#tb_opt2").checked==true) //3rd party training centers 
+            {
+              if(document.querySelector("#selectButton").value=='CAE') //for CAE
+              {
+                if(parseInt(d["3rd Party Training Center"])!=0)
+                {
+                  d3.select("body").select('#table_chart').selectAll('table').remove();
+                  var data_path= "./CAE/3rdparty/"+ countryName+".csv";
+                  d3.csv(data_path,function (data) {
+	                  var columns = ['SimX','Country','Region','TrainingOrganization','SiteLocation','ACMaker','ACFamily','ACTypes','ACSector','EngMakers','EngTypes','Cat','SimMaker','Date','IGMaker','IGModel','Windows','FOV','DisMaker','MotionType','MotionMaker','Level','RegLocation','Remarks','Web','Email','Tel','SWeb','SEmail','STel'];
+                    tabulate(data,columns);
+                    document.getElementById("table_chart").style.display="block";
+                  })
+                }
+                else
+                  return;
+              }
+              else if(document.querySelector("#selectButton").value=='FSI') //for FSI
+              {
+                if(parseInt(d["3rd Party Training Center"])!=0)
+                {
+                  d3.select("body").select('#table_chart').selectAll('table').remove();
+                  var data_path= "./FSI/3rdparty/"+ countryName+".csv";
+                  d3.csv(data_path,function (data) {
+	                  var columns = ['SimX','Country','Region','TrainingOrganization','SiteLocation','ACMaker','ACFamily','ACTypes','ACSector','EngMakers','EngTypes','Cat','SimMaker','Date','IGMaker','IGModel','Windows','FOV','DisMaker','MotionType','MotionMaker','Level','RegLocation','Remarks','Web','Email','Tel','SWeb','SEmail','STel'];
+                    tabulate(data,columns);
+                    document.getElementById("table_chart").style.display="block";
+                  })
+                }
+                else
+                  return;
+              }
+              
+            }
+            else if(document.querySelector("#tb_opt1").checked==true && document.querySelector("#tb_opt2").checked==true) //Own training + 3rd party training centers 
+            {
+              if(document.querySelector("#selectButton").value=='CAE') //for CAE
+              {
+                d3.select("body").select('#table_chart').selectAll('table').remove();
+                if(parseInt(d["Own Training Center"])!=0)
+                { 
+                  var data_path= "./CAE/own/"+ countryName+".csv";
+                  d3.csv(data_path,function (data) {
+	                  var columns = ['SimX','Country','Region','TrainingOrganization','SiteLocation','ACMaker','ACFamily','ACTypes','ACSector','EngMakers','EngTypes','Cat','SimMaker','Date','IGMaker','IGModel','Windows','FOV','DisMaker','MotionType','MotionMaker','Level','RegLocation','Remarks','Web','Email','Tel','SWeb','SEmail','STel'];
+                    tabulate(data,columns);
+                    document.getElementById("table_chart").style.display="block";
+                  })
+                }
+                else
+                  return;
+                
+                if(parseInt(d["3rd Party Training Center"])!=0)
+                {
+                  var data_path= "./CAE/3rdparty/"+ countryName+".csv";
+                  d3.csv(data_path,function (data) {
+	                  var columns = ['SimX','Country','Region','TrainingOrganization','SiteLocation','ACMaker','ACFamily','ACTypes','ACSector','EngMakers','EngTypes','Cat','SimMaker','Date','IGMaker','IGModel','Windows','FOV','DisMaker','MotionType','MotionMaker','Level','RegLocation','Remarks','Web','Email','Tel','SWeb','SEmail','STel'];
+                    tabulate(data,columns);
+                    document.getElementById("table_chart").style.display="block";
+                  })
+                }
+                else
+                  return;
+              }
+              else if(document.querySelector("#selectButton").value=='FSI') //for FSI
+              {
+                d3.select("body").select('#table_chart').selectAll('table').remove();
+                if(parseInt(d["Own Training Center"])!=0)
+                {
+                  var data_path= "./FSI/own/"+ countryName+".csv";
+                  d3.csv(data_path,function (data) {
+	                  var columns = ['SimX','Country','Region','TrainingOrganization','SiteLocation','ACMaker','ACFamily','ACTypes','ACSector','EngMakers','EngTypes','Cat','SimMaker','Date','IGMaker','IGModel','Windows','FOV','DisMaker','MotionType','MotionMaker','Level','RegLocation','Remarks','Web','Email','Tel','SWeb','SEmail','STel'];
+                    tabulate(data,columns);
+                    document.getElementById("table_chart").style.display="block";
+                  })
+                }
+                else
+                  return;
+
+                if(parseInt(d["3rd Party Training Center"])!=0)
+                {
+                  var data_path= "./FSI/3rdparty/"+ countryName+".csv";
+                  d3.csv(data_path,function (data) {
+	                  var columns = ['SimX','Country','Region','TrainingOrganization','SiteLocation','ACMaker','ACFamily','ACTypes','ACSector','EngMakers','EngTypes','Cat','SimMaker','Date','IGMaker','IGModel','Windows','FOV','DisMaker','MotionType','MotionMaker','Level','RegLocation','Remarks','Web','Email','Tel','SWeb','SEmail','STel'];
+                    tabulate(data,columns);
+                    document.getElementById("table_chart").style.display="block";
+                  })
+                }
+                else
+                  return;
+              }
+              
+            }
+	        })
+
+          piecharts
+          .selectAll(".arc").on('mouseout', function() {  
+            tooltip.style('display', 'block');                            
+          });                                                            
+
+    })
+  })                                         
+  
+</script>
+
+<script type='text/javascript' src='script.js'>
+</script>
+
+</body>
